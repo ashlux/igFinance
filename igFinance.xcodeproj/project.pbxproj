@@ -17,8 +17,8 @@
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		B492D3720FBFAA8B0052EA4E /* GoogleClientLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */; };
 		B492D39F0FBFAD120052EA4E /* LoginDao.m in Sources */ = {isa = PBXBuildFile; fileRef = B492D39E0FBFAD120052EA4E /* LoginDao.m */; };
-		B492D47B0FBFC92B0052EA4E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492D47A0FBFC92B0052EA4E /* LoginViewController.m */; };
 		B492D48E0FBFCA740052EA4E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B492D48D0FBFCA740052EA4E /* LoginViewController.xib */; };
+		B4C021BE0FC0B3D8003D40B6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +39,9 @@
 		B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleClientLogin.m; sourceTree = "<group>"; };
 		B492D39D0FBFAD120052EA4E /* LoginDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDao.h; sourceTree = "<group>"; };
 		B492D39E0FBFAD120052EA4E /* LoginDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginDao.m; sourceTree = "<group>"; };
-		B492D4790FBFC92B0052EA4E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
-		B492D47A0FBFC92B0052EA4E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
 		B492D48D0FBFCA740052EA4E /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B4C021BC0FC0B3D8003D40B6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +143,8 @@
 		B492D47C0FBFC9340052EA4E /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				B492D4790FBFC92B0052EA4E /* LoginViewController.h */,
-				B492D47A0FBFC92B0052EA4E /* LoginViewController.m */,
+				B4C021BC0FC0B3D8003D40B6 /* LoginViewController.h */,
+				B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				B492D3720FBFAA8B0052EA4E /* GoogleClientLogin.m in Sources */,
 				B492D39F0FBFAD120052EA4E /* LoginDao.m in Sources */,
-				B492D47B0FBFC92B0052EA4E /* LoginViewController.m in Sources */,
+				B4C021BE0FC0B3D8003D40B6 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

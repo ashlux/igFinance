@@ -18,17 +18,19 @@
 	[loginRequest setHTTPBody:[requestBody dataUsingEncoding:NSASCIIStringEncoding]];
 	
 	
-	NSHTTPURLResponse *response = NULL;
-	
+	NSHTTPURLResponse *response = NULL;	
 	NSData *responseData = [NSURLConnection sendSynchronousRequest:loginRequest returningResponse:&response error:nil];
-	NSLog(@"Response from Google: %@", [[NSString alloc] initWithData:responseData encoding:NSASCIIStringEncoding]);
+	NSString *responseDataString = [[NSString alloc] initWithData:responseData encoding:NSASCIIStringEncoding];
+	NSLog(@"Response from Google: %@", responseDataString);
 	
 	if ([response statusCode] == 200) {
 		NSLog(@"Login successful.");
 		GoogleClientLogin *aGoogleClientLogin = [GoogleClientLogin alloc];
 		aGoogleClientLogin.username = username;
 		aGoogleClientLogin.password = password;
-		aGoogleClientLogin.authToken = @"authToken";
+		NSString *authToken = [[responseDataString componentsSeparatedByString:@"Auth="] objectAtIndex:1];
+		NSLog(@"Google authToken=%@", authToken);
+		aGoogleClientLogin.authToken = authToken;
 		return [aGoogleClientLogin autorelease];
 	} else {
 		NSLog(@"Login failed.");

@@ -19,6 +19,4 @@
 - (IBAction)login:(id)sender;
 - (IBAction)resetForm:(id)sender;
 
-- (IBAction)changeStatusToLoggingIn:(id)sender;
-
 @end

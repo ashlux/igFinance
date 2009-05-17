@@ -24,20 +24,29 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 	resetButton.enabled = enabled;
 }	
 
-- (IBAction)changeStatusToLoggingIn:(id)sender {
+- (IBAction)login:(id)sender {
 	alertLabel.text = @"Logging in, please wait.";
 	[self toggleViewElements:NO];
-}
 
-- (IBAction)login:(id)sender {
 	LoginDao *loginDao = [[LoginDao alloc] init];
 	GoogleClientLogin *googleClientLogin = [loginDao loginUser:usernameTextField.text :passwordTextField.text];
 	[loginDao release];
-	
+		
 	if (googleClientLogin == nil) {
 		alertLabel.text = @"Login failed. Perhaps wrong username/password or no connection?";
+		UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Login Failed"
+															message:@"Login failed: Perhaps wrong username/password combination or no internet connection?" 
+															delegate:nil 
+															cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+		[alertView show];
+		[alertView release];
 	} else {
 		alertLabel.text = @"Login successful.";
+		UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"AuthToken"
+															message:[googleClientLogin authToken] delegate:nil 
+															cancelButtonTitle:@"Done" otherButtonTitles:nil];
+		[alertView show];
+		[alertView release];
 	}
 	
 	[self toggleViewElements:YES];

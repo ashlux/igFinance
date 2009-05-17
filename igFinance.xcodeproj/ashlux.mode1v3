@@ -279,8 +279,10 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>31</integer>
-									<integer>30</integer>
+									<integer>8</integer>
+									<integer>6</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -321,7 +323,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>LoginDao.m</string>
+								<string>LoginViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,27 +331,27 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>LoginDao.m</string>
+										<string>LoginViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B4C021660FC0A6D1003D40B6</string>
+										<string>B4C021BB0FC0B37A003D40B6</string>
 										<key>history</key>
 										<array>
 											<string>B492D3880FBFACEE0052EA4E</string>
 											<string>B492D3890FBFACEE0052EA4E</string>
 											<string>B492D3FB0FBFB4A40052EA4E</string>
 											<string>B492D6FE0FC0A03D0052EA4E</string>
-											<string>B492D6FF0FC0A03D0052EA4E</string>
-											<string>B492D7000FC0A03D0052EA4E</string>
-											<string>B492D7010FC0A03D0052EA4E</string>
 											<string>B492D77B0FC0A26F0052EA4E</string>
-											<string>B492D77C0FC0A26F0052EA4E</string>
-											<string>B492D77D0FC0A26F0052EA4E</string>
-											<string>B492D77E0FC0A26F0052EA4E</string>
-											<string>B492D77F0FC0A26F0052EA4E</string>
-											<string>B492D7800FC0A26F0052EA4E</string>
-											<string>B492D7970FC0A3730052EA4E</string>
+											<string>B4C021760FC0AE3B003D40B6</string>
+											<string>B4C021A00FC0B2E5003D40B6</string>
+											<string>B4C021A10FC0B2E5003D40B6</string>
+											<string>B4C021A20FC0B2E5003D40B6</string>
+											<string>B4C021A30FC0B2E5003D40B6</string>
+											<string>B4C021A40FC0B2E5003D40B6</string>
+											<string>B4C021A50FC0B2E5003D40B6</string>
+											<string>B4C021B60FC0B34E003D40B6</string>
+											<string>B4C021B70FC0B34E003D40B6</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -367,6 +369,29 @@
 											<string>B492D4930FBFCCD00052EA4E</string>
 											<string>B492D4950FBFCCD00052EA4E</string>
 											<string>B492D7820FC0A26F0052EA4E</string>
+											<string>B4C021780FC0AE3B003D40B6</string>
+											<string>B4C021790FC0AE3B003D40B6</string>
+											<string>B4C0217A0FC0AE3B003D40B6</string>
+											<string>B4C0218D0FC0B21B003D40B6</string>
+											<string>B4C0218E0FC0B21B003D40B6</string>
+											<string>B4C0218F0FC0B21B003D40B6</string>
+											<string>B4C021900FC0B21B003D40B6</string>
+											<string>B4C021910FC0B21B003D40B6</string>
+											<string>B4C021920FC0B21B003D40B6</string>
+											<string>B4C021930FC0B21B003D40B6</string>
+											<string>B4C021A80FC0B2E5003D40B6</string>
+											<string>B4C021A90FC0B2E5003D40B6</string>
+											<string>B4C021AA0FC0B2E5003D40B6</string>
+											<string>B4C021AB0FC0B2E5003D40B6</string>
+											<string>B4C021AC0FC0B2E5003D40B6</string>
+											<string>B4C021AD0FC0B2E5003D40B6</string>
+											<string>B4C021AE0FC0B2E5003D40B6</string>
+											<string>B4C021AF0FC0B2E5003D40B6</string>
+											<string>B4C021B00FC0B2E5003D40B6</string>
+											<string>B4C021B10FC0B2E5003D40B6</string>
+											<string>B4C021B20FC0B2E5003D40B6</string>
+											<string>B4C021B30FC0B2E5003D40B6</string>
+											<string>B4C021B80FC0B34E003D40B6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -562,9 +587,9 @@
 	<array>
 		<string>B4C021710FC0A6D1003D40B6</string>
 		<string>B4C021720FC0A6D1003D40B6</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>B492D3800FBFACBC0052EA4E</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/ashlux/Documents/igFinance/igFinance.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -898,6 +923,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -943,7 +970,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
