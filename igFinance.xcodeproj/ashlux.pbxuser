@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* igFinanceAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 445}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 468}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 468}";
 		};
@@ -29,8 +29,8 @@
 	};
 	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 445}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 468}}";
+			sepNavSelRange = "{200, 21}";
 			sepNavVisRange = "{0, 232}";
 		};
 	};
@@ -38,13 +38,13 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 2198}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 646}";
+			sepNavVisRange = "{0, 652}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = B492D3630FBFA8F30052EA4E /* igFinance */;
-		activeSDKPreference = iphonesimulator2.2.1;
+		activeSDKPreference = iphoneos2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* igFinance */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* igFinance */,
@@ -529,7 +529,7 @@
 	};
 	B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 445}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 468}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 140}";
 		};
@@ -626,7 +626,7 @@
 	};
 	B492D39D0FBFAD120052EA4E /* LoginDao.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 445}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 468}}";
 			sepNavSelRange = "{101, 0}";
 			sepNavVisRange = "{0, 183}";
 			sepNavWindowFrame = "{{107, 131}, {750, 558}}";
@@ -3941,5 +3941,19 @@
 		rType = 0;
 		vrLen = 1176;
 		vrLoc = 675;
+	};
+	B4C021BC0FC0B3D8003D40B6 /* LoginViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 468}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 665}";
+		};
+	};
+	B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2226}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1002}";
+		};
 	};
 }

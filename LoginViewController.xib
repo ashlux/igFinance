@@ -117,7 +117,7 @@
 					<object class="IBUIButton" id="263583555">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{135, 211}, {165, 37}}</string>
+						<string key="NSFrame">{{131, 211}, {165, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -459,13 +459,11 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>changeStatusToLoggingIn:</string>
 							<string>login:</string>
 							<string>resetForm:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -491,7 +489,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">LoginViewController.h</string>
+						<string key="minorKey">Classes/LoginViewController.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
