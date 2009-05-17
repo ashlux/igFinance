@@ -9,6 +9,7 @@
 @synthesize alertLabel;
 @synthesize loginButton;
 @synthesize resetButton;
+@synthesize portfoliosViewController;
 
 CGFloat animatedDistance;
 static const CGFloat KEYBOARD_ANIMATION_DURATION = 0.3;
@@ -25,6 +26,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 }	
 
 - (IBAction)login:(id)sender {
+	// disable text fields, etc. on login view
 	alertLabel.text = @"Logging in, please wait.";
 	[self toggleViewElements:NO];
 
@@ -42,13 +44,14 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 		[alertView release];
 	} else {
 		alertLabel.text = @"Login successful.";
-		UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"AuthToken"
-															message:[googleClientLogin authToken] delegate:nil 
-															cancelButtonTitle:@"Done" otherButtonTitles:nil];
-		[alertView show];
-		[alertView release];
+		PortfoliosViewController *aView = [[PortfoliosViewController alloc] initWithNibName:@"PortfoliosViewController" bundle:[NSBundle mainBundle]];
+		aView.googleClientLogin = googleClientLogin;
+		self.portfoliosViewController = aView;
+		[aView release];
+		[self.navigationController pushViewController:portfoliosViewController animated:YES];
 	}
 	
+	// re-enable text fields, etc. on login view
 	[self toggleViewElements:YES];
 }
 
@@ -150,6 +153,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 162;
 	[alertLabel release];
 	[loginButton release];
 	[resetButton release];
+	[portfoliosViewController release];
 	
     [super dealloc];
 }

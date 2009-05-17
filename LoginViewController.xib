@@ -117,7 +117,7 @@
 					<object class="IBUIButton" id="263583555">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{131, 211}, {165, 37}}</string>
+						<string key="NSFrame">{{135, 211}, {165, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -335,11 +335,11 @@
 							<reference ref="380252990"/>
 							<reference ref="210865130"/>
 							<reference ref="622732980"/>
-							<reference ref="263583555"/>
 							<reference ref="743238868"/>
 							<reference ref="536938614"/>
 							<reference ref="1002334439"/>
 							<reference ref="223530434"/>
+							<reference ref="263583555"/>
 						</object>
 						<reference key="parent" ref="360949347"/>
 					</object>
@@ -475,6 +475,7 @@
 							<string>alertLabel</string>
 							<string>loginButton</string>
 							<string>passwordTextField</string>
+							<string>portfoliosViewController</string>
 							<string>resetButton</string>
 							<string>usernameTextField</string>
 						</object>
@@ -483,6 +484,7 @@
 							<string>UILabel</string>
 							<string>UIButton</string>
 							<string>UITextField</string>
+							<string>PortfoliosViewController</string>
 							<string>UIButton</string>
 							<string>UITextField</string>
 						</object>
@@ -498,6 +500,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">PortfoliosViewController</string>
+					<string key="superclassName">UITableViewController</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Classes/PortfoliosViewController.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
