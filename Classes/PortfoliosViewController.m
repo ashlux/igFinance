@@ -1,25 +1,58 @@
 
 #import "PortfoliosViewController.h"
 
-
 @implementation PortfoliosViewController
 
-@synthesize portfolios;
 @synthesize googleClientLogin;
+@synthesize uitableView;
+@synthesize gDataFeedFinancePortfolio;
+
+- (GDataServiceGoogleFinance*) financeService {
+	static  GDataServiceGoogleFinance *service = nil;
+	if (!service) {
+		service = [[GDataServiceGoogleFinance alloc] init];
+		[service setShouldCacheDatedData:YES];
+		[service setServiceShouldFollowNextLinks:YES];
+		[service setShouldServiceFeedsIgnoreUnknowns:YES];
+	}
+	
+	[service setUserAgent:@"ashlux-igFinance-0.1"];
+	[service setUserCredentialsWithUsername:[googleClientLogin username] 
+								   password:[googleClientLogin password]];
+	return service;
+}
+
+-(void)loadPortfolios {
+	NSLog(@"Getting all of the user's portfolios for %@.", [googleClientLogin username]);
+	GDataServiceGoogleFinance *service = [self financeService];		
+	NSURL *feedURL = [NSURL URLWithString:kGDataGoogleFinanceDefaultPortfoliosFeed];
+	[service fetchFinanceFeedWithURL:feedURL
+							delegate:self
+				   didFinishSelector:@selector(portfolioFeedTicket:finishedWithFeed:)
+					 didFailSelector:@selector(portfolioFeedTicket:failedWithError:)];
+}
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
 	super.title = @"Portfolios";
+	[self loadPortfolios];
 }
 
-- (NSArray*) getPortfolios:(GoogleClientLogin *)clientLogin {
-	NSLog(@"Getting all of the user's portfolios for %@.", [clientLogin username]);
-	if (portfolios == nil) {
-		// do something
-	}
+- (void)portfolioFeedTicket:(GDataServiceTicket *)ticket
+           finishedWithFeed:(GDataFeedFinancePortfolio *)object {
+	gDataFeedFinancePortfolio = [object retain];
+	[uitableView reloadData];
 	
-	return portfolios;
+	for (int i = 0; i < [[object entries] count]; ++i) {
+		NSLog(@"Portfolio%d:::::::::>>>>>>>>> %@", i, [[gDataFeedFinancePortfolio entries] objectAtIndex:i]);
+	}	
+}
+
+- (void)portfolioFeedTicket:(GDataServiceTicket *)ticket
+            failedWithError:(NSError *)error {
+	NSLog(@"%@", ticket);
+	NSLog(@"%@", error);
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -31,8 +64,8 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [[self getPortfolios:googleClientLogin] count] + 1;
-;
+	//return [[gDataFeedFinancePortfolio entries] count];
+	return [[gDataFeedFinancePortfolio entries] count];
 }
 
 
@@ -45,11 +78,13 @@
         cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
     }
     
-	if (indexPath.row==0) {
-		cell.text = @"Add portfolio";
-	} else {
-		cell.text = [[portfolios objectAtIndex:indexPath.row+1] name];
-	}
+	
+//	for (int i = 0; i < [[object entries] count]; ++i) {
+//		NSLog(@"Portfolio%d:::::::::>>>>>>>>> %@", i, [[object entries] objectAtIndex:i]);
+//	}
+	
+	GDataEntryFinancePortfolio *portfolio = [[gDataFeedFinancePortfolio entries] objectAtIndex:indexPath.row];
+	cell.text = [[portfolio title] stringValue];
     return cell;
 }
 
@@ -102,7 +137,9 @@
 
 
 - (void)dealloc {
-	[portfolios release];
+	[googleClientLogin release];
+	[gDataFeedFinancePortfolio release];
+	[uitableView release];
     [super dealloc];
 }
 

@@ -1,13 +1,16 @@
 
 #import <UIKit/UIKit.h>
 #import "GoogleClientLogin.h"
+#import "GDataFinance.h"
 
 @interface PortfoliosViewController : UITableViewController {
-	NSArray *portfolios;
 	GoogleClientLogin *googleClientLogin;
+	IBOutlet UITableView *uitableView;
+	GDataFeedFinancePortfolio *gDataFeedFinancePortfolio;
 }
 
-@property (nonatomic, retain) NSArray *portfolios;
 @property (nonatomic, retain) GoogleClientLogin *googleClientLogin;
+@property (nonatomic, retain) IBOutlet UITableView *uitableView;
+@property (nonatomic, retain) GDataFeedFinancePortfolio *gDataFeedFinancePortfolio;
 
 @end

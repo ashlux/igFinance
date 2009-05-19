@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* igFinanceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* igFinanceAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
@@ -21,6 +20,211 @@
 		B4C021BE0FC0B3D8003D40B6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */; };
 		B4C021C70FC0CB83003D40B6 /* PortfoliosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */; };
 		B4C021C90FC0CF92003D40B6 /* PortfoliosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C021C80FC0CF92003D40B6 /* PortfoliosViewController.xib */; };
+		B4E354730FC1867700403B70 /* GDataACLRole.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350BB0FC1867600403B70 /* GDataACLRole.m */; };
+		B4E354740FC1867700403B70 /* GDataACLScope.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350BD0FC1867600403B70 /* GDataACLScope.m */; };
+		B4E354750FC1867700403B70 /* GDataEntryACL.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350BF0FC1867600403B70 /* GDataEntryACL.m */; };
+		B4E354760FC1867700403B70 /* GDataFeedACL.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350C10FC1867600403B70 /* GDataFeedACL.m */; };
+		B4E354770FC1867700403B70 /* GDataServiceACL.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350C30FC1867600403B70 /* GDataServiceACL.m */; };
+		B4E354780FC1867700403B70 /* GDataEntryBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350C60FC1867600403B70 /* GDataEntryBase.m */; };
+		B4E354790FC1867700403B70 /* GDataFeedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350C80FC1867600403B70 /* GDataFeedBase.m */; };
+		B4E3547A0FC1867700403B70 /* GDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350CA0FC1867600403B70 /* GDataObject.m */; };
+		B4E3547B0FC1867700403B70 /* GDataQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350CC0FC1867600403B70 /* GDataQuery.m */; };
+		B4E3547C0FC1867700403B70 /* GDataServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350CE0FC1867600403B70 /* GDataServiceBase.m */; };
+		B4E3547D0FC1867700403B70 /* GDataServiceGoogle.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350D00FC1867600403B70 /* GDataServiceGoogle.m */; };
+		B4E356280FC1867800403B70 /* GDataDublinCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352890FC1867700403B70 /* GDataDublinCore.m */; };
+		B4E356290FC1867800403B70 /* GDataEntryVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3528B0FC1867700403B70 /* GDataEntryVolume.m */; };
+		B4E3562A0FC1867800403B70 /* GDataFeedVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3528D0FC1867700403B70 /* GDataFeedVolume.m */; };
+		B4E3562B0FC1867800403B70 /* GDataQueryBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3528F0FC1867700403B70 /* GDataQueryBooks.m */; };
+		B4E3562C0FC1867800403B70 /* GDataServiceGoogleBooks.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352910FC1867700403B70 /* GDataServiceGoogleBooks.m */; };
+		B4E3562D0FC1867800403B70 /* GDataEntryCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352950FC1867700403B70 /* GDataEntryCalendar.m */; };
+		B4E3562E0FC1867800403B70 /* GDataEntryCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352970FC1867700403B70 /* GDataEntryCalendarEvent.m */; };
+		B4E3562F0FC1867800403B70 /* GDataEntryEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352990FC1867700403B70 /* GDataEntryEvent.m */; };
+		B4E356300FC1867800403B70 /* GDataEntryMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3529B0FC1867700403B70 /* GDataEntryMessage.m */; };
+		B4E356310FC1867800403B70 /* GDataFeedCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3529D0FC1867700403B70 /* GDataFeedCalendar.m */; };
+		B4E356320FC1867800403B70 /* GDataFeedCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3529F0FC1867700403B70 /* GDataFeedCalendarEvent.m */; };
+		B4E356330FC1867800403B70 /* GDataFeedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352A10FC1867700403B70 /* GDataFeedEvent.m */; };
+		B4E356340FC1867800403B70 /* GDataFeedMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352A30FC1867700403B70 /* GDataFeedMessage.m */; };
+		B4E356350FC1867800403B70 /* GDataOriginalEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352A50FC1867700403B70 /* GDataOriginalEvent.m */; };
+		B4E356360FC1867800403B70 /* GDataQueryCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352A70FC1867700403B70 /* GDataQueryCalendar.m */; };
+		B4E356370FC1867800403B70 /* GDataRecurrence.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352A90FC1867700403B70 /* GDataRecurrence.m */; };
+		B4E356380FC1867800403B70 /* GDataRecurrenceException.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352AB0FC1867700403B70 /* GDataRecurrenceException.m */; };
+		B4E356390FC1867800403B70 /* GDataReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352AD0FC1867700403B70 /* GDataReminder.m */; };
+		B4E3563A0FC1867800403B70 /* GDataServiceGoogleCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352AF0FC1867700403B70 /* GDataServiceGoogleCalendar.m */; };
+		B4E3563B0FC1867800403B70 /* GDataWebContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352B10FC1867700403B70 /* GDataWebContent.m */; };
+		B4E3563C0FC1867800403B70 /* GDataCodeSearchFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352B50FC1867700403B70 /* GDataCodeSearchFile.m */; };
+		B4E3563D0FC1867800403B70 /* GDataCodeSearchMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352B70FC1867700403B70 /* GDataCodeSearchMatch.m */; };
+		B4E3563E0FC1867800403B70 /* GDataCodeSearchPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352B90FC1867700403B70 /* GDataCodeSearchPackage.m */; };
+		B4E3563F0FC1867800403B70 /* GDataEntryCodeSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352BB0FC1867700403B70 /* GDataEntryCodeSearch.m */; };
+		B4E356400FC1867800403B70 /* GDataFeedCodeSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352BD0FC1867700403B70 /* GDataFeedCodeSearch.m */; };
+		B4E356410FC1867800403B70 /* GDataEntryContact.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352C10FC1867700403B70 /* GDataEntryContact.m */; };
+		B4E356420FC1867800403B70 /* GDataEntryContactGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352C30FC1867700403B70 /* GDataEntryContactGroup.m */; };
+		B4E356430FC1867800403B70 /* GDataFeedContact.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352C50FC1867700403B70 /* GDataFeedContact.m */; };
+		B4E356440FC1867800403B70 /* GDataFeedContactGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352C70FC1867700403B70 /* GDataFeedContactGroup.m */; };
+		B4E356450FC1867800403B70 /* GDataGroupMembershipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352C90FC1867700403B70 /* GDataGroupMembershipInfo.m */; };
+		B4E356460FC1867800403B70 /* GDataQueryContact.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352CB0FC1867700403B70 /* GDataQueryContact.m */; };
+		B4E356470FC1867800403B70 /* GDataServiceGoogleContact.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352CD0FC1867700403B70 /* GDataServiceGoogleContact.m */; };
+		B4E356480FC1867800403B70 /* GDataEntryDocBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352D10FC1867700403B70 /* GDataEntryDocBase.m */; };
+		B4E356490FC1867800403B70 /* GDataEntryFolderDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352D30FC1867700403B70 /* GDataEntryFolderDoc.m */; };
+		B4E3564A0FC1867800403B70 /* GDataEntryPDFDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352D50FC1867700403B70 /* GDataEntryPDFDoc.m */; };
+		B4E3564B0FC1867800403B70 /* GDataEntryPresentationDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352D70FC1867700403B70 /* GDataEntryPresentationDoc.m */; };
+		B4E3564C0FC1867800403B70 /* GDataEntrySpreadsheetDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352D90FC1867700403B70 /* GDataEntrySpreadsheetDoc.m */; };
+		B4E3564D0FC1867800403B70 /* GDataEntryStandardDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352DB0FC1867700403B70 /* GDataEntryStandardDoc.m */; };
+		B4E3564E0FC1867800403B70 /* GDataFeedDocList.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352DD0FC1867700403B70 /* GDataFeedDocList.m */; };
+		B4E3564F0FC1867800403B70 /* GDataQueryDocs.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352DF0FC1867700403B70 /* GDataQueryDocs.m */; };
+		B4E356500FC1867800403B70 /* GDataServiceGoogleDocs.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352E10FC1867700403B70 /* GDataServiceGoogleDocs.m */; };
+		B4E356510FC1867800403B70 /* GDataEntryFinancePortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352E40FC1867700403B70 /* GDataEntryFinancePortfolio.m */; };
+		B4E356520FC1867800403B70 /* GDataEntryFinancePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352E60FC1867700403B70 /* GDataEntryFinancePosition.m */; };
+		B4E356530FC1867800403B70 /* GDataEntryFinanceTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352E80FC1867700403B70 /* GDataEntryFinanceTransaction.m */; };
+		B4E356540FC1867800403B70 /* GDataFeedFinancePortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352EA0FC1867700403B70 /* GDataFeedFinancePortfolio.m */; };
+		B4E356550FC1867800403B70 /* GDataFeedFinancePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352EC0FC1867700403B70 /* GDataFeedFinancePosition.m */; };
+		B4E356560FC1867800403B70 /* GDataFeedFinanceTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352EE0FC1867700403B70 /* GDataFeedFinanceTransaction.m */; };
+		B4E356570FC1867800403B70 /* GDataFinanceSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352F10FC1867700403B70 /* GDataFinanceSymbol.m */; };
+		B4E356580FC1867800403B70 /* GDataFinanceTransactionData.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352F30FC1867700403B70 /* GDataFinanceTransactionData.m */; };
+		B4E356590FC1867800403B70 /* GDataMoneyElements.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352F50FC1867700403B70 /* GDataMoneyElements.m */; };
+		B4E3565A0FC1867800403B70 /* GDataPortfolioElements.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352F70FC1867700403B70 /* GDataPortfolioElements.m */; };
+		B4E3565B0FC1867800403B70 /* GDataQueryFinance.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352F90FC1867700403B70 /* GDataQueryFinance.m */; };
+		B4E3565C0FC1867800403B70 /* GDataServiceGoogleFinance.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352FB0FC1867700403B70 /* GDataServiceGoogleFinance.m */; };
+		B4E3565D0FC1867800403B70 /* GDataEntryGoogleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E352FE0FC1867700403B70 /* GDataEntryGoogleBase.m */; };
+		B4E3565E0FC1867800403B70 /* GDataFeedGoogleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353000FC1867700403B70 /* GDataFeedGoogleBase.m */; };
+		B4E3565F0FC1867800403B70 /* GDataGoogleBaseAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353030FC1867700403B70 /* GDataGoogleBaseAttribute.m */; };
+		B4E356600FC1867800403B70 /* GDataGoogleBaseMetadataAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353050FC1867700403B70 /* GDataGoogleBaseMetadataAttribute.m */; };
+		B4E356610FC1867800403B70 /* GDataGoogleBaseMetadataAttributeList.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353070FC1867700403B70 /* GDataGoogleBaseMetadataAttributeList.m */; };
+		B4E356620FC1867800403B70 /* GDataGoogleBaseMetadataItemType.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353090FC1867700403B70 /* GDataGoogleBaseMetadataItemType.m */; };
+		B4E356630FC1867800403B70 /* GDataGoogleBaseMetadataValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3530B0FC1867700403B70 /* GDataGoogleBaseMetadataValue.m */; };
+		B4E356640FC1867800403B70 /* GDataQueryGoogleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3530D0FC1867700403B70 /* GDataQueryGoogleBase.m */; };
+		B4E356650FC1867800403B70 /* GDataServiceGoogleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3530F0FC1867700403B70 /* GDataServiceGoogleBase.m */; };
+		B4E356660FC1867800403B70 /* GDataEntryHealthProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353120FC1867700403B70 /* GDataEntryHealthProfile.m */; };
+		B4E356670FC1867800403B70 /* GDataEntryHealthRegsiter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353140FC1867700403B70 /* GDataEntryHealthRegsiter.m */; };
+		B4E356680FC1867800403B70 /* GDataFeedHealthProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353160FC1867700403B70 /* GDataFeedHealthProfile.m */; };
+		B4E356690FC1867800403B70 /* GDataFeedHealthRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353180FC1867700403B70 /* GDataFeedHealthRegister.m */; };
+		B4E3566A0FC1867800403B70 /* GDataHealthElements.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3531B0FC1867700403B70 /* GDataHealthElements.m */; };
+		B4E3566B0FC1867800403B70 /* GDataQueryGoogleHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3531D0FC1867700403B70 /* GDataQueryGoogleHealth.m */; };
+		B4E3566C0FC1867800403B70 /* GDataServiceGoogleHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3531F0FC1867700403B70 /* GDataServiceGoogleHealth.m */; };
+		B4E3566D0FC1867800403B70 /* GDataEntryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353220FC1867700403B70 /* GDataEntryPhoto.m */; };
+		B4E3566E0FC1867800403B70 /* GDataEntryPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353240FC1867700403B70 /* GDataEntryPhotoAlbum.m */; };
+		B4E3566F0FC1867800403B70 /* GDataEntryPhotoBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353260FC1867700403B70 /* GDataEntryPhotoBase.m */; };
+		B4E356700FC1867800403B70 /* GDataEntryPhotoComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353280FC1867700403B70 /* GDataEntryPhotoComment.m */; };
+		B4E356710FC1867800403B70 /* GDataEntryPhotoTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3532A0FC1867700403B70 /* GDataEntryPhotoTag.m */; };
+		B4E356720FC1867800403B70 /* GDataEntryPhotoUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3532C0FC1867700403B70 /* GDataEntryPhotoUser.m */; };
+		B4E356730FC1867800403B70 /* GDataEXIFTags.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3532E0FC1867700403B70 /* GDataEXIFTags.m */; };
+		B4E356740FC1867800403B70 /* GDataFeedPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353300FC1867700403B70 /* GDataFeedPhoto.m */; };
+		B4E356750FC1867800403B70 /* GDataFeedPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353320FC1867700403B70 /* GDataFeedPhotoAlbum.m */; };
+		B4E356760FC1867800403B70 /* GDataFeedPhotoBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353340FC1867700403B70 /* GDataFeedPhotoBase.m */; };
+		B4E356770FC1867800403B70 /* GDataFeedPhotoUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353360FC1867700403B70 /* GDataFeedPhotoUser.m */; };
+		B4E356780FC1867800403B70 /* GDataPhotoElements.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353380FC1867700403B70 /* GDataPhotoElements.m */; };
+		B4E356790FC1867800403B70 /* GDataQueryGooglePhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3533B0FC1867700403B70 /* GDataQueryGooglePhotos.m */; };
+		B4E3567A0FC1867800403B70 /* GDataServiceGooglePhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3533D0FC1867700403B70 /* GDataServiceGooglePhotos.m */; };
+		B4E3567B0FC1867800403B70 /* GDataEntrySpreadsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353400FC1867700403B70 /* GDataEntrySpreadsheet.m */; };
+		B4E3567C0FC1867800403B70 /* GDataEntrySpreadsheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353420FC1867700403B70 /* GDataEntrySpreadsheetCell.m */; };
+		B4E3567D0FC1867800403B70 /* GDataEntrySpreadsheetList.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353440FC1867700403B70 /* GDataEntrySpreadsheetList.m */; };
+		B4E3567E0FC1867800403B70 /* GDataEntryWorksheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353460FC1867700403B70 /* GDataEntryWorksheet.m */; };
+		B4E3567F0FC1867800403B70 /* GDataFeedSpreadsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353480FC1867700403B70 /* GDataFeedSpreadsheet.m */; };
+		B4E356800FC1867800403B70 /* GDataFeedSpreadsheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3534A0FC1867700403B70 /* GDataFeedSpreadsheetCell.m */; };
+		B4E356810FC1867800403B70 /* GDataFeedSpreadsheetList.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3534C0FC1867700403B70 /* GDataFeedSpreadsheetList.m */; };
+		B4E356820FC1867800403B70 /* GDataFeedWorksheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3534E0FC1867700403B70 /* GDataFeedWorksheet.m */; };
+		B4E356830FC1867800403B70 /* GDataQuerySpreadsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353500FC1867700403B70 /* GDataQuerySpreadsheet.m */; };
+		B4E356840FC1867800403B70 /* GDataRowColumnCount.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353520FC1867700403B70 /* GDataRowColumnCount.m */; };
+		B4E356850FC1867800403B70 /* GDataServiceGoogleSpreadsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353540FC1867700403B70 /* GDataServiceGoogleSpreadsheet.m */; };
+		B4E356860FC1867800403B70 /* GDataSpreadsheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353570FC1867700403B70 /* GDataSpreadsheetCell.m */; };
+		B4E356870FC1867800403B70 /* GDataSpreadsheetCustomElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353590FC1867700403B70 /* GDataSpreadsheetCustomElement.m */; };
+		B4E356880FC1867800403B70 /* GDataEntrySite.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3535C0FC1867700403B70 /* GDataEntrySite.m */; };
+		B4E356890FC1867800403B70 /* GDataEntrySitemap.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3535E0FC1867700403B70 /* GDataEntrySitemap.m */; };
+		B4E3568A0FC1867800403B70 /* GDataFeedSite.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353600FC1867700403B70 /* GDataFeedSite.m */; };
+		B4E3568B0FC1867800403B70 /* GDataFeedSitemap.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353620FC1867700403B70 /* GDataFeedSitemap.m */; };
+		B4E3568C0FC1867800403B70 /* GDataServiceGoogleWebmasterTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353640FC1867700403B70 /* GDataServiceGoogleWebmasterTools.m */; };
+		B4E3568D0FC1867800403B70 /* GDataSitemapMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353660FC1867700403B70 /* GDataSitemapMobile.m */; };
+		B4E3568E0FC1867800403B70 /* GDataSitemapNews.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353680FC1867700403B70 /* GDataSitemapNews.m */; };
+		B4E3568F0FC1867800403B70 /* GDataSiteVerificationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3536A0FC1867700403B70 /* GDataSiteVerificationMethod.m */; };
+		B4E356900FC1867800403B70 /* GDataEntryYouTubeChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3536E0FC1867700403B70 /* GDataEntryYouTubeChannel.m */; };
+		B4E356910FC1867800403B70 /* GDataEntryYouTubeComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353700FC1867700403B70 /* GDataEntryYouTubeComment.m */; };
+		B4E356920FC1867800403B70 /* GDataEntryYouTubeComplaint.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353720FC1867700403B70 /* GDataEntryYouTubeComplaint.m */; };
+		B4E356930FC1867800403B70 /* GDataEntryYouTubeFavorite.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353740FC1867700403B70 /* GDataEntryYouTubeFavorite.m */; };
+		B4E356940FC1867800403B70 /* GDataEntryYouTubeFeedLinkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353760FC1867700403B70 /* GDataEntryYouTubeFeedLinkBase.m */; };
+		B4E356950FC1867800403B70 /* GDataEntryYouTubeFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353780FC1867700403B70 /* GDataEntryYouTubeFriend.m */; };
+		B4E356960FC1867800403B70 /* GDataEntryYouTubePlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3537A0FC1867700403B70 /* GDataEntryYouTubePlaylist.m */; };
+		B4E356970FC1867800403B70 /* GDataEntryYouTubePlaylistLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3537C0FC1867700403B70 /* GDataEntryYouTubePlaylistLink.m */; };
+		B4E356980FC1867800403B70 /* GDataEntryYouTubeRating.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3537E0FC1867700403B70 /* GDataEntryYouTubeRating.m */; };
+		B4E356990FC1867800403B70 /* GDataEntryYouTubeSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353800FC1867700403B70 /* GDataEntryYouTubeSubscription.m */; };
+		B4E3569A0FC1867800403B70 /* GDataEntryYouTubeUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353820FC1867700403B70 /* GDataEntryYouTubeUpload.m */; };
+		B4E3569B0FC1867800403B70 /* GDataEntryYouTubeUserEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353840FC1867700403B70 /* GDataEntryYouTubeUserEvent.m */; };
+		B4E3569C0FC1867800403B70 /* GDataEntryYouTubeUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353860FC1867700403B70 /* GDataEntryYouTubeUserProfile.m */; };
+		B4E3569D0FC1867800403B70 /* GDataEntryYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353880FC1867700403B70 /* GDataEntryYouTubeVideo.m */; };
+		B4E3569E0FC1867800403B70 /* GDataEntryYouTubeVideoMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3538A0FC1867700403B70 /* GDataEntryYouTubeVideoMessage.m */; };
+		B4E3569F0FC1867800403B70 /* GDataFeedYouTubeChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3538C0FC1867700403B70 /* GDataFeedYouTubeChannel.m */; };
+		B4E356A00FC1867800403B70 /* GDataFeedYouTubeComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3538E0FC1867700403B70 /* GDataFeedYouTubeComment.m */; };
+		B4E356A10FC1867800403B70 /* GDataFeedYouTubeComplaint.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353900FC1867700403B70 /* GDataFeedYouTubeComplaint.m */; };
+		B4E356A20FC1867800403B70 /* GDataFeedYouTubeFavorite.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353920FC1867700403B70 /* GDataFeedYouTubeFavorite.m */; };
+		B4E356A30FC1867800403B70 /* GDataFeedYouTubeFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353940FC1867700403B70 /* GDataFeedYouTubeFriend.m */; };
+		B4E356A40FC1867800403B70 /* GDataFeedYouTubePlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353960FC1867700403B70 /* GDataFeedYouTubePlaylist.m */; };
+		B4E356A50FC1867800403B70 /* GDataFeedYouTubePlaylistLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353980FC1867700403B70 /* GDataFeedYouTubePlaylistLink.m */; };
+		B4E356A60FC1867800403B70 /* GDataFeedYouTubeRating.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3539A0FC1867700403B70 /* GDataFeedYouTubeRating.m */; };
+		B4E356A70FC1867800403B70 /* GDataFeedYouTubeSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3539C0FC1867700403B70 /* GDataFeedYouTubeSubscription.m */; };
+		B4E356A80FC1867800403B70 /* GDataFeedYouTubeUserEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3539E0FC1867700403B70 /* GDataFeedYouTubeUserEvent.m */; };
+		B4E356A90FC1867800403B70 /* GDataFeedYouTubeUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353A00FC1867700403B70 /* GDataFeedYouTubeUserProfile.m */; };
+		B4E356AA0FC1867800403B70 /* GDataFeedYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353A20FC1867700403B70 /* GDataFeedYouTubeVideo.m */; };
+		B4E356AB0FC1867800403B70 /* GDataFeedYouTubeVideoMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353A40FC1867700403B70 /* GDataFeedYouTubeVideoMessage.m */; };
+		B4E356AC0FC1867800403B70 /* GDataQueryYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353A60FC1867700403B70 /* GDataQueryYouTube.m */; };
+		B4E356AD0FC1867800403B70 /* GDataServiceGoogleYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353A80FC1867700403B70 /* GDataServiceGoogleYouTube.m */; };
+		B4E356AE0FC1867800403B70 /* GDataYouTubeElements.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353AB0FC1867700403B70 /* GDataYouTubeElements.m */; };
+		B4E356AF0FC1867800403B70 /* GDataYouTubeMediaElements.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353AD0FC1867700403B70 /* GDataYouTubeMediaElements.m */; };
+		B4E356B00FC1867800403B70 /* GDataYouTubePublicationState.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353AF0FC1867700403B70 /* GDataYouTubePublicationState.m */; };
+		B4E356B10FC1867800403B70 /* GDataYouTubeStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353B10FC1867700403B70 /* GDataYouTubeStatistics.m */; };
+		B4E356B20FC1867800403B70 /* GDataAtomPubControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353B40FC1867700403B70 /* GDataAtomPubControl.m */; };
+		B4E356B30FC1867800403B70 /* GDataBaseElements.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353B60FC1867700403B70 /* GDataBaseElements.m */; };
+		B4E356B40FC1867800403B70 /* GDataBatchID.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353B80FC1867700403B70 /* GDataBatchID.m */; };
+		B4E356B50FC1867800403B70 /* GDataBatchInterrupted.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353BA0FC1867700403B70 /* GDataBatchInterrupted.m */; };
+		B4E356B60FC1867800403B70 /* GDataBatchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353BC0FC1867700403B70 /* GDataBatchOperation.m */; };
+		B4E356B70FC1867800403B70 /* GDataBatchStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353BE0FC1867700403B70 /* GDataBatchStatus.m */; };
+		B4E356B80FC1867800403B70 /* GDataCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353C00FC1867700403B70 /* GDataCategory.m */; };
+		B4E356B90FC1867800403B70 /* GDataComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353C20FC1867700403B70 /* GDataComment.m */; };
+		B4E356BA0FC1867800403B70 /* GDataDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353C40FC1867700403B70 /* GDataDateTime.m */; };
+		B4E356BB0FC1867800403B70 /* GDataDeleted.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353C60FC1867700403B70 /* GDataDeleted.m */; };
+		B4E356BC0FC1867800403B70 /* GDataEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353C90FC1867700403B70 /* GDataEmail.m */; };
+		B4E356BD0FC1867800403B70 /* GDataEntryContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353CB0FC1867700403B70 /* GDataEntryContent.m */; };
+		B4E356BE0FC1867800403B70 /* GDataEntryLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353CD0FC1867700403B70 /* GDataEntryLink.m */; };
+		B4E356BF0FC1867800403B70 /* GDataExtendedProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353CF0FC1867700403B70 /* GDataExtendedProperty.m */; };
+		B4E356C00FC1867800403B70 /* GDataFeedLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353D10FC1867700403B70 /* GDataFeedLink.m */; };
+		B4E356C10FC1867800403B70 /* GDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353D30FC1867700403B70 /* GDataGenerator.m */; };
+		B4E356C20FC1867800403B70 /* GDataGeoPt.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353D50FC1867700403B70 /* GDataGeoPt.m */; };
+		B4E356C30FC1867800403B70 /* GDataIM.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353D70FC1867700403B70 /* GDataIM.m */; };
+		B4E356C40FC1867800403B70 /* GDataLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353D90FC1867700403B70 /* GDataLink.m */; };
+		B4E356C50FC1867800403B70 /* GDataMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353DB0FC1867700403B70 /* GDataMoney.m */; };
+		B4E356C60FC1867800403B70 /* GDataOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353DD0FC1867700403B70 /* GDataOrganization.m */; };
+		B4E356C70FC1867800403B70 /* GDataPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353DF0FC1867700403B70 /* GDataPerson.m */; };
+		B4E356C80FC1867800403B70 /* GDataPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353E10FC1867700403B70 /* GDataPhoneNumber.m */; };
+		B4E356C90FC1867800403B70 /* GDataPostalAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353E30FC1867700403B70 /* GDataPostalAddress.m */; };
+		B4E356CA0FC1867800403B70 /* GDataRating.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353E50FC1867700403B70 /* GDataRating.m */; };
+		B4E356CB0FC1867800403B70 /* GDataTextConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353E70FC1867700403B70 /* GDataTextConstruct.m */; };
+		B4E356CC0FC1867800403B70 /* GDataValueConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353E90FC1867700403B70 /* GDataValueConstruct.m */; };
+		B4E356CD0FC1867800403B70 /* GDataWhen.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353EB0FC1867700403B70 /* GDataWhen.m */; };
+		B4E356CE0FC1867800403B70 /* GDataWhere.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353ED0FC1867700403B70 /* GDataWhere.m */; };
+		B4E356CF0FC1867800403B70 /* GDataWho.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353EF0FC1867700403B70 /* GDataWho.m */; };
+		B4E356D00FC1867800403B70 /* GDataFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353F60FC1867700403B70 /* GDataFramework.m */; };
+		B4E356D10FC1867800403B70 /* GDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353F90FC1867700403B70 /* GDataUtilities.m */; };
+		B4E356D20FC1867800403B70 /* GDataGeo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353FC0FC1867700403B70 /* GDataGeo.m */; };
+		B4E356D30FC1867800403B70 /* GDataAtomCategoryGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E353FF0FC1867700403B70 /* GDataAtomCategoryGroup.m */; };
+		B4E356D40FC1867800403B70 /* GDataAtomCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354010FC1867700403B70 /* GDataAtomCollection.m */; };
+		B4E356D50FC1867800403B70 /* GDataAtomServiceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354030FC1867700403B70 /* GDataAtomServiceDocument.m */; };
+		B4E356D60FC1867800403B70 /* GDataAtomWorkspace.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354050FC1867700403B70 /* GDataAtomWorkspace.m */; };
+		B4E356D70FC1867800403B70 /* GDataMediaCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3540A0FC1867700403B70 /* GDataMediaCategory.m */; };
+		B4E356D80FC1867800403B70 /* GDataMediaContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3540C0FC1867700403B70 /* GDataMediaContent.m */; };
+		B4E356D90FC1867800403B70 /* GDataMediaCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3540E0FC1867700403B70 /* GDataMediaCredit.m */; };
+		B4E356DA0FC1867800403B70 /* GDataMediaGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354100FC1867700403B70 /* GDataMediaGroup.m */; };
+		B4E356DB0FC1867800403B70 /* GDataMediaKeywords.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354120FC1867700403B70 /* GDataMediaKeywords.m */; };
+		B4E356DC0FC1867800403B70 /* GDataMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354140FC1867700403B70 /* GDataMediaPlayer.m */; };
+		B4E356DD0FC1867800403B70 /* GDataMediaRating.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354160FC1867700403B70 /* GDataMediaRating.m */; };
+		B4E356DE0FC1867800403B70 /* GDataMediaRestriction.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354180FC1867700403B70 /* GDataMediaRestriction.m */; };
+		B4E356DF0FC1867800403B70 /* GDataMediaThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3541A0FC1867700403B70 /* GDataMediaThumbnail.m */; };
+		B4E356E00FC1867800403B70 /* GDataNormalPlayTime.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3541C0FC1867700403B70 /* GDataNormalPlayTime.m */; };
+		B4E356E10FC1867800403B70 /* GDataGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E3541F0FC1867700403B70 /* GDataGatherInputStream.m */; };
+		B4E356E20FC1867800403B70 /* GDataHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354210FC1867700403B70 /* GDataHTTPFetcher.m */; };
+		B4E356E30FC1867800403B70 /* GDataHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354230FC1867700403B70 /* GDataHTTPFetcherLogging.m */; };
+		B4E356E40FC1867800403B70 /* GDataMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354250FC1867700403B70 /* GDataMIMEDocument.m */; };
+		B4E356E50FC1867800403B70 /* GDataProgressMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354270FC1867700403B70 /* GDataProgressMonitorInputStream.m */; };
+		B4E356E60FC1867800403B70 /* GDataServerError.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354290FC1867700403B70 /* GDataServerError.m */; };
+		B4E356E70FC1867800403B70 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4E3542A0FC1867700403B70 /* ReleaseNotes.txt */; };
+		B4E357230FC1867800403B70 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354720FC1867700403B70 /* GDataXMLNode.m */; };
+		B4E357720FC220D400403B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E357710FC220D400403B70 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +239,6 @@
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B492D3700FBFAA8B0052EA4E /* GoogleClientLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleClientLogin.h; sourceTree = "<group>"; };
 		B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleClientLogin.m; sourceTree = "<group>"; };
@@ -47,6 +250,433 @@
 		B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfoliosViewController.h; sourceTree = "<group>"; };
 		B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfoliosViewController.m; sourceTree = "<group>"; };
 		B4C021C80FC0CF92003D40B6 /* PortfoliosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortfoliosViewController.xib; sourceTree = "<group>"; };
+		B4E350B90FC1867600403B70 /* GDataACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataACL.h; sourceTree = "<group>"; };
+		B4E350BA0FC1867600403B70 /* GDataACLRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataACLRole.h; sourceTree = "<group>"; };
+		B4E350BB0FC1867600403B70 /* GDataACLRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataACLRole.m; sourceTree = "<group>"; };
+		B4E350BC0FC1867600403B70 /* GDataACLScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataACLScope.h; sourceTree = "<group>"; };
+		B4E350BD0FC1867600403B70 /* GDataACLScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataACLScope.m; sourceTree = "<group>"; };
+		B4E350BE0FC1867600403B70 /* GDataEntryACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryACL.h; sourceTree = "<group>"; };
+		B4E350BF0FC1867600403B70 /* GDataEntryACL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryACL.m; sourceTree = "<group>"; };
+		B4E350C00FC1867600403B70 /* GDataFeedACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedACL.h; sourceTree = "<group>"; };
+		B4E350C10FC1867600403B70 /* GDataFeedACL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedACL.m; sourceTree = "<group>"; };
+		B4E350C20FC1867600403B70 /* GDataServiceACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceACL.h; sourceTree = "<group>"; };
+		B4E350C30FC1867600403B70 /* GDataServiceACL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceACL.m; sourceTree = "<group>"; };
+		B4E350C50FC1867600403B70 /* GDataEntryBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryBase.h; sourceTree = "<group>"; };
+		B4E350C60FC1867600403B70 /* GDataEntryBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryBase.m; sourceTree = "<group>"; };
+		B4E350C70FC1867600403B70 /* GDataFeedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedBase.h; sourceTree = "<group>"; };
+		B4E350C80FC1867600403B70 /* GDataFeedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedBase.m; sourceTree = "<group>"; };
+		B4E350C90FC1867600403B70 /* GDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataObject.h; sourceTree = "<group>"; };
+		B4E350CA0FC1867600403B70 /* GDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataObject.m; sourceTree = "<group>"; };
+		B4E350CB0FC1867600403B70 /* GDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQuery.h; sourceTree = "<group>"; };
+		B4E350CC0FC1867600403B70 /* GDataQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQuery.m; sourceTree = "<group>"; };
+		B4E350CD0FC1867600403B70 /* GDataServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceBase.h; sourceTree = "<group>"; };
+		B4E350CE0FC1867600403B70 /* GDataServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceBase.m; sourceTree = "<group>"; };
+		B4E350CF0FC1867600403B70 /* GDataServiceGoogle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogle.h; sourceTree = "<group>"; };
+		B4E350D00FC1867600403B70 /* GDataServiceGoogle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogle.m; sourceTree = "<group>"; };
+		B4E352870FC1867700403B70 /* GDataBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataBooks.h; sourceTree = "<group>"; };
+		B4E352880FC1867700403B70 /* GDataDublinCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataDublinCore.h; sourceTree = "<group>"; };
+		B4E352890FC1867700403B70 /* GDataDublinCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataDublinCore.m; sourceTree = "<group>"; };
+		B4E3528A0FC1867700403B70 /* GDataEntryVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryVolume.h; sourceTree = "<group>"; };
+		B4E3528B0FC1867700403B70 /* GDataEntryVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryVolume.m; sourceTree = "<group>"; };
+		B4E3528C0FC1867700403B70 /* GDataFeedVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedVolume.h; sourceTree = "<group>"; };
+		B4E3528D0FC1867700403B70 /* GDataFeedVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedVolume.m; sourceTree = "<group>"; };
+		B4E3528E0FC1867700403B70 /* GDataQueryBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryBooks.h; sourceTree = "<group>"; };
+		B4E3528F0FC1867700403B70 /* GDataQueryBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryBooks.m; sourceTree = "<group>"; };
+		B4E352900FC1867700403B70 /* GDataServiceGoogleBooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleBooks.h; sourceTree = "<group>"; };
+		B4E352910FC1867700403B70 /* GDataServiceGoogleBooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleBooks.m; sourceTree = "<group>"; };
+		B4E352930FC1867700403B70 /* GDataCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataCalendar.h; sourceTree = "<group>"; };
+		B4E352940FC1867700403B70 /* GDataEntryCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryCalendar.h; sourceTree = "<group>"; };
+		B4E352950FC1867700403B70 /* GDataEntryCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryCalendar.m; sourceTree = "<group>"; };
+		B4E352960FC1867700403B70 /* GDataEntryCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryCalendarEvent.h; sourceTree = "<group>"; };
+		B4E352970FC1867700403B70 /* GDataEntryCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryCalendarEvent.m; sourceTree = "<group>"; };
+		B4E352980FC1867700403B70 /* GDataEntryEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryEvent.h; sourceTree = "<group>"; };
+		B4E352990FC1867700403B70 /* GDataEntryEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryEvent.m; sourceTree = "<group>"; };
+		B4E3529A0FC1867700403B70 /* GDataEntryMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryMessage.h; sourceTree = "<group>"; };
+		B4E3529B0FC1867700403B70 /* GDataEntryMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryMessage.m; sourceTree = "<group>"; };
+		B4E3529C0FC1867700403B70 /* GDataFeedCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedCalendar.h; sourceTree = "<group>"; };
+		B4E3529D0FC1867700403B70 /* GDataFeedCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedCalendar.m; sourceTree = "<group>"; };
+		B4E3529E0FC1867700403B70 /* GDataFeedCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedCalendarEvent.h; sourceTree = "<group>"; };
+		B4E3529F0FC1867700403B70 /* GDataFeedCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedCalendarEvent.m; sourceTree = "<group>"; };
+		B4E352A00FC1867700403B70 /* GDataFeedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedEvent.h; sourceTree = "<group>"; };
+		B4E352A10FC1867700403B70 /* GDataFeedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedEvent.m; sourceTree = "<group>"; };
+		B4E352A20FC1867700403B70 /* GDataFeedMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedMessage.h; sourceTree = "<group>"; };
+		B4E352A30FC1867700403B70 /* GDataFeedMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedMessage.m; sourceTree = "<group>"; };
+		B4E352A40FC1867700403B70 /* GDataOriginalEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataOriginalEvent.h; sourceTree = "<group>"; };
+		B4E352A50FC1867700403B70 /* GDataOriginalEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataOriginalEvent.m; sourceTree = "<group>"; };
+		B4E352A60FC1867700403B70 /* GDataQueryCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryCalendar.h; sourceTree = "<group>"; };
+		B4E352A70FC1867700403B70 /* GDataQueryCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryCalendar.m; sourceTree = "<group>"; };
+		B4E352A80FC1867700403B70 /* GDataRecurrence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataRecurrence.h; sourceTree = "<group>"; };
+		B4E352A90FC1867700403B70 /* GDataRecurrence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataRecurrence.m; sourceTree = "<group>"; };
+		B4E352AA0FC1867700403B70 /* GDataRecurrenceException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataRecurrenceException.h; sourceTree = "<group>"; };
+		B4E352AB0FC1867700403B70 /* GDataRecurrenceException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataRecurrenceException.m; sourceTree = "<group>"; };
+		B4E352AC0FC1867700403B70 /* GDataReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataReminder.h; sourceTree = "<group>"; };
+		B4E352AD0FC1867700403B70 /* GDataReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataReminder.m; sourceTree = "<group>"; };
+		B4E352AE0FC1867700403B70 /* GDataServiceGoogleCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleCalendar.h; sourceTree = "<group>"; };
+		B4E352AF0FC1867700403B70 /* GDataServiceGoogleCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleCalendar.m; sourceTree = "<group>"; };
+		B4E352B00FC1867700403B70 /* GDataWebContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataWebContent.h; sourceTree = "<group>"; };
+		B4E352B10FC1867700403B70 /* GDataWebContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataWebContent.m; sourceTree = "<group>"; };
+		B4E352B30FC1867700403B70 /* GDataCodeSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataCodeSearch.h; sourceTree = "<group>"; };
+		B4E352B40FC1867700403B70 /* GDataCodeSearchFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataCodeSearchFile.h; sourceTree = "<group>"; };
+		B4E352B50FC1867700403B70 /* GDataCodeSearchFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataCodeSearchFile.m; sourceTree = "<group>"; };
+		B4E352B60FC1867700403B70 /* GDataCodeSearchMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataCodeSearchMatch.h; sourceTree = "<group>"; };
+		B4E352B70FC1867700403B70 /* GDataCodeSearchMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataCodeSearchMatch.m; sourceTree = "<group>"; };
+		B4E352B80FC1867700403B70 /* GDataCodeSearchPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataCodeSearchPackage.h; sourceTree = "<group>"; };
+		B4E352B90FC1867700403B70 /* GDataCodeSearchPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataCodeSearchPackage.m; sourceTree = "<group>"; };
+		B4E352BA0FC1867700403B70 /* GDataEntryCodeSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryCodeSearch.h; sourceTree = "<group>"; };
+		B4E352BB0FC1867700403B70 /* GDataEntryCodeSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryCodeSearch.m; sourceTree = "<group>"; };
+		B4E352BC0FC1867700403B70 /* GDataFeedCodeSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedCodeSearch.h; sourceTree = "<group>"; };
+		B4E352BD0FC1867700403B70 /* GDataFeedCodeSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedCodeSearch.m; sourceTree = "<group>"; };
+		B4E352BF0FC1867700403B70 /* GDataContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataContacts.h; sourceTree = "<group>"; };
+		B4E352C00FC1867700403B70 /* GDataEntryContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryContact.h; sourceTree = "<group>"; };
+		B4E352C10FC1867700403B70 /* GDataEntryContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryContact.m; sourceTree = "<group>"; };
+		B4E352C20FC1867700403B70 /* GDataEntryContactGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryContactGroup.h; sourceTree = "<group>"; };
+		B4E352C30FC1867700403B70 /* GDataEntryContactGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryContactGroup.m; sourceTree = "<group>"; };
+		B4E352C40FC1867700403B70 /* GDataFeedContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedContact.h; sourceTree = "<group>"; };
+		B4E352C50FC1867700403B70 /* GDataFeedContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedContact.m; sourceTree = "<group>"; };
+		B4E352C60FC1867700403B70 /* GDataFeedContactGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedContactGroup.h; sourceTree = "<group>"; };
+		B4E352C70FC1867700403B70 /* GDataFeedContactGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedContactGroup.m; sourceTree = "<group>"; };
+		B4E352C80FC1867700403B70 /* GDataGroupMembershipInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGroupMembershipInfo.h; sourceTree = "<group>"; };
+		B4E352C90FC1867700403B70 /* GDataGroupMembershipInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGroupMembershipInfo.m; sourceTree = "<group>"; };
+		B4E352CA0FC1867700403B70 /* GDataQueryContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryContact.h; sourceTree = "<group>"; };
+		B4E352CB0FC1867700403B70 /* GDataQueryContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryContact.m; sourceTree = "<group>"; };
+		B4E352CC0FC1867700403B70 /* GDataServiceGoogleContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleContact.h; sourceTree = "<group>"; };
+		B4E352CD0FC1867700403B70 /* GDataServiceGoogleContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleContact.m; sourceTree = "<group>"; };
+		B4E352CF0FC1867700403B70 /* GDataDocs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataDocs.h; sourceTree = "<group>"; };
+		B4E352D00FC1867700403B70 /* GDataEntryDocBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryDocBase.h; sourceTree = "<group>"; };
+		B4E352D10FC1867700403B70 /* GDataEntryDocBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryDocBase.m; sourceTree = "<group>"; };
+		B4E352D20FC1867700403B70 /* GDataEntryFolderDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryFolderDoc.h; sourceTree = "<group>"; };
+		B4E352D30FC1867700403B70 /* GDataEntryFolderDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryFolderDoc.m; sourceTree = "<group>"; };
+		B4E352D40FC1867700403B70 /* GDataEntryPDFDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryPDFDoc.h; sourceTree = "<group>"; };
+		B4E352D50FC1867700403B70 /* GDataEntryPDFDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryPDFDoc.m; sourceTree = "<group>"; };
+		B4E352D60FC1867700403B70 /* GDataEntryPresentationDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryPresentationDoc.h; sourceTree = "<group>"; };
+		B4E352D70FC1867700403B70 /* GDataEntryPresentationDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryPresentationDoc.m; sourceTree = "<group>"; };
+		B4E352D80FC1867700403B70 /* GDataEntrySpreadsheetDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheetDoc.h; sourceTree = "<group>"; };
+		B4E352D90FC1867700403B70 /* GDataEntrySpreadsheetDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySpreadsheetDoc.m; sourceTree = "<group>"; };
+		B4E352DA0FC1867700403B70 /* GDataEntryStandardDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryStandardDoc.h; sourceTree = "<group>"; };
+		B4E352DB0FC1867700403B70 /* GDataEntryStandardDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryStandardDoc.m; sourceTree = "<group>"; };
+		B4E352DC0FC1867700403B70 /* GDataFeedDocList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedDocList.h; sourceTree = "<group>"; };
+		B4E352DD0FC1867700403B70 /* GDataFeedDocList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedDocList.m; sourceTree = "<group>"; };
+		B4E352DE0FC1867700403B70 /* GDataQueryDocs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryDocs.h; sourceTree = "<group>"; };
+		B4E352DF0FC1867700403B70 /* GDataQueryDocs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryDocs.m; sourceTree = "<group>"; };
+		B4E352E00FC1867700403B70 /* GDataServiceGoogleDocs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleDocs.h; sourceTree = "<group>"; };
+		B4E352E10FC1867700403B70 /* GDataServiceGoogleDocs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleDocs.m; sourceTree = "<group>"; };
+		B4E352E30FC1867700403B70 /* GDataEntryFinancePortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryFinancePortfolio.h; sourceTree = "<group>"; };
+		B4E352E40FC1867700403B70 /* GDataEntryFinancePortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryFinancePortfolio.m; sourceTree = "<group>"; };
+		B4E352E50FC1867700403B70 /* GDataEntryFinancePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryFinancePosition.h; sourceTree = "<group>"; };
+		B4E352E60FC1867700403B70 /* GDataEntryFinancePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryFinancePosition.m; sourceTree = "<group>"; };
+		B4E352E70FC1867700403B70 /* GDataEntryFinanceTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryFinanceTransaction.h; sourceTree = "<group>"; };
+		B4E352E80FC1867700403B70 /* GDataEntryFinanceTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryFinanceTransaction.m; sourceTree = "<group>"; };
+		B4E352E90FC1867700403B70 /* GDataFeedFinancePortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedFinancePortfolio.h; sourceTree = "<group>"; };
+		B4E352EA0FC1867700403B70 /* GDataFeedFinancePortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedFinancePortfolio.m; sourceTree = "<group>"; };
+		B4E352EB0FC1867700403B70 /* GDataFeedFinancePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedFinancePosition.h; sourceTree = "<group>"; };
+		B4E352EC0FC1867700403B70 /* GDataFeedFinancePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedFinancePosition.m; sourceTree = "<group>"; };
+		B4E352ED0FC1867700403B70 /* GDataFeedFinanceTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedFinanceTransaction.h; sourceTree = "<group>"; };
+		B4E352EE0FC1867700403B70 /* GDataFeedFinanceTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedFinanceTransaction.m; sourceTree = "<group>"; };
+		B4E352EF0FC1867700403B70 /* GDataFinance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFinance.h; sourceTree = "<group>"; };
+		B4E352F00FC1867700403B70 /* GDataFinanceSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFinanceSymbol.h; sourceTree = "<group>"; };
+		B4E352F10FC1867700403B70 /* GDataFinanceSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFinanceSymbol.m; sourceTree = "<group>"; };
+		B4E352F20FC1867700403B70 /* GDataFinanceTransactionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFinanceTransactionData.h; sourceTree = "<group>"; };
+		B4E352F30FC1867700403B70 /* GDataFinanceTransactionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFinanceTransactionData.m; sourceTree = "<group>"; };
+		B4E352F40FC1867700403B70 /* GDataMoneyElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMoneyElements.h; sourceTree = "<group>"; };
+		B4E352F50FC1867700403B70 /* GDataMoneyElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMoneyElements.m; sourceTree = "<group>"; };
+		B4E352F60FC1867700403B70 /* GDataPortfolioElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataPortfolioElements.h; sourceTree = "<group>"; };
+		B4E352F70FC1867700403B70 /* GDataPortfolioElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataPortfolioElements.m; sourceTree = "<group>"; };
+		B4E352F80FC1867700403B70 /* GDataQueryFinance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryFinance.h; sourceTree = "<group>"; };
+		B4E352F90FC1867700403B70 /* GDataQueryFinance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryFinance.m; sourceTree = "<group>"; };
+		B4E352FA0FC1867700403B70 /* GDataServiceGoogleFinance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleFinance.h; sourceTree = "<group>"; };
+		B4E352FB0FC1867700403B70 /* GDataServiceGoogleFinance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleFinance.m; sourceTree = "<group>"; };
+		B4E352FD0FC1867700403B70 /* GDataEntryGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryGoogleBase.h; sourceTree = "<group>"; };
+		B4E352FE0FC1867700403B70 /* GDataEntryGoogleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryGoogleBase.m; sourceTree = "<group>"; };
+		B4E352FF0FC1867700403B70 /* GDataFeedGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedGoogleBase.h; sourceTree = "<group>"; };
+		B4E353000FC1867700403B70 /* GDataFeedGoogleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedGoogleBase.m; sourceTree = "<group>"; };
+		B4E353010FC1867700403B70 /* GDataGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGoogleBase.h; sourceTree = "<group>"; };
+		B4E353020FC1867700403B70 /* GDataGoogleBaseAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGoogleBaseAttribute.h; sourceTree = "<group>"; };
+		B4E353030FC1867700403B70 /* GDataGoogleBaseAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGoogleBaseAttribute.m; sourceTree = "<group>"; };
+		B4E353040FC1867700403B70 /* GDataGoogleBaseMetadataAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGoogleBaseMetadataAttribute.h; sourceTree = "<group>"; };
+		B4E353050FC1867700403B70 /* GDataGoogleBaseMetadataAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGoogleBaseMetadataAttribute.m; sourceTree = "<group>"; };
+		B4E353060FC1867700403B70 /* GDataGoogleBaseMetadataAttributeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGoogleBaseMetadataAttributeList.h; sourceTree = "<group>"; };
+		B4E353070FC1867700403B70 /* GDataGoogleBaseMetadataAttributeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGoogleBaseMetadataAttributeList.m; sourceTree = "<group>"; };
+		B4E353080FC1867700403B70 /* GDataGoogleBaseMetadataItemType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGoogleBaseMetadataItemType.h; sourceTree = "<group>"; };
+		B4E353090FC1867700403B70 /* GDataGoogleBaseMetadataItemType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGoogleBaseMetadataItemType.m; sourceTree = "<group>"; };
+		B4E3530A0FC1867700403B70 /* GDataGoogleBaseMetadataValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGoogleBaseMetadataValue.h; sourceTree = "<group>"; };
+		B4E3530B0FC1867700403B70 /* GDataGoogleBaseMetadataValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGoogleBaseMetadataValue.m; sourceTree = "<group>"; };
+		B4E3530C0FC1867700403B70 /* GDataQueryGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryGoogleBase.h; sourceTree = "<group>"; };
+		B4E3530D0FC1867700403B70 /* GDataQueryGoogleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryGoogleBase.m; sourceTree = "<group>"; };
+		B4E3530E0FC1867700403B70 /* GDataServiceGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleBase.h; sourceTree = "<group>"; };
+		B4E3530F0FC1867700403B70 /* GDataServiceGoogleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleBase.m; sourceTree = "<group>"; };
+		B4E353110FC1867700403B70 /* GDataEntryHealthProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryHealthProfile.h; sourceTree = "<group>"; };
+		B4E353120FC1867700403B70 /* GDataEntryHealthProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryHealthProfile.m; sourceTree = "<group>"; };
+		B4E353130FC1867700403B70 /* GDataEntryHealthRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryHealthRegister.h; sourceTree = "<group>"; };
+		B4E353140FC1867700403B70 /* GDataEntryHealthRegsiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryHealthRegsiter.m; sourceTree = "<group>"; };
+		B4E353150FC1867700403B70 /* GDataFeedHealthProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedHealthProfile.h; sourceTree = "<group>"; };
+		B4E353160FC1867700403B70 /* GDataFeedHealthProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedHealthProfile.m; sourceTree = "<group>"; };
+		B4E353170FC1867700403B70 /* GDataFeedHealthRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedHealthRegister.h; sourceTree = "<group>"; };
+		B4E353180FC1867700403B70 /* GDataFeedHealthRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedHealthRegister.m; sourceTree = "<group>"; };
+		B4E353190FC1867700403B70 /* GDataHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataHealth.h; sourceTree = "<group>"; };
+		B4E3531A0FC1867700403B70 /* GDataHealthElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataHealthElements.h; sourceTree = "<group>"; };
+		B4E3531B0FC1867700403B70 /* GDataHealthElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataHealthElements.m; sourceTree = "<group>"; };
+		B4E3531C0FC1867700403B70 /* GDataQueryGoogleHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryGoogleHealth.h; sourceTree = "<group>"; };
+		B4E3531D0FC1867700403B70 /* GDataQueryGoogleHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryGoogleHealth.m; sourceTree = "<group>"; };
+		B4E3531E0FC1867700403B70 /* GDataServiceGoogleHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleHealth.h; sourceTree = "<group>"; };
+		B4E3531F0FC1867700403B70 /* GDataServiceGoogleHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleHealth.m; sourceTree = "<group>"; };
+		B4E353210FC1867700403B70 /* GDataEntryPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryPhoto.h; sourceTree = "<group>"; };
+		B4E353220FC1867700403B70 /* GDataEntryPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryPhoto.m; sourceTree = "<group>"; };
+		B4E353230FC1867700403B70 /* GDataEntryPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryPhotoAlbum.h; sourceTree = "<group>"; };
+		B4E353240FC1867700403B70 /* GDataEntryPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryPhotoAlbum.m; sourceTree = "<group>"; };
+		B4E353250FC1867700403B70 /* GDataEntryPhotoBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryPhotoBase.h; sourceTree = "<group>"; };
+		B4E353260FC1867700403B70 /* GDataEntryPhotoBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryPhotoBase.m; sourceTree = "<group>"; };
+		B4E353270FC1867700403B70 /* GDataEntryPhotoComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryPhotoComment.h; sourceTree = "<group>"; };
+		B4E353280FC1867700403B70 /* GDataEntryPhotoComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryPhotoComment.m; sourceTree = "<group>"; };
+		B4E353290FC1867700403B70 /* GDataEntryPhotoTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryPhotoTag.h; sourceTree = "<group>"; };
+		B4E3532A0FC1867700403B70 /* GDataEntryPhotoTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryPhotoTag.m; sourceTree = "<group>"; };
+		B4E3532B0FC1867700403B70 /* GDataEntryPhotoUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryPhotoUser.h; sourceTree = "<group>"; };
+		B4E3532C0FC1867700403B70 /* GDataEntryPhotoUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryPhotoUser.m; sourceTree = "<group>"; };
+		B4E3532D0FC1867700403B70 /* GDataEXIFTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEXIFTags.h; sourceTree = "<group>"; };
+		B4E3532E0FC1867700403B70 /* GDataEXIFTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEXIFTags.m; sourceTree = "<group>"; };
+		B4E3532F0FC1867700403B70 /* GDataFeedPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedPhoto.h; sourceTree = "<group>"; };
+		B4E353300FC1867700403B70 /* GDataFeedPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedPhoto.m; sourceTree = "<group>"; };
+		B4E353310FC1867700403B70 /* GDataFeedPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedPhotoAlbum.h; sourceTree = "<group>"; };
+		B4E353320FC1867700403B70 /* GDataFeedPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedPhotoAlbum.m; sourceTree = "<group>"; };
+		B4E353330FC1867700403B70 /* GDataFeedPhotoBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedPhotoBase.h; sourceTree = "<group>"; };
+		B4E353340FC1867700403B70 /* GDataFeedPhotoBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedPhotoBase.m; sourceTree = "<group>"; };
+		B4E353350FC1867700403B70 /* GDataFeedPhotoUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedPhotoUser.h; sourceTree = "<group>"; };
+		B4E353360FC1867700403B70 /* GDataFeedPhotoUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedPhotoUser.m; sourceTree = "<group>"; };
+		B4E353370FC1867700403B70 /* GDataPhotoElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataPhotoElements.h; sourceTree = "<group>"; };
+		B4E353380FC1867700403B70 /* GDataPhotoElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataPhotoElements.m; sourceTree = "<group>"; };
+		B4E353390FC1867700403B70 /* GDataPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataPhotos.h; sourceTree = "<group>"; };
+		B4E3533A0FC1867700403B70 /* GDataQueryGooglePhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryGooglePhotos.h; sourceTree = "<group>"; };
+		B4E3533B0FC1867700403B70 /* GDataQueryGooglePhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryGooglePhotos.m; sourceTree = "<group>"; };
+		B4E3533C0FC1867700403B70 /* GDataServiceGooglePhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGooglePhotos.h; sourceTree = "<group>"; };
+		B4E3533D0FC1867700403B70 /* GDataServiceGooglePhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGooglePhotos.m; sourceTree = "<group>"; };
+		B4E3533F0FC1867700403B70 /* GDataEntrySpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheet.h; sourceTree = "<group>"; };
+		B4E353400FC1867700403B70 /* GDataEntrySpreadsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySpreadsheet.m; sourceTree = "<group>"; };
+		B4E353410FC1867700403B70 /* GDataEntrySpreadsheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheetCell.h; sourceTree = "<group>"; };
+		B4E353420FC1867700403B70 /* GDataEntrySpreadsheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySpreadsheetCell.m; sourceTree = "<group>"; };
+		B4E353430FC1867700403B70 /* GDataEntrySpreadsheetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheetList.h; sourceTree = "<group>"; };
+		B4E353440FC1867700403B70 /* GDataEntrySpreadsheetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySpreadsheetList.m; sourceTree = "<group>"; };
+		B4E353450FC1867700403B70 /* GDataEntryWorksheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryWorksheet.h; sourceTree = "<group>"; };
+		B4E353460FC1867700403B70 /* GDataEntryWorksheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryWorksheet.m; sourceTree = "<group>"; };
+		B4E353470FC1867700403B70 /* GDataFeedSpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSpreadsheet.h; sourceTree = "<group>"; };
+		B4E353480FC1867700403B70 /* GDataFeedSpreadsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSpreadsheet.m; sourceTree = "<group>"; };
+		B4E353490FC1867700403B70 /* GDataFeedSpreadsheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSpreadsheetCell.h; sourceTree = "<group>"; };
+		B4E3534A0FC1867700403B70 /* GDataFeedSpreadsheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSpreadsheetCell.m; sourceTree = "<group>"; };
+		B4E3534B0FC1867700403B70 /* GDataFeedSpreadsheetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSpreadsheetList.h; sourceTree = "<group>"; };
+		B4E3534C0FC1867700403B70 /* GDataFeedSpreadsheetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSpreadsheetList.m; sourceTree = "<group>"; };
+		B4E3534D0FC1867700403B70 /* GDataFeedWorksheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedWorksheet.h; sourceTree = "<group>"; };
+		B4E3534E0FC1867700403B70 /* GDataFeedWorksheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedWorksheet.m; sourceTree = "<group>"; };
+		B4E3534F0FC1867700403B70 /* GDataQuerySpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQuerySpreadsheet.h; sourceTree = "<group>"; };
+		B4E353500FC1867700403B70 /* GDataQuerySpreadsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQuerySpreadsheet.m; sourceTree = "<group>"; };
+		B4E353510FC1867700403B70 /* GDataRowColumnCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataRowColumnCount.h; sourceTree = "<group>"; };
+		B4E353520FC1867700403B70 /* GDataRowColumnCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataRowColumnCount.m; sourceTree = "<group>"; };
+		B4E353530FC1867700403B70 /* GDataServiceGoogleSpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleSpreadsheet.h; sourceTree = "<group>"; };
+		B4E353540FC1867700403B70 /* GDataServiceGoogleSpreadsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleSpreadsheet.m; sourceTree = "<group>"; };
+		B4E353550FC1867700403B70 /* GDataSpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheet.h; sourceTree = "<group>"; };
+		B4E353560FC1867700403B70 /* GDataSpreadsheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheetCell.h; sourceTree = "<group>"; };
+		B4E353570FC1867700403B70 /* GDataSpreadsheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSpreadsheetCell.m; sourceTree = "<group>"; };
+		B4E353580FC1867700403B70 /* GDataSpreadsheetCustomElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheetCustomElement.h; sourceTree = "<group>"; };
+		B4E353590FC1867700403B70 /* GDataSpreadsheetCustomElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSpreadsheetCustomElement.m; sourceTree = "<group>"; };
+		B4E3535B0FC1867700403B70 /* GDataEntrySite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySite.h; sourceTree = "<group>"; };
+		B4E3535C0FC1867700403B70 /* GDataEntrySite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySite.m; sourceTree = "<group>"; };
+		B4E3535D0FC1867700403B70 /* GDataEntrySitemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySitemap.h; sourceTree = "<group>"; };
+		B4E3535E0FC1867700403B70 /* GDataEntrySitemap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySitemap.m; sourceTree = "<group>"; };
+		B4E3535F0FC1867700403B70 /* GDataFeedSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSite.h; sourceTree = "<group>"; };
+		B4E353600FC1867700403B70 /* GDataFeedSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSite.m; sourceTree = "<group>"; };
+		B4E353610FC1867700403B70 /* GDataFeedSitemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSitemap.h; sourceTree = "<group>"; };
+		B4E353620FC1867700403B70 /* GDataFeedSitemap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSitemap.m; sourceTree = "<group>"; };
+		B4E353630FC1867700403B70 /* GDataServiceGoogleWebmasterTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleWebmasterTools.h; sourceTree = "<group>"; };
+		B4E353640FC1867700403B70 /* GDataServiceGoogleWebmasterTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleWebmasterTools.m; sourceTree = "<group>"; };
+		B4E353650FC1867700403B70 /* GDataSitemapMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSitemapMobile.h; sourceTree = "<group>"; };
+		B4E353660FC1867700403B70 /* GDataSitemapMobile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSitemapMobile.m; sourceTree = "<group>"; };
+		B4E353670FC1867700403B70 /* GDataSitemapNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSitemapNews.h; sourceTree = "<group>"; };
+		B4E353680FC1867700403B70 /* GDataSitemapNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSitemapNews.m; sourceTree = "<group>"; };
+		B4E353690FC1867700403B70 /* GDataSiteVerificationMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSiteVerificationMethod.h; sourceTree = "<group>"; };
+		B4E3536A0FC1867700403B70 /* GDataSiteVerificationMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSiteVerificationMethod.m; sourceTree = "<group>"; };
+		B4E3536B0FC1867700403B70 /* GDataWebmasterTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataWebmasterTools.h; sourceTree = "<group>"; };
+		B4E3536D0FC1867700403B70 /* GDataEntryYouTubeChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeChannel.h; sourceTree = "<group>"; };
+		B4E3536E0FC1867700403B70 /* GDataEntryYouTubeChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeChannel.m; sourceTree = "<group>"; };
+		B4E3536F0FC1867700403B70 /* GDataEntryYouTubeComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeComment.h; sourceTree = "<group>"; };
+		B4E353700FC1867700403B70 /* GDataEntryYouTubeComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeComment.m; sourceTree = "<group>"; };
+		B4E353710FC1867700403B70 /* GDataEntryYouTubeComplaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeComplaint.h; sourceTree = "<group>"; };
+		B4E353720FC1867700403B70 /* GDataEntryYouTubeComplaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeComplaint.m; sourceTree = "<group>"; };
+		B4E353730FC1867700403B70 /* GDataEntryYouTubeFavorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeFavorite.h; sourceTree = "<group>"; };
+		B4E353740FC1867700403B70 /* GDataEntryYouTubeFavorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeFavorite.m; sourceTree = "<group>"; };
+		B4E353750FC1867700403B70 /* GDataEntryYouTubeFeedLinkBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeFeedLinkBase.h; sourceTree = "<group>"; };
+		B4E353760FC1867700403B70 /* GDataEntryYouTubeFeedLinkBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeFeedLinkBase.m; sourceTree = "<group>"; };
+		B4E353770FC1867700403B70 /* GDataEntryYouTubeFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeFriend.h; sourceTree = "<group>"; };
+		B4E353780FC1867700403B70 /* GDataEntryYouTubeFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeFriend.m; sourceTree = "<group>"; };
+		B4E353790FC1867700403B70 /* GDataEntryYouTubePlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubePlaylist.h; sourceTree = "<group>"; };
+		B4E3537A0FC1867700403B70 /* GDataEntryYouTubePlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubePlaylist.m; sourceTree = "<group>"; };
+		B4E3537B0FC1867700403B70 /* GDataEntryYouTubePlaylistLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubePlaylistLink.h; sourceTree = "<group>"; };
+		B4E3537C0FC1867700403B70 /* GDataEntryYouTubePlaylistLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubePlaylistLink.m; sourceTree = "<group>"; };
+		B4E3537D0FC1867700403B70 /* GDataEntryYouTubeRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeRating.h; sourceTree = "<group>"; };
+		B4E3537E0FC1867700403B70 /* GDataEntryYouTubeRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeRating.m; sourceTree = "<group>"; };
+		B4E3537F0FC1867700403B70 /* GDataEntryYouTubeSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeSubscription.h; sourceTree = "<group>"; };
+		B4E353800FC1867700403B70 /* GDataEntryYouTubeSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeSubscription.m; sourceTree = "<group>"; };
+		B4E353810FC1867700403B70 /* GDataEntryYouTubeUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeUpload.h; sourceTree = "<group>"; };
+		B4E353820FC1867700403B70 /* GDataEntryYouTubeUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeUpload.m; sourceTree = "<group>"; };
+		B4E353830FC1867700403B70 /* GDataEntryYouTubeUserEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeUserEvent.h; sourceTree = "<group>"; };
+		B4E353840FC1867700403B70 /* GDataEntryYouTubeUserEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeUserEvent.m; sourceTree = "<group>"; };
+		B4E353850FC1867700403B70 /* GDataEntryYouTubeUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeUserProfile.h; sourceTree = "<group>"; };
+		B4E353860FC1867700403B70 /* GDataEntryYouTubeUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeUserProfile.m; sourceTree = "<group>"; };
+		B4E353870FC1867700403B70 /* GDataEntryYouTubeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeVideo.h; sourceTree = "<group>"; };
+		B4E353880FC1867700403B70 /* GDataEntryYouTubeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeVideo.m; sourceTree = "<group>"; };
+		B4E353890FC1867700403B70 /* GDataEntryYouTubeVideoMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryYouTubeVideoMessage.h; sourceTree = "<group>"; };
+		B4E3538A0FC1867700403B70 /* GDataEntryYouTubeVideoMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryYouTubeVideoMessage.m; sourceTree = "<group>"; };
+		B4E3538B0FC1867700403B70 /* GDataFeedYouTubeChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeChannel.h; sourceTree = "<group>"; };
+		B4E3538C0FC1867700403B70 /* GDataFeedYouTubeChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeChannel.m; sourceTree = "<group>"; };
+		B4E3538D0FC1867700403B70 /* GDataFeedYouTubeComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeComment.h; sourceTree = "<group>"; };
+		B4E3538E0FC1867700403B70 /* GDataFeedYouTubeComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeComment.m; sourceTree = "<group>"; };
+		B4E3538F0FC1867700403B70 /* GDataFeedYouTubeComplaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeComplaint.h; sourceTree = "<group>"; };
+		B4E353900FC1867700403B70 /* GDataFeedYouTubeComplaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeComplaint.m; sourceTree = "<group>"; };
+		B4E353910FC1867700403B70 /* GDataFeedYouTubeFavorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeFavorite.h; sourceTree = "<group>"; };
+		B4E353920FC1867700403B70 /* GDataFeedYouTubeFavorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeFavorite.m; sourceTree = "<group>"; };
+		B4E353930FC1867700403B70 /* GDataFeedYouTubeFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeFriend.h; sourceTree = "<group>"; };
+		B4E353940FC1867700403B70 /* GDataFeedYouTubeFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeFriend.m; sourceTree = "<group>"; };
+		B4E353950FC1867700403B70 /* GDataFeedYouTubePlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubePlaylist.h; sourceTree = "<group>"; };
+		B4E353960FC1867700403B70 /* GDataFeedYouTubePlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubePlaylist.m; sourceTree = "<group>"; };
+		B4E353970FC1867700403B70 /* GDataFeedYouTubePlaylistLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubePlaylistLink.h; sourceTree = "<group>"; };
+		B4E353980FC1867700403B70 /* GDataFeedYouTubePlaylistLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubePlaylistLink.m; sourceTree = "<group>"; };
+		B4E353990FC1867700403B70 /* GDataFeedYouTubeRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeRating.h; sourceTree = "<group>"; };
+		B4E3539A0FC1867700403B70 /* GDataFeedYouTubeRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeRating.m; sourceTree = "<group>"; };
+		B4E3539B0FC1867700403B70 /* GDataFeedYouTubeSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeSubscription.h; sourceTree = "<group>"; };
+		B4E3539C0FC1867700403B70 /* GDataFeedYouTubeSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeSubscription.m; sourceTree = "<group>"; };
+		B4E3539D0FC1867700403B70 /* GDataFeedYouTubeUserEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeUserEvent.h; sourceTree = "<group>"; };
+		B4E3539E0FC1867700403B70 /* GDataFeedYouTubeUserEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeUserEvent.m; sourceTree = "<group>"; };
+		B4E3539F0FC1867700403B70 /* GDataFeedYouTubeUserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeUserProfile.h; sourceTree = "<group>"; };
+		B4E353A00FC1867700403B70 /* GDataFeedYouTubeUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeUserProfile.m; sourceTree = "<group>"; };
+		B4E353A10FC1867700403B70 /* GDataFeedYouTubeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeVideo.h; sourceTree = "<group>"; };
+		B4E353A20FC1867700403B70 /* GDataFeedYouTubeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeVideo.m; sourceTree = "<group>"; };
+		B4E353A30FC1867700403B70 /* GDataFeedYouTubeVideoMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedYouTubeVideoMessage.h; sourceTree = "<group>"; };
+		B4E353A40FC1867700403B70 /* GDataFeedYouTubeVideoMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedYouTubeVideoMessage.m; sourceTree = "<group>"; };
+		B4E353A50FC1867700403B70 /* GDataQueryYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQueryYouTube.h; sourceTree = "<group>"; };
+		B4E353A60FC1867700403B70 /* GDataQueryYouTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQueryYouTube.m; sourceTree = "<group>"; };
+		B4E353A70FC1867700403B70 /* GDataServiceGoogleYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleYouTube.h; sourceTree = "<group>"; };
+		B4E353A80FC1867700403B70 /* GDataServiceGoogleYouTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleYouTube.m; sourceTree = "<group>"; };
+		B4E353A90FC1867700403B70 /* GDataYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataYouTube.h; sourceTree = "<group>"; };
+		B4E353AA0FC1867700403B70 /* GDataYouTubeElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataYouTubeElements.h; sourceTree = "<group>"; };
+		B4E353AB0FC1867700403B70 /* GDataYouTubeElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataYouTubeElements.m; sourceTree = "<group>"; };
+		B4E353AC0FC1867700403B70 /* GDataYouTubeMediaElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataYouTubeMediaElements.h; sourceTree = "<group>"; };
+		B4E353AD0FC1867700403B70 /* GDataYouTubeMediaElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataYouTubeMediaElements.m; sourceTree = "<group>"; };
+		B4E353AE0FC1867700403B70 /* GDataYouTubePublicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataYouTubePublicationState.h; sourceTree = "<group>"; };
+		B4E353AF0FC1867700403B70 /* GDataYouTubePublicationState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataYouTubePublicationState.m; sourceTree = "<group>"; };
+		B4E353B00FC1867700403B70 /* GDataYouTubeStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataYouTubeStatistics.h; sourceTree = "<group>"; };
+		B4E353B10FC1867700403B70 /* GDataYouTubeStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataYouTubeStatistics.m; sourceTree = "<group>"; };
+		B4E353B30FC1867700403B70 /* GDataAtomPubControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataAtomPubControl.h; sourceTree = "<group>"; };
+		B4E353B40FC1867700403B70 /* GDataAtomPubControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataAtomPubControl.m; sourceTree = "<group>"; };
+		B4E353B50FC1867700403B70 /* GDataBaseElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataBaseElements.h; sourceTree = "<group>"; };
+		B4E353B60FC1867700403B70 /* GDataBaseElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataBaseElements.m; sourceTree = "<group>"; };
+		B4E353B70FC1867700403B70 /* GDataBatchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataBatchID.h; sourceTree = "<group>"; };
+		B4E353B80FC1867700403B70 /* GDataBatchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataBatchID.m; sourceTree = "<group>"; };
+		B4E353B90FC1867700403B70 /* GDataBatchInterrupted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataBatchInterrupted.h; sourceTree = "<group>"; };
+		B4E353BA0FC1867700403B70 /* GDataBatchInterrupted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataBatchInterrupted.m; sourceTree = "<group>"; };
+		B4E353BB0FC1867700403B70 /* GDataBatchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataBatchOperation.h; sourceTree = "<group>"; };
+		B4E353BC0FC1867700403B70 /* GDataBatchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataBatchOperation.m; sourceTree = "<group>"; };
+		B4E353BD0FC1867700403B70 /* GDataBatchStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataBatchStatus.h; sourceTree = "<group>"; };
+		B4E353BE0FC1867700403B70 /* GDataBatchStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataBatchStatus.m; sourceTree = "<group>"; };
+		B4E353BF0FC1867700403B70 /* GDataCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataCategory.h; sourceTree = "<group>"; };
+		B4E353C00FC1867700403B70 /* GDataCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataCategory.m; sourceTree = "<group>"; };
+		B4E353C10FC1867700403B70 /* GDataComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataComment.h; sourceTree = "<group>"; };
+		B4E353C20FC1867700403B70 /* GDataComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataComment.m; sourceTree = "<group>"; };
+		B4E353C30FC1867700403B70 /* GDataDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataDateTime.h; sourceTree = "<group>"; };
+		B4E353C40FC1867700403B70 /* GDataDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataDateTime.m; sourceTree = "<group>"; };
+		B4E353C50FC1867700403B70 /* GDataDeleted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataDeleted.h; sourceTree = "<group>"; };
+		B4E353C60FC1867700403B70 /* GDataDeleted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataDeleted.m; sourceTree = "<group>"; };
+		B4E353C70FC1867700403B70 /* GDataElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataElements.h; sourceTree = "<group>"; };
+		B4E353C80FC1867700403B70 /* GDataEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEmail.h; sourceTree = "<group>"; };
+		B4E353C90FC1867700403B70 /* GDataEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEmail.m; sourceTree = "<group>"; };
+		B4E353CA0FC1867700403B70 /* GDataEntryContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryContent.h; sourceTree = "<group>"; };
+		B4E353CB0FC1867700403B70 /* GDataEntryContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryContent.m; sourceTree = "<group>"; };
+		B4E353CC0FC1867700403B70 /* GDataEntryLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryLink.h; sourceTree = "<group>"; };
+		B4E353CD0FC1867700403B70 /* GDataEntryLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryLink.m; sourceTree = "<group>"; };
+		B4E353CE0FC1867700403B70 /* GDataExtendedProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataExtendedProperty.h; sourceTree = "<group>"; };
+		B4E353CF0FC1867700403B70 /* GDataExtendedProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataExtendedProperty.m; sourceTree = "<group>"; };
+		B4E353D00FC1867700403B70 /* GDataFeedLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedLink.h; sourceTree = "<group>"; };
+		B4E353D10FC1867700403B70 /* GDataFeedLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedLink.m; sourceTree = "<group>"; };
+		B4E353D20FC1867700403B70 /* GDataGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGenerator.h; sourceTree = "<group>"; };
+		B4E353D30FC1867700403B70 /* GDataGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGenerator.m; sourceTree = "<group>"; };
+		B4E353D40FC1867700403B70 /* GDataGeoPt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGeoPt.h; sourceTree = "<group>"; };
+		B4E353D50FC1867700403B70 /* GDataGeoPt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGeoPt.m; sourceTree = "<group>"; };
+		B4E353D60FC1867700403B70 /* GDataIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataIM.h; sourceTree = "<group>"; };
+		B4E353D70FC1867700403B70 /* GDataIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataIM.m; sourceTree = "<group>"; };
+		B4E353D80FC1867700403B70 /* GDataLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataLink.h; sourceTree = "<group>"; };
+		B4E353D90FC1867700403B70 /* GDataLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataLink.m; sourceTree = "<group>"; };
+		B4E353DA0FC1867700403B70 /* GDataMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMoney.h; sourceTree = "<group>"; };
+		B4E353DB0FC1867700403B70 /* GDataMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMoney.m; sourceTree = "<group>"; };
+		B4E353DC0FC1867700403B70 /* GDataOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataOrganization.h; sourceTree = "<group>"; };
+		B4E353DD0FC1867700403B70 /* GDataOrganization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataOrganization.m; sourceTree = "<group>"; };
+		B4E353DE0FC1867700403B70 /* GDataPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataPerson.h; sourceTree = "<group>"; };
+		B4E353DF0FC1867700403B70 /* GDataPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataPerson.m; sourceTree = "<group>"; };
+		B4E353E00FC1867700403B70 /* GDataPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataPhoneNumber.h; sourceTree = "<group>"; };
+		B4E353E10FC1867700403B70 /* GDataPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataPhoneNumber.m; sourceTree = "<group>"; };
+		B4E353E20FC1867700403B70 /* GDataPostalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataPostalAddress.h; sourceTree = "<group>"; };
+		B4E353E30FC1867700403B70 /* GDataPostalAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataPostalAddress.m; sourceTree = "<group>"; };
+		B4E353E40FC1867700403B70 /* GDataRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataRating.h; sourceTree = "<group>"; };
+		B4E353E50FC1867700403B70 /* GDataRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataRating.m; sourceTree = "<group>"; };
+		B4E353E60FC1867700403B70 /* GDataTextConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataTextConstruct.h; sourceTree = "<group>"; };
+		B4E353E70FC1867700403B70 /* GDataTextConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataTextConstruct.m; sourceTree = "<group>"; };
+		B4E353E80FC1867700403B70 /* GDataValueConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataValueConstruct.h; sourceTree = "<group>"; };
+		B4E353E90FC1867700403B70 /* GDataValueConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataValueConstruct.m; sourceTree = "<group>"; };
+		B4E353EA0FC1867700403B70 /* GDataWhen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataWhen.h; sourceTree = "<group>"; };
+		B4E353EB0FC1867700403B70 /* GDataWhen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataWhen.m; sourceTree = "<group>"; };
+		B4E353EC0FC1867700403B70 /* GDataWhere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataWhere.h; sourceTree = "<group>"; };
+		B4E353ED0FC1867700403B70 /* GDataWhere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataWhere.m; sourceTree = "<group>"; };
+		B4E353EE0FC1867700403B70 /* GDataWho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataWho.h; sourceTree = "<group>"; };
+		B4E353EF0FC1867700403B70 /* GDataWho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataWho.m; sourceTree = "<group>"; };
+		B4E353F00FC1867700403B70 /* GData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GData.h; sourceTree = "<group>"; };
+		B4E353F40FC1867700403B70 /* GDataDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataDefines.h; sourceTree = "<group>"; };
+		B4E353F50FC1867700403B70 /* GDataFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFramework.h; sourceTree = "<group>"; };
+		B4E353F60FC1867700403B70 /* GDataFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFramework.m; sourceTree = "<group>"; };
+		B4E353F70FC1867700403B70 /* GDataTargetNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataTargetNamespace.h; sourceTree = "<group>"; };
+		B4E353F80FC1867700403B70 /* GDataUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataUtilities.h; sourceTree = "<group>"; };
+		B4E353F90FC1867700403B70 /* GDataUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataUtilities.m; sourceTree = "<group>"; };
+		B4E353FB0FC1867700403B70 /* GDataGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGeo.h; sourceTree = "<group>"; };
+		B4E353FC0FC1867700403B70 /* GDataGeo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGeo.m; sourceTree = "<group>"; };
+		B4E353FE0FC1867700403B70 /* GDataAtomCategoryGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataAtomCategoryGroup.h; sourceTree = "<group>"; };
+		B4E353FF0FC1867700403B70 /* GDataAtomCategoryGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataAtomCategoryGroup.m; sourceTree = "<group>"; };
+		B4E354000FC1867700403B70 /* GDataAtomCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataAtomCollection.h; sourceTree = "<group>"; };
+		B4E354010FC1867700403B70 /* GDataAtomCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataAtomCollection.m; sourceTree = "<group>"; };
+		B4E354020FC1867700403B70 /* GDataAtomServiceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataAtomServiceDocument.h; sourceTree = "<group>"; };
+		B4E354030FC1867700403B70 /* GDataAtomServiceDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataAtomServiceDocument.m; sourceTree = "<group>"; };
+		B4E354040FC1867700403B70 /* GDataAtomWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataAtomWorkspace.h; sourceTree = "<group>"; };
+		B4E354050FC1867700403B70 /* GDataAtomWorkspace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataAtomWorkspace.m; sourceTree = "<group>"; };
+		B4E354060FC1867700403B70 /* GDataServiceIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceIntrospection.h; sourceTree = "<group>"; };
+		B4E354080FC1867700403B70 /* GDataMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMedia.h; sourceTree = "<group>"; };
+		B4E354090FC1867700403B70 /* GDataMediaCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMediaCategory.h; sourceTree = "<group>"; };
+		B4E3540A0FC1867700403B70 /* GDataMediaCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMediaCategory.m; sourceTree = "<group>"; };
+		B4E3540B0FC1867700403B70 /* GDataMediaContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMediaContent.h; sourceTree = "<group>"; };
+		B4E3540C0FC1867700403B70 /* GDataMediaContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMediaContent.m; sourceTree = "<group>"; };
+		B4E3540D0FC1867700403B70 /* GDataMediaCredit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMediaCredit.h; sourceTree = "<group>"; };
+		B4E3540E0FC1867700403B70 /* GDataMediaCredit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMediaCredit.m; sourceTree = "<group>"; };
+		B4E3540F0FC1867700403B70 /* GDataMediaGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMediaGroup.h; sourceTree = "<group>"; };
+		B4E354100FC1867700403B70 /* GDataMediaGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMediaGroup.m; sourceTree = "<group>"; };
+		B4E354110FC1867700403B70 /* GDataMediaKeywords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMediaKeywords.h; sourceTree = "<group>"; };
+		B4E354120FC1867700403B70 /* GDataMediaKeywords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMediaKeywords.m; sourceTree = "<group>"; };
+		B4E354130FC1867700403B70 /* GDataMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMediaPlayer.h; sourceTree = "<group>"; };
+		B4E354140FC1867700403B70 /* GDataMediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMediaPlayer.m; sourceTree = "<group>"; };
+		B4E354150FC1867700403B70 /* GDataMediaRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMediaRating.h; sourceTree = "<group>"; };
+		B4E354160FC1867700403B70 /* GDataMediaRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMediaRating.m; sourceTree = "<group>"; };
+		B4E354170FC1867700403B70 /* GDataMediaRestriction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMediaRestriction.h; sourceTree = "<group>"; };
+		B4E354180FC1867700403B70 /* GDataMediaRestriction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMediaRestriction.m; sourceTree = "<group>"; };
+		B4E354190FC1867700403B70 /* GDataMediaThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMediaThumbnail.h; sourceTree = "<group>"; };
+		B4E3541A0FC1867700403B70 /* GDataMediaThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMediaThumbnail.m; sourceTree = "<group>"; };
+		B4E3541B0FC1867700403B70 /* GDataNormalPlayTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataNormalPlayTime.h; sourceTree = "<group>"; };
+		B4E3541C0FC1867700403B70 /* GDataNormalPlayTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataNormalPlayTime.m; sourceTree = "<group>"; };
+		B4E3541E0FC1867700403B70 /* GDataGatherInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataGatherInputStream.h; sourceTree = "<group>"; };
+		B4E3541F0FC1867700403B70 /* GDataGatherInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataGatherInputStream.m; sourceTree = "<group>"; };
+		B4E354200FC1867700403B70 /* GDataHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataHTTPFetcher.h; sourceTree = "<group>"; };
+		B4E354210FC1867700403B70 /* GDataHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataHTTPFetcher.m; sourceTree = "<group>"; };
+		B4E354220FC1867700403B70 /* GDataHTTPFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataHTTPFetcherLogging.h; sourceTree = "<group>"; };
+		B4E354230FC1867700403B70 /* GDataHTTPFetcherLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataHTTPFetcherLogging.m; sourceTree = "<group>"; };
+		B4E354240FC1867700403B70 /* GDataMIMEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataMIMEDocument.h; sourceTree = "<group>"; };
+		B4E354250FC1867700403B70 /* GDataMIMEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataMIMEDocument.m; sourceTree = "<group>"; };
+		B4E354260FC1867700403B70 /* GDataProgressMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataProgressMonitorInputStream.h; sourceTree = "<group>"; };
+		B4E354270FC1867700403B70 /* GDataProgressMonitorInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataProgressMonitorInputStream.m; sourceTree = "<group>"; };
+		B4E354280FC1867700403B70 /* GDataServerError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServerError.h; sourceTree = "<group>"; };
+		B4E354290FC1867700403B70 /* GDataServerError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServerError.m; sourceTree = "<group>"; };
+		B4E3542A0FC1867700403B70 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		B4E354710FC1867700403B70 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		B4E354720FC1867700403B70 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		B4E357710FC220D400403B70 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +696,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B4E350B70FC1867600403B70 /* GData */,
 				B492D6E10FC09AE20052EA4E /* domain */,
 				B492D47C0FBFC9340052EA4E /* ui */,
 				B492D36E0FBFAA600052EA4E /* dao */,
@@ -100,8 +731,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B4E357710FC220D400403B70 /* main.m */,
 				28A0AAE50D9B0CCF005BE974 /* igFinance_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -165,6 +796,607 @@
 			name = domain;
 			sourceTree = "<group>";
 		};
+		B4E350B70FC1867600403B70 /* GData */ = {
+			isa = PBXGroup;
+			children = (
+				B4E350B80FC1867600403B70 /* ACL */,
+				B4E350C40FC1867600403B70 /* BaseClasses */,
+				B4E352850FC1867700403B70 /* Clients */,
+				B4E353B20FC1867700403B70 /* Elements */,
+				B4E353F00FC1867700403B70 /* GData.h */,
+				B4E353F40FC1867700403B70 /* GDataDefines.h */,
+				B4E353F50FC1867700403B70 /* GDataFramework.h */,
+				B4E353F60FC1867700403B70 /* GDataFramework.m */,
+				B4E353F70FC1867700403B70 /* GDataTargetNamespace.h */,
+				B4E353F80FC1867700403B70 /* GDataUtilities.h */,
+				B4E353F90FC1867700403B70 /* GDataUtilities.m */,
+				B4E353FA0FC1867700403B70 /* Geo */,
+				B4E353FD0FC1867700403B70 /* Introspection */,
+				B4E354070FC1867700403B70 /* Media */,
+				B4E3541D0FC1867700403B70 /* Networking */,
+				B4E3542A0FC1867700403B70 /* ReleaseNotes.txt */,
+				B4E354700FC1867700403B70 /* XMLSupport */,
+			);
+			path = GData;
+			sourceTree = SOURCE_ROOT;
+		};
+		B4E350B80FC1867600403B70 /* ACL */ = {
+			isa = PBXGroup;
+			children = (
+				B4E350B90FC1867600403B70 /* GDataACL.h */,
+				B4E350BA0FC1867600403B70 /* GDataACLRole.h */,
+				B4E350BB0FC1867600403B70 /* GDataACLRole.m */,
+				B4E350BC0FC1867600403B70 /* GDataACLScope.h */,
+				B4E350BD0FC1867600403B70 /* GDataACLScope.m */,
+				B4E350BE0FC1867600403B70 /* GDataEntryACL.h */,
+				B4E350BF0FC1867600403B70 /* GDataEntryACL.m */,
+				B4E350C00FC1867600403B70 /* GDataFeedACL.h */,
+				B4E350C10FC1867600403B70 /* GDataFeedACL.m */,
+				B4E350C20FC1867600403B70 /* GDataServiceACL.h */,
+				B4E350C30FC1867600403B70 /* GDataServiceACL.m */,
+			);
+			path = ACL;
+			sourceTree = "<group>";
+		};
+		B4E350C40FC1867600403B70 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B4E350C50FC1867600403B70 /* GDataEntryBase.h */,
+				B4E350C60FC1867600403B70 /* GDataEntryBase.m */,
+				B4E350C70FC1867600403B70 /* GDataFeedBase.h */,
+				B4E350C80FC1867600403B70 /* GDataFeedBase.m */,
+				B4E350C90FC1867600403B70 /* GDataObject.h */,
+				B4E350CA0FC1867600403B70 /* GDataObject.m */,
+				B4E350CB0FC1867600403B70 /* GDataQuery.h */,
+				B4E350CC0FC1867600403B70 /* GDataQuery.m */,
+				B4E350CD0FC1867600403B70 /* GDataServiceBase.h */,
+				B4E350CE0FC1867600403B70 /* GDataServiceBase.m */,
+				B4E350CF0FC1867600403B70 /* GDataServiceGoogle.h */,
+				B4E350D00FC1867600403B70 /* GDataServiceGoogle.m */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		B4E352850FC1867700403B70 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				B4E352860FC1867700403B70 /* Books */,
+				B4E352920FC1867700403B70 /* Calendar */,
+				B4E352B20FC1867700403B70 /* CodeSearch */,
+				B4E352BE0FC1867700403B70 /* Contacts */,
+				B4E352CE0FC1867700403B70 /* Docs */,
+				B4E352E20FC1867700403B70 /* Finance */,
+				B4E352FC0FC1867700403B70 /* GoogleBase */,
+				B4E353100FC1867700403B70 /* Health */,
+				B4E353200FC1867700403B70 /* Photos */,
+				B4E3533E0FC1867700403B70 /* Spreadsheets */,
+				B4E3535A0FC1867700403B70 /* WebmasterTools */,
+				B4E3536C0FC1867700403B70 /* YouTube */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		B4E352860FC1867700403B70 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				B4E352870FC1867700403B70 /* GDataBooks.h */,
+				B4E352880FC1867700403B70 /* GDataDublinCore.h */,
+				B4E352890FC1867700403B70 /* GDataDublinCore.m */,
+				B4E3528A0FC1867700403B70 /* GDataEntryVolume.h */,
+				B4E3528B0FC1867700403B70 /* GDataEntryVolume.m */,
+				B4E3528C0FC1867700403B70 /* GDataFeedVolume.h */,
+				B4E3528D0FC1867700403B70 /* GDataFeedVolume.m */,
+				B4E3528E0FC1867700403B70 /* GDataQueryBooks.h */,
+				B4E3528F0FC1867700403B70 /* GDataQueryBooks.m */,
+				B4E352900FC1867700403B70 /* GDataServiceGoogleBooks.h */,
+				B4E352910FC1867700403B70 /* GDataServiceGoogleBooks.m */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		B4E352920FC1867700403B70 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				B4E352930FC1867700403B70 /* GDataCalendar.h */,
+				B4E352940FC1867700403B70 /* GDataEntryCalendar.h */,
+				B4E352950FC1867700403B70 /* GDataEntryCalendar.m */,
+				B4E352960FC1867700403B70 /* GDataEntryCalendarEvent.h */,
+				B4E352970FC1867700403B70 /* GDataEntryCalendarEvent.m */,
+				B4E352980FC1867700403B70 /* GDataEntryEvent.h */,
+				B4E352990FC1867700403B70 /* GDataEntryEvent.m */,
+				B4E3529A0FC1867700403B70 /* GDataEntryMessage.h */,
+				B4E3529B0FC1867700403B70 /* GDataEntryMessage.m */,
+				B4E3529C0FC1867700403B70 /* GDataFeedCalendar.h */,
+				B4E3529D0FC1867700403B70 /* GDataFeedCalendar.m */,
+				B4E3529E0FC1867700403B70 /* GDataFeedCalendarEvent.h */,
+				B4E3529F0FC1867700403B70 /* GDataFeedCalendarEvent.m */,
+				B4E352A00FC1867700403B70 /* GDataFeedEvent.h */,
+				B4E352A10FC1867700403B70 /* GDataFeedEvent.m */,
+				B4E352A20FC1867700403B70 /* GDataFeedMessage.h */,
+				B4E352A30FC1867700403B70 /* GDataFeedMessage.m */,
+				B4E352A40FC1867700403B70 /* GDataOriginalEvent.h */,
+				B4E352A50FC1867700403B70 /* GDataOriginalEvent.m */,
+				B4E352A60FC1867700403B70 /* GDataQueryCalendar.h */,
+				B4E352A70FC1867700403B70 /* GDataQueryCalendar.m */,
+				B4E352A80FC1867700403B70 /* GDataRecurrence.h */,
+				B4E352A90FC1867700403B70 /* GDataRecurrence.m */,
+				B4E352AA0FC1867700403B70 /* GDataRecurrenceException.h */,
+				B4E352AB0FC1867700403B70 /* GDataRecurrenceException.m */,
+				B4E352AC0FC1867700403B70 /* GDataReminder.h */,
+				B4E352AD0FC1867700403B70 /* GDataReminder.m */,
+				B4E352AE0FC1867700403B70 /* GDataServiceGoogleCalendar.h */,
+				B4E352AF0FC1867700403B70 /* GDataServiceGoogleCalendar.m */,
+				B4E352B00FC1867700403B70 /* GDataWebContent.h */,
+				B4E352B10FC1867700403B70 /* GDataWebContent.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		B4E352B20FC1867700403B70 /* CodeSearch */ = {
+			isa = PBXGroup;
+			children = (
+				B4E352B30FC1867700403B70 /* GDataCodeSearch.h */,
+				B4E352B40FC1867700403B70 /* GDataCodeSearchFile.h */,
+				B4E352B50FC1867700403B70 /* GDataCodeSearchFile.m */,
+				B4E352B60FC1867700403B70 /* GDataCodeSearchMatch.h */,
+				B4E352B70FC1867700403B70 /* GDataCodeSearchMatch.m */,
+				B4E352B80FC1867700403B70 /* GDataCodeSearchPackage.h */,
+				B4E352B90FC1867700403B70 /* GDataCodeSearchPackage.m */,
+				B4E352BA0FC1867700403B70 /* GDataEntryCodeSearch.h */,
+				B4E352BB0FC1867700403B70 /* GDataEntryCodeSearch.m */,
+				B4E352BC0FC1867700403B70 /* GDataFeedCodeSearch.h */,
+				B4E352BD0FC1867700403B70 /* GDataFeedCodeSearch.m */,
+			);
+			path = CodeSearch;
+			sourceTree = "<group>";
+		};
+		B4E352BE0FC1867700403B70 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				B4E352BF0FC1867700403B70 /* GDataContacts.h */,
+				B4E352C00FC1867700403B70 /* GDataEntryContact.h */,
+				B4E352C10FC1867700403B70 /* GDataEntryContact.m */,
+				B4E352C20FC1867700403B70 /* GDataEntryContactGroup.h */,
+				B4E352C30FC1867700403B70 /* GDataEntryContactGroup.m */,
+				B4E352C40FC1867700403B70 /* GDataFeedContact.h */,
+				B4E352C50FC1867700403B70 /* GDataFeedContact.m */,
+				B4E352C60FC1867700403B70 /* GDataFeedContactGroup.h */,
+				B4E352C70FC1867700403B70 /* GDataFeedContactGroup.m */,
+				B4E352C80FC1867700403B70 /* GDataGroupMembershipInfo.h */,
+				B4E352C90FC1867700403B70 /* GDataGroupMembershipInfo.m */,
+				B4E352CA0FC1867700403B70 /* GDataQueryContact.h */,
+				B4E352CB0FC1867700403B70 /* GDataQueryContact.m */,
+				B4E352CC0FC1867700403B70 /* GDataServiceGoogleContact.h */,
+				B4E352CD0FC1867700403B70 /* GDataServiceGoogleContact.m */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		B4E352CE0FC1867700403B70 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				B4E352CF0FC1867700403B70 /* GDataDocs.h */,
+				B4E352D00FC1867700403B70 /* GDataEntryDocBase.h */,
+				B4E352D10FC1867700403B70 /* GDataEntryDocBase.m */,
+				B4E352D20FC1867700403B70 /* GDataEntryFolderDoc.h */,
+				B4E352D30FC1867700403B70 /* GDataEntryFolderDoc.m */,
+				B4E352D40FC1867700403B70 /* GDataEntryPDFDoc.h */,
+				B4E352D50FC1867700403B70 /* GDataEntryPDFDoc.m */,
+				B4E352D60FC1867700403B70 /* GDataEntryPresentationDoc.h */,
+				B4E352D70FC1867700403B70 /* GDataEntryPresentationDoc.m */,
+				B4E352D80FC1867700403B70 /* GDataEntrySpreadsheetDoc.h */,
+				B4E352D90FC1867700403B70 /* GDataEntrySpreadsheetDoc.m */,
+				B4E352DA0FC1867700403B70 /* GDataEntryStandardDoc.h */,
+				B4E352DB0FC1867700403B70 /* GDataEntryStandardDoc.m */,
+				B4E352DC0FC1867700403B70 /* GDataFeedDocList.h */,
+				B4E352DD0FC1867700403B70 /* GDataFeedDocList.m */,
+				B4E352DE0FC1867700403B70 /* GDataQueryDocs.h */,
+				B4E352DF0FC1867700403B70 /* GDataQueryDocs.m */,
+				B4E352E00FC1867700403B70 /* GDataServiceGoogleDocs.h */,
+				B4E352E10FC1867700403B70 /* GDataServiceGoogleDocs.m */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		B4E352E20FC1867700403B70 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				B4E352E30FC1867700403B70 /* GDataEntryFinancePortfolio.h */,
+				B4E352E40FC1867700403B70 /* GDataEntryFinancePortfolio.m */,
+				B4E352E50FC1867700403B70 /* GDataEntryFinancePosition.h */,
+				B4E352E60FC1867700403B70 /* GDataEntryFinancePosition.m */,
+				B4E352E70FC1867700403B70 /* GDataEntryFinanceTransaction.h */,
+				B4E352E80FC1867700403B70 /* GDataEntryFinanceTransaction.m */,
+				B4E352E90FC1867700403B70 /* GDataFeedFinancePortfolio.h */,
+				B4E352EA0FC1867700403B70 /* GDataFeedFinancePortfolio.m */,
+				B4E352EB0FC1867700403B70 /* GDataFeedFinancePosition.h */,
+				B4E352EC0FC1867700403B70 /* GDataFeedFinancePosition.m */,
+				B4E352ED0FC1867700403B70 /* GDataFeedFinanceTransaction.h */,
+				B4E352EE0FC1867700403B70 /* GDataFeedFinanceTransaction.m */,
+				B4E352EF0FC1867700403B70 /* GDataFinance.h */,
+				B4E352F00FC1867700403B70 /* GDataFinanceSymbol.h */,
+				B4E352F10FC1867700403B70 /* GDataFinanceSymbol.m */,
+				B4E352F20FC1867700403B70 /* GDataFinanceTransactionData.h */,
+				B4E352F30FC1867700403B70 /* GDataFinanceTransactionData.m */,
+				B4E352F40FC1867700403B70 /* GDataMoneyElements.h */,
+				B4E352F50FC1867700403B70 /* GDataMoneyElements.m */,
+				B4E352F60FC1867700403B70 /* GDataPortfolioElements.h */,
+				B4E352F70FC1867700403B70 /* GDataPortfolioElements.m */,
+				B4E352F80FC1867700403B70 /* GDataQueryFinance.h */,
+				B4E352F90FC1867700403B70 /* GDataQueryFinance.m */,
+				B4E352FA0FC1867700403B70 /* GDataServiceGoogleFinance.h */,
+				B4E352FB0FC1867700403B70 /* GDataServiceGoogleFinance.m */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		B4E352FC0FC1867700403B70 /* GoogleBase */ = {
+			isa = PBXGroup;
+			children = (
+				B4E352FD0FC1867700403B70 /* GDataEntryGoogleBase.h */,
+				B4E352FE0FC1867700403B70 /* GDataEntryGoogleBase.m */,
+				B4E352FF0FC1867700403B70 /* GDataFeedGoogleBase.h */,
+				B4E353000FC1867700403B70 /* GDataFeedGoogleBase.m */,
+				B4E353010FC1867700403B70 /* GDataGoogleBase.h */,
+				B4E353020FC1867700403B70 /* GDataGoogleBaseAttribute.h */,
+				B4E353030FC1867700403B70 /* GDataGoogleBaseAttribute.m */,
+				B4E353040FC1867700403B70 /* GDataGoogleBaseMetadataAttribute.h */,
+				B4E353050FC1867700403B70 /* GDataGoogleBaseMetadataAttribute.m */,
+				B4E353060FC1867700403B70 /* GDataGoogleBaseMetadataAttributeList.h */,
+				B4E353070FC1867700403B70 /* GDataGoogleBaseMetadataAttributeList.m */,
+				B4E353080FC1867700403B70 /* GDataGoogleBaseMetadataItemType.h */,
+				B4E353090FC1867700403B70 /* GDataGoogleBaseMetadataItemType.m */,
+				B4E3530A0FC1867700403B70 /* GDataGoogleBaseMetadataValue.h */,
+				B4E3530B0FC1867700403B70 /* GDataGoogleBaseMetadataValue.m */,
+				B4E3530C0FC1867700403B70 /* GDataQueryGoogleBase.h */,
+				B4E3530D0FC1867700403B70 /* GDataQueryGoogleBase.m */,
+				B4E3530E0FC1867700403B70 /* GDataServiceGoogleBase.h */,
+				B4E3530F0FC1867700403B70 /* GDataServiceGoogleBase.m */,
+			);
+			path = GoogleBase;
+			sourceTree = "<group>";
+		};
+		B4E353100FC1867700403B70 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				B4E353110FC1867700403B70 /* GDataEntryHealthProfile.h */,
+				B4E353120FC1867700403B70 /* GDataEntryHealthProfile.m */,
+				B4E353130FC1867700403B70 /* GDataEntryHealthRegister.h */,
+				B4E353140FC1867700403B70 /* GDataEntryHealthRegsiter.m */,
+				B4E353150FC1867700403B70 /* GDataFeedHealthProfile.h */,
+				B4E353160FC1867700403B70 /* GDataFeedHealthProfile.m */,
+				B4E353170FC1867700403B70 /* GDataFeedHealthRegister.h */,
+				B4E353180FC1867700403B70 /* GDataFeedHealthRegister.m */,
+				B4E353190FC1867700403B70 /* GDataHealth.h */,
+				B4E3531A0FC1867700403B70 /* GDataHealthElements.h */,
+				B4E3531B0FC1867700403B70 /* GDataHealthElements.m */,
+				B4E3531C0FC1867700403B70 /* GDataQueryGoogleHealth.h */,
+				B4E3531D0FC1867700403B70 /* GDataQueryGoogleHealth.m */,
+				B4E3531E0FC1867700403B70 /* GDataServiceGoogleHealth.h */,
+				B4E3531F0FC1867700403B70 /* GDataServiceGoogleHealth.m */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		B4E353200FC1867700403B70 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				B4E353210FC1867700403B70 /* GDataEntryPhoto.h */,
+				B4E353220FC1867700403B70 /* GDataEntryPhoto.m */,
+				B4E353230FC1867700403B70 /* GDataEntryPhotoAlbum.h */,
+				B4E353240FC1867700403B70 /* GDataEntryPhotoAlbum.m */,
+				B4E353250FC1867700403B70 /* GDataEntryPhotoBase.h */,
+				B4E353260FC1867700403B70 /* GDataEntryPhotoBase.m */,
+				B4E353270FC1867700403B70 /* GDataEntryPhotoComment.h */,
+				B4E353280FC1867700403B70 /* GDataEntryPhotoComment.m */,
+				B4E353290FC1867700403B70 /* GDataEntryPhotoTag.h */,
+				B4E3532A0FC1867700403B70 /* GDataEntryPhotoTag.m */,
+				B4E3532B0FC1867700403B70 /* GDataEntryPhotoUser.h */,
+				B4E3532C0FC1867700403B70 /* GDataEntryPhotoUser.m */,
+				B4E3532D0FC1867700403B70 /* GDataEXIFTags.h */,
+				B4E3532E0FC1867700403B70 /* GDataEXIFTags.m */,
+				B4E3532F0FC1867700403B70 /* GDataFeedPhoto.h */,
+				B4E353300FC1867700403B70 /* GDataFeedPhoto.m */,
+				B4E353310FC1867700403B70 /* GDataFeedPhotoAlbum.h */,
+				B4E353320FC1867700403B70 /* GDataFeedPhotoAlbum.m */,
+				B4E353330FC1867700403B70 /* GDataFeedPhotoBase.h */,
+				B4E353340FC1867700403B70 /* GDataFeedPhotoBase.m */,
+				B4E353350FC1867700403B70 /* GDataFeedPhotoUser.h */,
+				B4E353360FC1867700403B70 /* GDataFeedPhotoUser.m */,
+				B4E353370FC1867700403B70 /* GDataPhotoElements.h */,
+				B4E353380FC1867700403B70 /* GDataPhotoElements.m */,
+				B4E353390FC1867700403B70 /* GDataPhotos.h */,
+				B4E3533A0FC1867700403B70 /* GDataQueryGooglePhotos.h */,
+				B4E3533B0FC1867700403B70 /* GDataQueryGooglePhotos.m */,
+				B4E3533C0FC1867700403B70 /* GDataServiceGooglePhotos.h */,
+				B4E3533D0FC1867700403B70 /* GDataServiceGooglePhotos.m */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		B4E3533E0FC1867700403B70 /* Spreadsheets */ = {
+			isa = PBXGroup;
+			children = (
+				B4E3533F0FC1867700403B70 /* GDataEntrySpreadsheet.h */,
+				B4E353400FC1867700403B70 /* GDataEntrySpreadsheet.m */,
+				B4E353410FC1867700403B70 /* GDataEntrySpreadsheetCell.h */,
+				B4E353420FC1867700403B70 /* GDataEntrySpreadsheetCell.m */,
+				B4E353430FC1867700403B70 /* GDataEntrySpreadsheetList.h */,
+				B4E353440FC1867700403B70 /* GDataEntrySpreadsheetList.m */,
+				B4E353450FC1867700403B70 /* GDataEntryWorksheet.h */,
+				B4E353460FC1867700403B70 /* GDataEntryWorksheet.m */,
+				B4E353470FC1867700403B70 /* GDataFeedSpreadsheet.h */,
+				B4E353480FC1867700403B70 /* GDataFeedSpreadsheet.m */,
+				B4E353490FC1867700403B70 /* GDataFeedSpreadsheetCell.h */,
+				B4E3534A0FC1867700403B70 /* GDataFeedSpreadsheetCell.m */,
+				B4E3534B0FC1867700403B70 /* GDataFeedSpreadsheetList.h */,
+				B4E3534C0FC1867700403B70 /* GDataFeedSpreadsheetList.m */,
+				B4E3534D0FC1867700403B70 /* GDataFeedWorksheet.h */,
+				B4E3534E0FC1867700403B70 /* GDataFeedWorksheet.m */,
+				B4E3534F0FC1867700403B70 /* GDataQuerySpreadsheet.h */,
+				B4E353500FC1867700403B70 /* GDataQuerySpreadsheet.m */,
+				B4E353510FC1867700403B70 /* GDataRowColumnCount.h */,
+				B4E353520FC1867700403B70 /* GDataRowColumnCount.m */,
+				B4E353530FC1867700403B70 /* GDataServiceGoogleSpreadsheet.h */,
+				B4E353540FC1867700403B70 /* GDataServiceGoogleSpreadsheet.m */,
+				B4E353550FC1867700403B70 /* GDataSpreadsheet.h */,
+				B4E353560FC1867700403B70 /* GDataSpreadsheetCell.h */,
+				B4E353570FC1867700403B70 /* GDataSpreadsheetCell.m */,
+				B4E353580FC1867700403B70 /* GDataSpreadsheetCustomElement.h */,
+				B4E353590FC1867700403B70 /* GDataSpreadsheetCustomElement.m */,
+			);
+			path = Spreadsheets;
+			sourceTree = "<group>";
+		};
+		B4E3535A0FC1867700403B70 /* WebmasterTools */ = {
+			isa = PBXGroup;
+			children = (
+				B4E3535B0FC1867700403B70 /* GDataEntrySite.h */,
+				B4E3535C0FC1867700403B70 /* GDataEntrySite.m */,
+				B4E3535D0FC1867700403B70 /* GDataEntrySitemap.h */,
+				B4E3535E0FC1867700403B70 /* GDataEntrySitemap.m */,
+				B4E3535F0FC1867700403B70 /* GDataFeedSite.h */,
+				B4E353600FC1867700403B70 /* GDataFeedSite.m */,
+				B4E353610FC1867700403B70 /* GDataFeedSitemap.h */,
+				B4E353620FC1867700403B70 /* GDataFeedSitemap.m */,
+				B4E353630FC1867700403B70 /* GDataServiceGoogleWebmasterTools.h */,
+				B4E353640FC1867700403B70 /* GDataServiceGoogleWebmasterTools.m */,
+				B4E353650FC1867700403B70 /* GDataSitemapMobile.h */,
+				B4E353660FC1867700403B70 /* GDataSitemapMobile.m */,
+				B4E353670FC1867700403B70 /* GDataSitemapNews.h */,
+				B4E353680FC1867700403B70 /* GDataSitemapNews.m */,
+				B4E353690FC1867700403B70 /* GDataSiteVerificationMethod.h */,
+				B4E3536A0FC1867700403B70 /* GDataSiteVerificationMethod.m */,
+				B4E3536B0FC1867700403B70 /* GDataWebmasterTools.h */,
+			);
+			path = WebmasterTools;
+			sourceTree = "<group>";
+		};
+		B4E3536C0FC1867700403B70 /* YouTube */ = {
+			isa = PBXGroup;
+			children = (
+				B4E3536D0FC1867700403B70 /* GDataEntryYouTubeChannel.h */,
+				B4E3536E0FC1867700403B70 /* GDataEntryYouTubeChannel.m */,
+				B4E3536F0FC1867700403B70 /* GDataEntryYouTubeComment.h */,
+				B4E353700FC1867700403B70 /* GDataEntryYouTubeComment.m */,
+				B4E353710FC1867700403B70 /* GDataEntryYouTubeComplaint.h */,
+				B4E353720FC1867700403B70 /* GDataEntryYouTubeComplaint.m */,
+				B4E353730FC1867700403B70 /* GDataEntryYouTubeFavorite.h */,
+				B4E353740FC1867700403B70 /* GDataEntryYouTubeFavorite.m */,
+				B4E353750FC1867700403B70 /* GDataEntryYouTubeFeedLinkBase.h */,
+				B4E353760FC1867700403B70 /* GDataEntryYouTubeFeedLinkBase.m */,
+				B4E353770FC1867700403B70 /* GDataEntryYouTubeFriend.h */,
+				B4E353780FC1867700403B70 /* GDataEntryYouTubeFriend.m */,
+				B4E353790FC1867700403B70 /* GDataEntryYouTubePlaylist.h */,
+				B4E3537A0FC1867700403B70 /* GDataEntryYouTubePlaylist.m */,
+				B4E3537B0FC1867700403B70 /* GDataEntryYouTubePlaylistLink.h */,
+				B4E3537C0FC1867700403B70 /* GDataEntryYouTubePlaylistLink.m */,
+				B4E3537D0FC1867700403B70 /* GDataEntryYouTubeRating.h */,
+				B4E3537E0FC1867700403B70 /* GDataEntryYouTubeRating.m */,
+				B4E3537F0FC1867700403B70 /* GDataEntryYouTubeSubscription.h */,
+				B4E353800FC1867700403B70 /* GDataEntryYouTubeSubscription.m */,
+				B4E353810FC1867700403B70 /* GDataEntryYouTubeUpload.h */,
+				B4E353820FC1867700403B70 /* GDataEntryYouTubeUpload.m */,
+				B4E353830FC1867700403B70 /* GDataEntryYouTubeUserEvent.h */,
+				B4E353840FC1867700403B70 /* GDataEntryYouTubeUserEvent.m */,
+				B4E353850FC1867700403B70 /* GDataEntryYouTubeUserProfile.h */,
+				B4E353860FC1867700403B70 /* GDataEntryYouTubeUserProfile.m */,
+				B4E353870FC1867700403B70 /* GDataEntryYouTubeVideo.h */,
+				B4E353880FC1867700403B70 /* GDataEntryYouTubeVideo.m */,
+				B4E353890FC1867700403B70 /* GDataEntryYouTubeVideoMessage.h */,
+				B4E3538A0FC1867700403B70 /* GDataEntryYouTubeVideoMessage.m */,
+				B4E3538B0FC1867700403B70 /* GDataFeedYouTubeChannel.h */,
+				B4E3538C0FC1867700403B70 /* GDataFeedYouTubeChannel.m */,
+				B4E3538D0FC1867700403B70 /* GDataFeedYouTubeComment.h */,
+				B4E3538E0FC1867700403B70 /* GDataFeedYouTubeComment.m */,
+				B4E3538F0FC1867700403B70 /* GDataFeedYouTubeComplaint.h */,
+				B4E353900FC1867700403B70 /* GDataFeedYouTubeComplaint.m */,
+				B4E353910FC1867700403B70 /* GDataFeedYouTubeFavorite.h */,
+				B4E353920FC1867700403B70 /* GDataFeedYouTubeFavorite.m */,
+				B4E353930FC1867700403B70 /* GDataFeedYouTubeFriend.h */,
+				B4E353940FC1867700403B70 /* GDataFeedYouTubeFriend.m */,
+				B4E353950FC1867700403B70 /* GDataFeedYouTubePlaylist.h */,
+				B4E353960FC1867700403B70 /* GDataFeedYouTubePlaylist.m */,
+				B4E353970FC1867700403B70 /* GDataFeedYouTubePlaylistLink.h */,
+				B4E353980FC1867700403B70 /* GDataFeedYouTubePlaylistLink.m */,
+				B4E353990FC1867700403B70 /* GDataFeedYouTubeRating.h */,
+				B4E3539A0FC1867700403B70 /* GDataFeedYouTubeRating.m */,
+				B4E3539B0FC1867700403B70 /* GDataFeedYouTubeSubscription.h */,
+				B4E3539C0FC1867700403B70 /* GDataFeedYouTubeSubscription.m */,
+				B4E3539D0FC1867700403B70 /* GDataFeedYouTubeUserEvent.h */,
+				B4E3539E0FC1867700403B70 /* GDataFeedYouTubeUserEvent.m */,
+				B4E3539F0FC1867700403B70 /* GDataFeedYouTubeUserProfile.h */,
+				B4E353A00FC1867700403B70 /* GDataFeedYouTubeUserProfile.m */,
+				B4E353A10FC1867700403B70 /* GDataFeedYouTubeVideo.h */,
+				B4E353A20FC1867700403B70 /* GDataFeedYouTubeVideo.m */,
+				B4E353A30FC1867700403B70 /* GDataFeedYouTubeVideoMessage.h */,
+				B4E353A40FC1867700403B70 /* GDataFeedYouTubeVideoMessage.m */,
+				B4E353A50FC1867700403B70 /* GDataQueryYouTube.h */,
+				B4E353A60FC1867700403B70 /* GDataQueryYouTube.m */,
+				B4E353A70FC1867700403B70 /* GDataServiceGoogleYouTube.h */,
+				B4E353A80FC1867700403B70 /* GDataServiceGoogleYouTube.m */,
+				B4E353A90FC1867700403B70 /* GDataYouTube.h */,
+				B4E353AA0FC1867700403B70 /* GDataYouTubeElements.h */,
+				B4E353AB0FC1867700403B70 /* GDataYouTubeElements.m */,
+				B4E353AC0FC1867700403B70 /* GDataYouTubeMediaElements.h */,
+				B4E353AD0FC1867700403B70 /* GDataYouTubeMediaElements.m */,
+				B4E353AE0FC1867700403B70 /* GDataYouTubePublicationState.h */,
+				B4E353AF0FC1867700403B70 /* GDataYouTubePublicationState.m */,
+				B4E353B00FC1867700403B70 /* GDataYouTubeStatistics.h */,
+				B4E353B10FC1867700403B70 /* GDataYouTubeStatistics.m */,
+			);
+			path = YouTube;
+			sourceTree = "<group>";
+		};
+		B4E353B20FC1867700403B70 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				B4E353B30FC1867700403B70 /* GDataAtomPubControl.h */,
+				B4E353B40FC1867700403B70 /* GDataAtomPubControl.m */,
+				B4E353B50FC1867700403B70 /* GDataBaseElements.h */,
+				B4E353B60FC1867700403B70 /* GDataBaseElements.m */,
+				B4E353B70FC1867700403B70 /* GDataBatchID.h */,
+				B4E353B80FC1867700403B70 /* GDataBatchID.m */,
+				B4E353B90FC1867700403B70 /* GDataBatchInterrupted.h */,
+				B4E353BA0FC1867700403B70 /* GDataBatchInterrupted.m */,
+				B4E353BB0FC1867700403B70 /* GDataBatchOperation.h */,
+				B4E353BC0FC1867700403B70 /* GDataBatchOperation.m */,
+				B4E353BD0FC1867700403B70 /* GDataBatchStatus.h */,
+				B4E353BE0FC1867700403B70 /* GDataBatchStatus.m */,
+				B4E353BF0FC1867700403B70 /* GDataCategory.h */,
+				B4E353C00FC1867700403B70 /* GDataCategory.m */,
+				B4E353C10FC1867700403B70 /* GDataComment.h */,
+				B4E353C20FC1867700403B70 /* GDataComment.m */,
+				B4E353C30FC1867700403B70 /* GDataDateTime.h */,
+				B4E353C40FC1867700403B70 /* GDataDateTime.m */,
+				B4E353C50FC1867700403B70 /* GDataDeleted.h */,
+				B4E353C60FC1867700403B70 /* GDataDeleted.m */,
+				B4E353C70FC1867700403B70 /* GDataElements.h */,
+				B4E353C80FC1867700403B70 /* GDataEmail.h */,
+				B4E353C90FC1867700403B70 /* GDataEmail.m */,
+				B4E353CA0FC1867700403B70 /* GDataEntryContent.h */,
+				B4E353CB0FC1867700403B70 /* GDataEntryContent.m */,
+				B4E353CC0FC1867700403B70 /* GDataEntryLink.h */,
+				B4E353CD0FC1867700403B70 /* GDataEntryLink.m */,
+				B4E353CE0FC1867700403B70 /* GDataExtendedProperty.h */,
+				B4E353CF0FC1867700403B70 /* GDataExtendedProperty.m */,
+				B4E353D00FC1867700403B70 /* GDataFeedLink.h */,
+				B4E353D10FC1867700403B70 /* GDataFeedLink.m */,
+				B4E353D20FC1867700403B70 /* GDataGenerator.h */,
+				B4E353D30FC1867700403B70 /* GDataGenerator.m */,
+				B4E353D40FC1867700403B70 /* GDataGeoPt.h */,
+				B4E353D50FC1867700403B70 /* GDataGeoPt.m */,
+				B4E353D60FC1867700403B70 /* GDataIM.h */,
+				B4E353D70FC1867700403B70 /* GDataIM.m */,
+				B4E353D80FC1867700403B70 /* GDataLink.h */,
+				B4E353D90FC1867700403B70 /* GDataLink.m */,
+				B4E353DA0FC1867700403B70 /* GDataMoney.h */,
+				B4E353DB0FC1867700403B70 /* GDataMoney.m */,
+				B4E353DC0FC1867700403B70 /* GDataOrganization.h */,
+				B4E353DD0FC1867700403B70 /* GDataOrganization.m */,
+				B4E353DE0FC1867700403B70 /* GDataPerson.h */,
+				B4E353DF0FC1867700403B70 /* GDataPerson.m */,
+				B4E353E00FC1867700403B70 /* GDataPhoneNumber.h */,
+				B4E353E10FC1867700403B70 /* GDataPhoneNumber.m */,
+				B4E353E20FC1867700403B70 /* GDataPostalAddress.h */,
+				B4E353E30FC1867700403B70 /* GDataPostalAddress.m */,
+				B4E353E40FC1867700403B70 /* GDataRating.h */,
+				B4E353E50FC1867700403B70 /* GDataRating.m */,
+				B4E353E60FC1867700403B70 /* GDataTextConstruct.h */,
+				B4E353E70FC1867700403B70 /* GDataTextConstruct.m */,
+				B4E353E80FC1867700403B70 /* GDataValueConstruct.h */,
+				B4E353E90FC1867700403B70 /* GDataValueConstruct.m */,
+				B4E353EA0FC1867700403B70 /* GDataWhen.h */,
+				B4E353EB0FC1867700403B70 /* GDataWhen.m */,
+				B4E353EC0FC1867700403B70 /* GDataWhere.h */,
+				B4E353ED0FC1867700403B70 /* GDataWhere.m */,
+				B4E353EE0FC1867700403B70 /* GDataWho.h */,
+				B4E353EF0FC1867700403B70 /* GDataWho.m */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		B4E353FA0FC1867700403B70 /* Geo */ = {
+			isa = PBXGroup;
+			children = (
+				B4E353FB0FC1867700403B70 /* GDataGeo.h */,
+				B4E353FC0FC1867700403B70 /* GDataGeo.m */,
+			);
+			path = Geo;
+			sourceTree = "<group>";
+		};
+		B4E353FD0FC1867700403B70 /* Introspection */ = {
+			isa = PBXGroup;
+			children = (
+				B4E353FE0FC1867700403B70 /* GDataAtomCategoryGroup.h */,
+				B4E353FF0FC1867700403B70 /* GDataAtomCategoryGroup.m */,
+				B4E354000FC1867700403B70 /* GDataAtomCollection.h */,
+				B4E354010FC1867700403B70 /* GDataAtomCollection.m */,
+				B4E354020FC1867700403B70 /* GDataAtomServiceDocument.h */,
+				B4E354030FC1867700403B70 /* GDataAtomServiceDocument.m */,
+				B4E354040FC1867700403B70 /* GDataAtomWorkspace.h */,
+				B4E354050FC1867700403B70 /* GDataAtomWorkspace.m */,
+				B4E354060FC1867700403B70 /* GDataServiceIntrospection.h */,
+			);
+			path = Introspection;
+			sourceTree = "<group>";
+		};
+		B4E354070FC1867700403B70 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				B4E354080FC1867700403B70 /* GDataMedia.h */,
+				B4E354090FC1867700403B70 /* GDataMediaCategory.h */,
+				B4E3540A0FC1867700403B70 /* GDataMediaCategory.m */,
+				B4E3540B0FC1867700403B70 /* GDataMediaContent.h */,
+				B4E3540C0FC1867700403B70 /* GDataMediaContent.m */,
+				B4E3540D0FC1867700403B70 /* GDataMediaCredit.h */,
+				B4E3540E0FC1867700403B70 /* GDataMediaCredit.m */,
+				B4E3540F0FC1867700403B70 /* GDataMediaGroup.h */,
+				B4E354100FC1867700403B70 /* GDataMediaGroup.m */,
+				B4E354110FC1867700403B70 /* GDataMediaKeywords.h */,
+				B4E354120FC1867700403B70 /* GDataMediaKeywords.m */,
+				B4E354130FC1867700403B70 /* GDataMediaPlayer.h */,
+				B4E354140FC1867700403B70 /* GDataMediaPlayer.m */,
+				B4E354150FC1867700403B70 /* GDataMediaRating.h */,
+				B4E354160FC1867700403B70 /* GDataMediaRating.m */,
+				B4E354170FC1867700403B70 /* GDataMediaRestriction.h */,
+				B4E354180FC1867700403B70 /* GDataMediaRestriction.m */,
+				B4E354190FC1867700403B70 /* GDataMediaThumbnail.h */,
+				B4E3541A0FC1867700403B70 /* GDataMediaThumbnail.m */,
+				B4E3541B0FC1867700403B70 /* GDataNormalPlayTime.h */,
+				B4E3541C0FC1867700403B70 /* GDataNormalPlayTime.m */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		B4E3541D0FC1867700403B70 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B4E3541E0FC1867700403B70 /* GDataGatherInputStream.h */,
+				B4E3541F0FC1867700403B70 /* GDataGatherInputStream.m */,
+				B4E354200FC1867700403B70 /* GDataHTTPFetcher.h */,
+				B4E354210FC1867700403B70 /* GDataHTTPFetcher.m */,
+				B4E354220FC1867700403B70 /* GDataHTTPFetcherLogging.h */,
+				B4E354230FC1867700403B70 /* GDataHTTPFetcherLogging.m */,
+				B4E354240FC1867700403B70 /* GDataMIMEDocument.h */,
+				B4E354250FC1867700403B70 /* GDataMIMEDocument.m */,
+				B4E354260FC1867700403B70 /* GDataProgressMonitorInputStream.h */,
+				B4E354270FC1867700403B70 /* GDataProgressMonitorInputStream.m */,
+				B4E354280FC1867700403B70 /* GDataServerError.h */,
+				B4E354290FC1867700403B70 /* GDataServerError.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B4E354700FC1867700403B70 /* XMLSupport */ = {
+			isa = PBXGroup;
+			children = (
+				B4E354710FC1867700403B70 /* GDataXMLNode.h */,
+				B4E354720FC1867700403B70 /* GDataXMLNode.m */,
+			);
+			path = XMLSupport;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,6 +1450,7 @@
 				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
 				B492D48E0FBFCA740052EA4E /* LoginViewController.xib in Resources */,
 				B4C021C90FC0CF92003D40B6 /* PortfoliosViewController.xib in Resources */,
+				B4E356E70FC1867800403B70 /* ReleaseNotes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,13 +1461,216 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* igFinanceAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				B492D3720FBFAA8B0052EA4E /* GoogleClientLogin.m in Sources */,
 				B492D39F0FBFAD120052EA4E /* LoginDao.m in Sources */,
 				B4C021BE0FC0B3D8003D40B6 /* LoginViewController.m in Sources */,
 				B4C021C70FC0CB83003D40B6 /* PortfoliosViewController.m in Sources */,
+				B4E354730FC1867700403B70 /* GDataACLRole.m in Sources */,
+				B4E354740FC1867700403B70 /* GDataACLScope.m in Sources */,
+				B4E354750FC1867700403B70 /* GDataEntryACL.m in Sources */,
+				B4E354760FC1867700403B70 /* GDataFeedACL.m in Sources */,
+				B4E354770FC1867700403B70 /* GDataServiceACL.m in Sources */,
+				B4E354780FC1867700403B70 /* GDataEntryBase.m in Sources */,
+				B4E354790FC1867700403B70 /* GDataFeedBase.m in Sources */,
+				B4E3547A0FC1867700403B70 /* GDataObject.m in Sources */,
+				B4E3547B0FC1867700403B70 /* GDataQuery.m in Sources */,
+				B4E3547C0FC1867700403B70 /* GDataServiceBase.m in Sources */,
+				B4E3547D0FC1867700403B70 /* GDataServiceGoogle.m in Sources */,
+				B4E356280FC1867800403B70 /* GDataDublinCore.m in Sources */,
+				B4E356290FC1867800403B70 /* GDataEntryVolume.m in Sources */,
+				B4E3562A0FC1867800403B70 /* GDataFeedVolume.m in Sources */,
+				B4E3562B0FC1867800403B70 /* GDataQueryBooks.m in Sources */,
+				B4E3562C0FC1867800403B70 /* GDataServiceGoogleBooks.m in Sources */,
+				B4E3562D0FC1867800403B70 /* GDataEntryCalendar.m in Sources */,
+				B4E3562E0FC1867800403B70 /* GDataEntryCalendarEvent.m in Sources */,
+				B4E3562F0FC1867800403B70 /* GDataEntryEvent.m in Sources */,
+				B4E356300FC1867800403B70 /* GDataEntryMessage.m in Sources */,
+				B4E356310FC1867800403B70 /* GDataFeedCalendar.m in Sources */,
+				B4E356320FC1867800403B70 /* GDataFeedCalendarEvent.m in Sources */,
+				B4E356330FC1867800403B70 /* GDataFeedEvent.m in Sources */,
+				B4E356340FC1867800403B70 /* GDataFeedMessage.m in Sources */,
+				B4E356350FC1867800403B70 /* GDataOriginalEvent.m in Sources */,
+				B4E356360FC1867800403B70 /* GDataQueryCalendar.m in Sources */,
+				B4E356370FC1867800403B70 /* GDataRecurrence.m in Sources */,
+				B4E356380FC1867800403B70 /* GDataRecurrenceException.m in Sources */,
+				B4E356390FC1867800403B70 /* GDataReminder.m in Sources */,
+				B4E3563A0FC1867800403B70 /* GDataServiceGoogleCalendar.m in Sources */,
+				B4E3563B0FC1867800403B70 /* GDataWebContent.m in Sources */,
+				B4E3563C0FC1867800403B70 /* GDataCodeSearchFile.m in Sources */,
+				B4E3563D0FC1867800403B70 /* GDataCodeSearchMatch.m in Sources */,
+				B4E3563E0FC1867800403B70 /* GDataCodeSearchPackage.m in Sources */,
+				B4E3563F0FC1867800403B70 /* GDataEntryCodeSearch.m in Sources */,
+				B4E356400FC1867800403B70 /* GDataFeedCodeSearch.m in Sources */,
+				B4E356410FC1867800403B70 /* GDataEntryContact.m in Sources */,
+				B4E356420FC1867800403B70 /* GDataEntryContactGroup.m in Sources */,
+				B4E356430FC1867800403B70 /* GDataFeedContact.m in Sources */,
+				B4E356440FC1867800403B70 /* GDataFeedContactGroup.m in Sources */,
+				B4E356450FC1867800403B70 /* GDataGroupMembershipInfo.m in Sources */,
+				B4E356460FC1867800403B70 /* GDataQueryContact.m in Sources */,
+				B4E356470FC1867800403B70 /* GDataServiceGoogleContact.m in Sources */,
+				B4E356480FC1867800403B70 /* GDataEntryDocBase.m in Sources */,
+				B4E356490FC1867800403B70 /* GDataEntryFolderDoc.m in Sources */,
+				B4E3564A0FC1867800403B70 /* GDataEntryPDFDoc.m in Sources */,
+				B4E3564B0FC1867800403B70 /* GDataEntryPresentationDoc.m in Sources */,
+				B4E3564C0FC1867800403B70 /* GDataEntrySpreadsheetDoc.m in Sources */,
+				B4E3564D0FC1867800403B70 /* GDataEntryStandardDoc.m in Sources */,
+				B4E3564E0FC1867800403B70 /* GDataFeedDocList.m in Sources */,
+				B4E3564F0FC1867800403B70 /* GDataQueryDocs.m in Sources */,
+				B4E356500FC1867800403B70 /* GDataServiceGoogleDocs.m in Sources */,
+				B4E356510FC1867800403B70 /* GDataEntryFinancePortfolio.m in Sources */,
+				B4E356520FC1867800403B70 /* GDataEntryFinancePosition.m in Sources */,
+				B4E356530FC1867800403B70 /* GDataEntryFinanceTransaction.m in Sources */,
+				B4E356540FC1867800403B70 /* GDataFeedFinancePortfolio.m in Sources */,
+				B4E356550FC1867800403B70 /* GDataFeedFinancePosition.m in Sources */,
+				B4E356560FC1867800403B70 /* GDataFeedFinanceTransaction.m in Sources */,
+				B4E356570FC1867800403B70 /* GDataFinanceSymbol.m in Sources */,
+				B4E356580FC1867800403B70 /* GDataFinanceTransactionData.m in Sources */,
+				B4E356590FC1867800403B70 /* GDataMoneyElements.m in Sources */,
+				B4E3565A0FC1867800403B70 /* GDataPortfolioElements.m in Sources */,
+				B4E3565B0FC1867800403B70 /* GDataQueryFinance.m in Sources */,
+				B4E3565C0FC1867800403B70 /* GDataServiceGoogleFinance.m in Sources */,
+				B4E3565D0FC1867800403B70 /* GDataEntryGoogleBase.m in Sources */,
+				B4E3565E0FC1867800403B70 /* GDataFeedGoogleBase.m in Sources */,
+				B4E3565F0FC1867800403B70 /* GDataGoogleBaseAttribute.m in Sources */,
+				B4E356600FC1867800403B70 /* GDataGoogleBaseMetadataAttribute.m in Sources */,
+				B4E356610FC1867800403B70 /* GDataGoogleBaseMetadataAttributeList.m in Sources */,
+				B4E356620FC1867800403B70 /* GDataGoogleBaseMetadataItemType.m in Sources */,
+				B4E356630FC1867800403B70 /* GDataGoogleBaseMetadataValue.m in Sources */,
+				B4E356640FC1867800403B70 /* GDataQueryGoogleBase.m in Sources */,
+				B4E356650FC1867800403B70 /* GDataServiceGoogleBase.m in Sources */,
+				B4E356660FC1867800403B70 /* GDataEntryHealthProfile.m in Sources */,
+				B4E356670FC1867800403B70 /* GDataEntryHealthRegsiter.m in Sources */,
+				B4E356680FC1867800403B70 /* GDataFeedHealthProfile.m in Sources */,
+				B4E356690FC1867800403B70 /* GDataFeedHealthRegister.m in Sources */,
+				B4E3566A0FC1867800403B70 /* GDataHealthElements.m in Sources */,
+				B4E3566B0FC1867800403B70 /* GDataQueryGoogleHealth.m in Sources */,
+				B4E3566C0FC1867800403B70 /* GDataServiceGoogleHealth.m in Sources */,
+				B4E3566D0FC1867800403B70 /* GDataEntryPhoto.m in Sources */,
+				B4E3566E0FC1867800403B70 /* GDataEntryPhotoAlbum.m in Sources */,
+				B4E3566F0FC1867800403B70 /* GDataEntryPhotoBase.m in Sources */,
+				B4E356700FC1867800403B70 /* GDataEntryPhotoComment.m in Sources */,
+				B4E356710FC1867800403B70 /* GDataEntryPhotoTag.m in Sources */,
+				B4E356720FC1867800403B70 /* GDataEntryPhotoUser.m in Sources */,
+				B4E356730FC1867800403B70 /* GDataEXIFTags.m in Sources */,
+				B4E356740FC1867800403B70 /* GDataFeedPhoto.m in Sources */,
+				B4E356750FC1867800403B70 /* GDataFeedPhotoAlbum.m in Sources */,
+				B4E356760FC1867800403B70 /* GDataFeedPhotoBase.m in Sources */,
+				B4E356770FC1867800403B70 /* GDataFeedPhotoUser.m in Sources */,
+				B4E356780FC1867800403B70 /* GDataPhotoElements.m in Sources */,
+				B4E356790FC1867800403B70 /* GDataQueryGooglePhotos.m in Sources */,
+				B4E3567A0FC1867800403B70 /* GDataServiceGooglePhotos.m in Sources */,
+				B4E3567B0FC1867800403B70 /* GDataEntrySpreadsheet.m in Sources */,
+				B4E3567C0FC1867800403B70 /* GDataEntrySpreadsheetCell.m in Sources */,
+				B4E3567D0FC1867800403B70 /* GDataEntrySpreadsheetList.m in Sources */,
+				B4E3567E0FC1867800403B70 /* GDataEntryWorksheet.m in Sources */,
+				B4E3567F0FC1867800403B70 /* GDataFeedSpreadsheet.m in Sources */,
+				B4E356800FC1867800403B70 /* GDataFeedSpreadsheetCell.m in Sources */,
+				B4E356810FC1867800403B70 /* GDataFeedSpreadsheetList.m in Sources */,
+				B4E356820FC1867800403B70 /* GDataFeedWorksheet.m in Sources */,
+				B4E356830FC1867800403B70 /* GDataQuerySpreadsheet.m in Sources */,
+				B4E356840FC1867800403B70 /* GDataRowColumnCount.m in Sources */,
+				B4E356850FC1867800403B70 /* GDataServiceGoogleSpreadsheet.m in Sources */,
+				B4E356860FC1867800403B70 /* GDataSpreadsheetCell.m in Sources */,
+				B4E356870FC1867800403B70 /* GDataSpreadsheetCustomElement.m in Sources */,
+				B4E356880FC1867800403B70 /* GDataEntrySite.m in Sources */,
+				B4E356890FC1867800403B70 /* GDataEntrySitemap.m in Sources */,
+				B4E3568A0FC1867800403B70 /* GDataFeedSite.m in Sources */,
+				B4E3568B0FC1867800403B70 /* GDataFeedSitemap.m in Sources */,
+				B4E3568C0FC1867800403B70 /* GDataServiceGoogleWebmasterTools.m in Sources */,
+				B4E3568D0FC1867800403B70 /* GDataSitemapMobile.m in Sources */,
+				B4E3568E0FC1867800403B70 /* GDataSitemapNews.m in Sources */,
+				B4E3568F0FC1867800403B70 /* GDataSiteVerificationMethod.m in Sources */,
+				B4E356900FC1867800403B70 /* GDataEntryYouTubeChannel.m in Sources */,
+				B4E356910FC1867800403B70 /* GDataEntryYouTubeComment.m in Sources */,
+				B4E356920FC1867800403B70 /* GDataEntryYouTubeComplaint.m in Sources */,
+				B4E356930FC1867800403B70 /* GDataEntryYouTubeFavorite.m in Sources */,
+				B4E356940FC1867800403B70 /* GDataEntryYouTubeFeedLinkBase.m in Sources */,
+				B4E356950FC1867800403B70 /* GDataEntryYouTubeFriend.m in Sources */,
+				B4E356960FC1867800403B70 /* GDataEntryYouTubePlaylist.m in Sources */,
+				B4E356970FC1867800403B70 /* GDataEntryYouTubePlaylistLink.m in Sources */,
+				B4E356980FC1867800403B70 /* GDataEntryYouTubeRating.m in Sources */,
+				B4E356990FC1867800403B70 /* GDataEntryYouTubeSubscription.m in Sources */,
+				B4E3569A0FC1867800403B70 /* GDataEntryYouTubeUpload.m in Sources */,
+				B4E3569B0FC1867800403B70 /* GDataEntryYouTubeUserEvent.m in Sources */,
+				B4E3569C0FC1867800403B70 /* GDataEntryYouTubeUserProfile.m in Sources */,
+				B4E3569D0FC1867800403B70 /* GDataEntryYouTubeVideo.m in Sources */,
+				B4E3569E0FC1867800403B70 /* GDataEntryYouTubeVideoMessage.m in Sources */,
+				B4E3569F0FC1867800403B70 /* GDataFeedYouTubeChannel.m in Sources */,
+				B4E356A00FC1867800403B70 /* GDataFeedYouTubeComment.m in Sources */,
+				B4E356A10FC1867800403B70 /* GDataFeedYouTubeComplaint.m in Sources */,
+				B4E356A20FC1867800403B70 /* GDataFeedYouTubeFavorite.m in Sources */,
+				B4E356A30FC1867800403B70 /* GDataFeedYouTubeFriend.m in Sources */,
+				B4E356A40FC1867800403B70 /* GDataFeedYouTubePlaylist.m in Sources */,
+				B4E356A50FC1867800403B70 /* GDataFeedYouTubePlaylistLink.m in Sources */,
+				B4E356A60FC1867800403B70 /* GDataFeedYouTubeRating.m in Sources */,
+				B4E356A70FC1867800403B70 /* GDataFeedYouTubeSubscription.m in Sources */,
+				B4E356A80FC1867800403B70 /* GDataFeedYouTubeUserEvent.m in Sources */,
+				B4E356A90FC1867800403B70 /* GDataFeedYouTubeUserProfile.m in Sources */,
+				B4E356AA0FC1867800403B70 /* GDataFeedYouTubeVideo.m in Sources */,
+				B4E356AB0FC1867800403B70 /* GDataFeedYouTubeVideoMessage.m in Sources */,
+				B4E356AC0FC1867800403B70 /* GDataQueryYouTube.m in Sources */,
+				B4E356AD0FC1867800403B70 /* GDataServiceGoogleYouTube.m in Sources */,
+				B4E356AE0FC1867800403B70 /* GDataYouTubeElements.m in Sources */,
+				B4E356AF0FC1867800403B70 /* GDataYouTubeMediaElements.m in Sources */,
+				B4E356B00FC1867800403B70 /* GDataYouTubePublicationState.m in Sources */,
+				B4E356B10FC1867800403B70 /* GDataYouTubeStatistics.m in Sources */,
+				B4E356B20FC1867800403B70 /* GDataAtomPubControl.m in Sources */,
+				B4E356B30FC1867800403B70 /* GDataBaseElements.m in Sources */,
+				B4E356B40FC1867800403B70 /* GDataBatchID.m in Sources */,
+				B4E356B50FC1867800403B70 /* GDataBatchInterrupted.m in Sources */,
+				B4E356B60FC1867800403B70 /* GDataBatchOperation.m in Sources */,
+				B4E356B70FC1867800403B70 /* GDataBatchStatus.m in Sources */,
+				B4E356B80FC1867800403B70 /* GDataCategory.m in Sources */,
+				B4E356B90FC1867800403B70 /* GDataComment.m in Sources */,
+				B4E356BA0FC1867800403B70 /* GDataDateTime.m in Sources */,
+				B4E356BB0FC1867800403B70 /* GDataDeleted.m in Sources */,
+				B4E356BC0FC1867800403B70 /* GDataEmail.m in Sources */,
+				B4E356BD0FC1867800403B70 /* GDataEntryContent.m in Sources */,
+				B4E356BE0FC1867800403B70 /* GDataEntryLink.m in Sources */,
+				B4E356BF0FC1867800403B70 /* GDataExtendedProperty.m in Sources */,
+				B4E356C00FC1867800403B70 /* GDataFeedLink.m in Sources */,
+				B4E356C10FC1867800403B70 /* GDataGenerator.m in Sources */,
+				B4E356C20FC1867800403B70 /* GDataGeoPt.m in Sources */,
+				B4E356C30FC1867800403B70 /* GDataIM.m in Sources */,
+				B4E356C40FC1867800403B70 /* GDataLink.m in Sources */,
+				B4E356C50FC1867800403B70 /* GDataMoney.m in Sources */,
+				B4E356C60FC1867800403B70 /* GDataOrganization.m in Sources */,
+				B4E356C70FC1867800403B70 /* GDataPerson.m in Sources */,
+				B4E356C80FC1867800403B70 /* GDataPhoneNumber.m in Sources */,
+				B4E356C90FC1867800403B70 /* GDataPostalAddress.m in Sources */,
+				B4E356CA0FC1867800403B70 /* GDataRating.m in Sources */,
+				B4E356CB0FC1867800403B70 /* GDataTextConstruct.m in Sources */,
+				B4E356CC0FC1867800403B70 /* GDataValueConstruct.m in Sources */,
+				B4E356CD0FC1867800403B70 /* GDataWhen.m in Sources */,
+				B4E356CE0FC1867800403B70 /* GDataWhere.m in Sources */,
+				B4E356CF0FC1867800403B70 /* GDataWho.m in Sources */,
+				B4E356D00FC1867800403B70 /* GDataFramework.m in Sources */,
+				B4E356D10FC1867800403B70 /* GDataUtilities.m in Sources */,
+				B4E356D20FC1867800403B70 /* GDataGeo.m in Sources */,
+				B4E356D30FC1867800403B70 /* GDataAtomCategoryGroup.m in Sources */,
+				B4E356D40FC1867800403B70 /* GDataAtomCollection.m in Sources */,
+				B4E356D50FC1867800403B70 /* GDataAtomServiceDocument.m in Sources */,
+				B4E356D60FC1867800403B70 /* GDataAtomWorkspace.m in Sources */,
+				B4E356D70FC1867800403B70 /* GDataMediaCategory.m in Sources */,
+				B4E356D80FC1867800403B70 /* GDataMediaContent.m in Sources */,
+				B4E356D90FC1867800403B70 /* GDataMediaCredit.m in Sources */,
+				B4E356DA0FC1867800403B70 /* GDataMediaGroup.m in Sources */,
+				B4E356DB0FC1867800403B70 /* GDataMediaKeywords.m in Sources */,
+				B4E356DC0FC1867800403B70 /* GDataMediaPlayer.m in Sources */,
+				B4E356DD0FC1867800403B70 /* GDataMediaRating.m in Sources */,
+				B4E356DE0FC1867800403B70 /* GDataMediaRestriction.m in Sources */,
+				B4E356DF0FC1867800403B70 /* GDataMediaThumbnail.m in Sources */,
+				B4E356E00FC1867800403B70 /* GDataNormalPlayTime.m in Sources */,
+				B4E356E10FC1867800403B70 /* GDataGatherInputStream.m in Sources */,
+				B4E356E20FC1867800403B70 /* GDataHTTPFetcher.m in Sources */,
+				B4E356E30FC1867800403B70 /* GDataHTTPFetcherLogging.m in Sources */,
+				B4E356E40FC1867800403B70 /* GDataMIMEDocument.m in Sources */,
+				B4E356E50FC1867800403B70 /* GDataProgressMonitorInputStream.m in Sources */,
+				B4E356E60FC1867800403B70 /* GDataServerError.m in Sources */,
+				B4E357230FC1867800403B70 /* GDataXMLNode.m in Sources */,
+				B4E357720FC220D400403B70 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,11 +1683,26 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ashley Lux";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/GData/build/Release\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = igFinance_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/i386\"",
+					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/ppc\"",
+				);
+				OTHER_CFLAGS = "-DDEBUG=1";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+				);
 				PRODUCT_NAME = igFinance;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FE25E4CC-446E-4F51-9FA9-E4167D650570";
 			};
@@ -262,9 +1713,19 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/GData/build/Release\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = igFinance_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/i386\"",
+					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/ppc\"",
+				);
 				PRODUCT_NAME = igFinance;
 			};
 			name = Release;
@@ -277,6 +1738,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GDATA_SKIP_LOG_XMLFORMAT = 1;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos2.2.1;
@@ -291,6 +1753,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GDATA_SKIP_LOG_XMLFORMAT = 1;
 				PREBINDING = NO;
 				SDKROOT = iphoneos2.2.1;
 			};
