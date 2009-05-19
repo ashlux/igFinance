@@ -5,6 +5,5 @@
 
 @synthesize username;
 @synthesize password;
-@synthesize authToken;
 
 @end

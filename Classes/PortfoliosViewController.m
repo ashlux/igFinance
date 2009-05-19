@@ -43,6 +43,7 @@
            finishedWithFeed:(GDataFeedFinancePortfolio *)object {
 	gDataFeedFinancePortfolio = [object retain];
 	[uitableView reloadData];
+	NSLog(@"UITableView::::::%@", uitableView);
 	
 	for (int i = 0; i < [[object entries] count]; ++i) {
 		NSLog(@"Portfolio%d:::::::::>>>>>>>>> %@", i, [[gDataFeedFinancePortfolio entries] objectAtIndex:i]);
@@ -51,6 +52,14 @@
 
 - (void)portfolioFeedTicket:(GDataServiceTicket *)ticket
             failedWithError:(NSError *)error {
+	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"Error code %d", [error code]]
+							message:[NSString stringWithFormat:
+									 @"Authentication failed: Perhaps wrong username/password combination or no internet connection?"]
+							delegate:nil
+							cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+    [alertView show];
+    [alertView release];
+	
 	NSLog(@"%@", ticket);
 	NSLog(@"%@", error);
 }
@@ -64,7 +73,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	//return [[gDataFeedFinancePortfolio entries] count];
+	NSLog(@"Number of rows in section: %d", [[gDataFeedFinancePortfolio entries] count]);
 	return [[gDataFeedFinancePortfolio entries] count];
 }
 
@@ -77,12 +86,7 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
     }
-    
-	
-//	for (int i = 0; i < [[object entries] count]; ++i) {
-//		NSLog(@"Portfolio%d:::::::::>>>>>>>>> %@", i, [[object entries] objectAtIndex:i]);
-//	}
-	
+    	
 	GDataEntryFinancePortfolio *portfolio = [[gDataFeedFinancePortfolio entries] objectAtIndex:indexPath.row];
 	cell.text = [[portfolio title] stringValue];
     return cell;
@@ -137,8 +141,6 @@
 
 
 - (void)dealloc {
-	[googleClientLogin release];
-	[gDataFeedFinancePortfolio release];
 	[uitableView release];
     [super dealloc];
 }

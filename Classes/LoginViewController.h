@@ -1,25 +1,22 @@
 
 #import <UIKit/UIKit.h>
+#import "AbstractTextEditingUITableViewController.h"
 #import "PortfoliosViewController.h"
 
-@interface LoginViewController : UITableViewController {
-	IBOutlet UILabel *alertLabel;
+@interface LoginViewController : AbstractTextEditingUITableViewController {
+	PortfoliosViewController *portfoliosViewController;
+	
 	IBOutlet UITextField *usernameTextField;
 	IBOutlet UITextField *passwordTextField;
-	IBOutlet UIButton *loginButton;
-	IBOutlet UIButton *resetButton;
-	
-	IBOutlet PortfoliosViewController *portfoliosViewController;
+	IBOutlet UISwitch *autoLoginSwitch;
 }
 
-@property (nonatomic, retain) IBOutlet UILabel *alertLabel;
-@property (nonatomic, retain) IBOutlet UITextField *usernameTextField;
-@property (nonatomic, retain) IBOutlet UITextField *passwordTextField;
-@property (nonatomic, retain) IBOutlet UIButton *loginButton;
-@property (nonatomic, retain) IBOutlet UIButton *resetButton;
 @property (nonatomic, retain) IBOutlet PortfoliosViewController *portfoliosViewController;
 
-- (IBAction)login:(id)sender;
-- (IBAction)resetForm:(id)sender;
+@property (nonatomic, retain) IBOutlet UITextField *usernameTextField;
+@property (nonatomic, retain) IBOutlet UITextField *passwordTextField;
+@property (nonatomic, retain) IBOutlet UISwitch *autoLoginSwitch;
+
+- (IBAction)useAccount;
 
 @end
