@@ -9,9 +9,46 @@
 @synthesize passwordTextField;
 @synthesize autoLoginSwitch;
 
+- (void)getDefaults {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSLog(@"%@", defaults);
+	NSString *username = [defaults objectForKey:@"username"];
+	NSLog(@"%@", [defaults objectForKey:@"username"]);
+	if (username != nil) {
+		usernameTextField.text = username;
+	}
+	
+	NSString *password = [defaults objectForKey:@"password"];
+	if (password != nil) {
+		passwordTextField.text = password;
+	}
+	
+	if ([defaults boolForKey:@"autoLogin"]) {
+		autoLoginSwitch.on = TRUE;
+	} else {
+		autoLoginSwitch.on = FALSE;
+	}
+}
+
+- (void)setDefaults {
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	NSLog(@"%@", defaults);
+	[defaults setObject:usernameTextField.text forKey:@"username"];
+	
+	[defaults setBool:[autoLoginSwitch isOn] forKey:@"autoLogin"];
+	if ([autoLoginSwitch isOn]) {
+		[defaults setObject:passwordTextField.text forKey:@"password"];
+	} else {
+		[defaults removeObjectForKey:@"password"];
+	}
+	NSLog(@"%@", defaults);
+	[defaults synchronize];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.title = @"Account Details";
+	[self getDefaults];
 }
 
 - (IBAction)useAccount {
@@ -25,6 +62,7 @@
 	[aView setGoogleClientLogin:googleClientLogin];
 	portfoliosViewController = aView;
 	
+	[self setDefaults];
 	[self.navigationController pushViewController:portfoliosViewController animated:YES];
 }
 
