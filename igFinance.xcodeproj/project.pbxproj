@@ -228,6 +228,7 @@
 		B4E359D80FC39EB500403B70 /* PortfolioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E359D70FC39EB500403B70 /* PortfolioViewController.xib */; };
 		B4E359DC0FC39F4300403B70 /* PortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */; };
 		B4E35B1F0FC4C72B00403B70 /* StockSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */; };
+		B4E3607A0FC614BF00403B70 /* TableViewCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E360790FC614BF00403B70 /* TableViewCells.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -685,6 +686,7 @@
 		B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioViewController.m; sourceTree = "<group>"; };
 		B4E35B1D0FC4C72B00403B70 /* StockSummaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockSummaryTableViewCell.h; sourceTree = "<group>"; };
 		B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockSummaryTableViewCell.m; sourceTree = "<group>"; };
+		B4E360790FC614BF00403B70 /* TableViewCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCells.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -753,6 +755,7 @@
 				B492D48D0FBFCA740052EA4E /* LoginViewController.xib */,
 				B4C021C80FC0CF92003D40B6 /* PortfoliosViewController.xib */,
 				B4E359D70FC39EB500403B70 /* PortfolioViewController.xib */,
+				B4E360790FC614BF00403B70 /* TableViewCells.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1465,6 +1468,7 @@
 				B4C021C90FC0CF92003D40B6 /* PortfoliosViewController.xib in Resources */,
 				B4E356E70FC1867800403B70 /* ReleaseNotes.txt in Resources */,
 				B4E359D80FC39EB500403B70 /* PortfolioViewController.xib in Resources */,
+				B4E3607A0FC614BF00403B70 /* TableViewCells.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

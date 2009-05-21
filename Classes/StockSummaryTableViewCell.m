@@ -8,15 +8,8 @@
 @synthesize changeButton;
 @synthesize position;
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-//	self.title = @"Account Details";
-	
-	[self getDefaults];
-}
-
 - (void)updateWithPosition:(GDataEntryFinancePosition *)positionArg {
-	self.position = position;
+	self.position = positionArg;
 	[symbolLabel setText:[[positionArg symbol] symbol]];
 	//lastPriceLabel.text = [[position positionData] va;
 }

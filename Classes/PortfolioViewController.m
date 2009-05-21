@@ -9,7 +9,6 @@
 @synthesize googleClientLogin;
 @synthesize portfolio;
 @synthesize positionFeed;
-@synthesize position;
 @synthesize financeService;
 
 -(void)loadPortfolio:(NSURL *) positionUrl {
@@ -24,8 +23,8 @@
     [super viewDidLoad];
 	
 	self.title = @"Portfolio";
-	NSLog(@"URL=%@", [portfolio positionURL]);
 	[self loadPortfolio :[portfolio positionURL]];
+	
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -37,28 +36,32 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	NSLog(@"!!!!!!!!");
-	NSLog(@"%@", positionFeed);
-	return [[positionFeed entries] count];
+	return [[positionFeed entries] count] - 1;
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *CellIdentifier = @"Cell";
-    
-    StockSummaryTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[StockSummaryTableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
-		//cell = [[UIViewController alloc] initWithNibName:@"PortfolioViewController" bundle:[NSBundle mainBundle]];
-    }
+	static NSString *identifier = @"StockSummaryTableViewCell";
 	
-	NSLog(@"POSFEED====%@", [[positionFeed entries] objectAtIndex:indexPath.row]);
+	StockSummaryTableViewCell *cell = (StockSummaryTableViewCell*) [tableView dequeueReusableCellWithIdentifier:identifier]; 
+	if (cell == nil) {
+		NSArray * templates = [[NSBundle mainBundle] loadNibNamed:@"TableViewCells" owner:self options:nil];  
+		for (id template in templates) {  
+			if ([template isKindOfClass:[StockSummaryTableViewCell class]]) {  
+				cell = (StockSummaryTableViewCell *)template;
+			}	
+		}
+	}	
+	
 	[cell updateWithPosition:[[positionFeed entries] objectAtIndex:indexPath.row]];
-	cell.text = [[[[positionFeed entries] objectAtIndex:indexPath.row] symbol] symbol];
 	return cell;
-}
+}  
 
+- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath: (NSIndexPath *) indexPath {
+	UITableViewCell *cell = [self tableView: tableView cellForRowAtIndexPath: indexPath];
+	return cell.bounds.size.height;
+}	
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -75,7 +78,6 @@
 // fetched position list successfully
 - (void)positionFeedticket:(GDataServiceTicket *)ticket
        finishedWithFeed:(GDataFeedFinancePosition *)object {
-	NSLog(@"$$$$$$$$$%@", object);
 	positionFeed = [object retain];
 	[portfolioEntryTableView reloadData];
 }
@@ -100,6 +102,5 @@
 	
     [super dealloc];
 }
-
 
 @end
