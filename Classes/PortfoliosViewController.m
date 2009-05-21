@@ -1,5 +1,6 @@
 
 #import "PortfoliosViewController.h"
+#import "PortfolioViewController.h"
 
 @implementation PortfoliosViewController
 
@@ -43,11 +44,6 @@
            finishedWithFeed:(GDataFeedFinancePortfolio *)object {
 	gDataFeedFinancePortfolio = [object retain];
 	[uitableView reloadData];
-	NSLog(@"UITableView::::::%@", uitableView);
-	
-	for (int i = 0; i < [[object entries] count]; ++i) {
-		NSLog(@"Portfolio%d:::::::::>>>>>>>>> %@", i, [[gDataFeedFinancePortfolio entries] objectAtIndex:i]);
-	}	
 }
 
 - (void)portfolioFeedTicket:(GDataServiceTicket *)ticket
@@ -73,7 +69,6 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	NSLog(@"Number of rows in section: %d", [[gDataFeedFinancePortfolio entries] count]);
 	return [[gDataFeedFinancePortfolio entries] count];
 }
 
@@ -93,10 +88,13 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
-	// [self.navigationController pushViewController:anotherViewController];
-	// [anotherViewController release];
+	PortfolioViewController *aView = [[PortfolioViewController alloc] 
+									  initWithNibName:@"PortfolioViewController" bundle:[NSBundle mainBundle]];
+	aView.googleClientLogin = googleClientLogin;
+	aView.financeService = [self financeService];
+	aView.portfolio = [[[self gDataFeedFinancePortfolio] entries] objectAtIndex:indexPath.row];
+	[self.navigationController pushViewController:aView animated:YES];
+	[aView release];
 }
 
 

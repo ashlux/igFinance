@@ -11,13 +11,12 @@
 
 - (void)getDefaults {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	NSLog(@"%@", defaults);
 	NSString *username = [defaults objectForKey:@"username"];
-	NSLog(@"%@", [defaults objectForKey:@"username"]);
 	if (username != nil) {
 		usernameTextField.text = username;
 	}
 	
+	// TODO: Do not store passwords this way
 	NSString *password = [defaults objectForKey:@"password"];
 	if (password != nil) {
 		passwordTextField.text = password;
@@ -32,22 +31,22 @@
 
 - (void)setDefaults {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-	NSLog(@"%@", defaults);
 	[defaults setObject:usernameTextField.text forKey:@"username"];
 	
+	// TODO: Do not store passwords this way
 	[defaults setBool:[autoLoginSwitch isOn] forKey:@"autoLogin"];
 	if ([autoLoginSwitch isOn]) {
 		[defaults setObject:passwordTextField.text forKey:@"password"];
 	} else {
 		[defaults removeObjectForKey:@"password"];
 	}
-	NSLog(@"%@", defaults);
 	[defaults synchronize];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.title = @"Account Details";
+	
 	[self getDefaults];
 }
 
