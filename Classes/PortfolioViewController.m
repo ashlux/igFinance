@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	self.title = @"Portfolio";
+	self.title = [[portfolio title] stringValue];
 	[self loadPortfolio :[portfolio positionURL]];
 	
 }
