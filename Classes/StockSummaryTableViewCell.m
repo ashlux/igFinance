@@ -19,7 +19,7 @@
 	if (![shares isEqualToNumber:[NSNumber numberWithInt:0]]) {
 		[sharesLabel setText:[shares stringValue]];
 	} else {
-		[sharesLabel setText:@""];
+		[sharesLabel setText:@""]; // no shares available
 	}
 }
 
