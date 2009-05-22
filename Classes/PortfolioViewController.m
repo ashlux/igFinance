@@ -6,6 +6,7 @@
 @implementation PortfolioViewController
 
 @synthesize portfolioEntryTableView;
+@synthesize activityIndicator;
 @synthesize googleClientLogin;
 @synthesize portfolio;
 @synthesize positionFeed;
@@ -22,9 +23,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	self.title = [[portfolio title] stringValue];
+	self.navigationItem.title = [[portfolio title] stringValue];
+	self.activityIndicator = [[UIActivityIndicatorView alloc] 
+							  initWithFrame:CGRectMake(0.0, 0.0, 25.0, 25.0)];
+	[self.activityIndicator sizeToFit];
+	self.activityIndicator.autoresizingMask =
+	(UIViewAutoresizingFlexibleLeftMargin |
+	 UIViewAutoresizingFlexibleRightMargin |
+	 UIViewAutoresizingFlexibleTopMargin |
+	 UIViewAutoresizingFlexibleBottomMargin);
+	UIBarButtonItem *loadingView = [[UIBarButtonItem alloc] 
+									initWithCustomView:self.activityIndicator];
+	loadingView.target = self;
+	self.navigationItem.rightBarButtonItem = loadingView;
+	[self.activityIndicator startAnimating];
 	[self loadPortfolio :[portfolio positionURL]];
-	
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -35,7 +48,7 @@
 //}
 
 // Customize the number of rows in the table view.
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {	
 	return [[positionFeed entries] count] - 1;
 }
 
@@ -78,12 +91,14 @@
 // fetched position list successfully
 - (void)positionFeedticket:(GDataServiceTicket *)ticket
        finishedWithFeed:(GDataFeedFinancePosition *)object {
+	[activityIndicator stopAnimating];
 	positionFeed = [object retain];
 	[portfolioEntryTableView reloadData];
 }
 
 - (void)positionFeedticket:(GDataServiceTicket *)ticket
            failedWithError:(NSError *)error {
+	[activityIndicator stopAnimating];
 	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"Error code %d", [error code]]
 														message:[NSString stringWithFormat:
 																 @"Authentication failed: Perhaps wrong username/password combination or no internet connection?"]
@@ -98,6 +113,7 @@
 
 - (void)dealloc {
 	[portfolioEntryTableView release];
+	[activityIndicator release];
 	[portfolio release];
 	
     [super dealloc];

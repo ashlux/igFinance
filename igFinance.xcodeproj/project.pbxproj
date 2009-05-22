@@ -1720,9 +1720,7 @@
 					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/ppc\"",
 				);
 				OTHER_CFLAGS = "-DDEBUG=1";
-				OTHER_LDFLAGS = (
-					"-lxml2",
-				);
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = igFinance;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FE25E4CC-446E-4F51-9FA9-E4167D650570";
 			};
@@ -1732,6 +1730,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ashley Lux";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1747,6 +1746,7 @@
 					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/ppc\"",
 				);
 				PRODUCT_NAME = igFinance;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FE25E4CC-446E-4F51-9FA9-E4167D650570";
 			};
 			name = Release;
 		};

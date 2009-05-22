@@ -5,12 +5,15 @@
 
 @interface PortfoliosViewController : UITableViewController {
 	GoogleClientLogin *googleClientLogin;
-	IBOutlet UITableView *uitableView;
 	GDataFeedFinancePortfolio *gDataFeedFinancePortfolio;
+
+	IBOutlet UITableView *uitableView;
+	IBOutlet UIActivityIndicatorView *activityIndicator;
 }
 
+@property (nonatomic, retain) GDataFeedFinancePortfolio *gDataFeedFinancePortfolio;
 @property (nonatomic, retain) GoogleClientLogin *googleClientLogin;
 @property (nonatomic, retain) IBOutlet UITableView *uitableView;
-@property (nonatomic, retain) GDataFeedFinancePortfolio *gDataFeedFinancePortfolio;
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 @end

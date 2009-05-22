@@ -5,6 +5,7 @@
 @implementation LoginViewController
 
 @synthesize portfoliosViewController;
+@synthesize uiTableView;
 @synthesize usernameTextField;
 @synthesize passwordTextField;
 @synthesize autoLoginSwitch;
@@ -46,6 +47,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.title = @"Account Details";
+	uiTableView.scrollEnabled = NO;
 	
 	[self getDefaults];
 }
@@ -80,6 +82,7 @@
 - (void)dealloc {
 	[portfoliosViewController release];
 	
+	[uiTableView release];
 	[usernameTextField release];
 	[passwordTextField release];
 	[autoLoginSwitch release];

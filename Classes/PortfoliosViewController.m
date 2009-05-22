@@ -7,6 +7,7 @@
 @synthesize googleClientLogin;
 @synthesize uitableView;
 @synthesize gDataFeedFinancePortfolio;
+@synthesize activityIndicator;
 
 - (GDataServiceGoogleFinance*) financeService {
 	static  GDataServiceGoogleFinance *service = nil;
@@ -36,18 +37,35 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
-	super.title = @"Portfolios";
+	// Set navigation title and start activity indicator
+	self.navigationItem.title = @"Portfolios";
+	self.activityIndicator = [[UIActivityIndicatorView alloc] 
+							  initWithFrame:CGRectMake(0.0, 0.0, 25.0, 25.0)];
+	[self.activityIndicator sizeToFit];
+	self.activityIndicator.autoresizingMask =
+		(UIViewAutoresizingFlexibleLeftMargin |
+		 UIViewAutoresizingFlexibleRightMargin |
+		 UIViewAutoresizingFlexibleTopMargin |
+		 UIViewAutoresizingFlexibleBottomMargin);
+	UIBarButtonItem *loadingView = [[UIBarButtonItem alloc] 
+									initWithCustomView:self.activityIndicator];
+	loadingView.target = self;
+	self.navigationItem.rightBarButtonItem = loadingView;
+	[self.activityIndicator startAnimating];
+
 	[self loadPortfolios];
 }
 
 - (void)portfolioFeedTicket:(GDataServiceTicket *)ticket
            finishedWithFeed:(GDataFeedFinancePortfolio *)object {
+	[self.activityIndicator stopAnimating];
 	gDataFeedFinancePortfolio = [object retain];
 	[uitableView reloadData];
 }
 
 - (void)portfolioFeedTicket:(GDataServiceTicket *)ticket
             failedWithError:(NSError *)error {
+	[self.activityIndicator stopAnimating];
 	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"Error code %d", [error code]]
 							message:[NSString stringWithFormat:
 									 @"Authentication failed: Perhaps wrong username/password combination or no internet connection?"]
@@ -140,6 +158,8 @@
 
 - (void)dealloc {
 	[uitableView release];
+	[activityIndicator release];
+
     [super dealloc];
 }
 
