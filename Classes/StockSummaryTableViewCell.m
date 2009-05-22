@@ -17,7 +17,7 @@
 	[fullNameLabel setText:[[position symbol] fullName]];
 	NSNumber *shares = [[position positionData] shares];
 	if (![shares isEqualToNumber:[NSNumber numberWithInt:0]]) {
-		[sharesLabel setText:[shares stringValue]];
+		[sharesLabel setText:[NSString stringWithFormat:@"%@ shares", [shares stringValue]]];
 	} else {
 		[sharesLabel setText:@""]; // no shares available
 	}
