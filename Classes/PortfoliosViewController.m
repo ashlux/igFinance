@@ -16,7 +16,8 @@
 		service = [[GDataServiceGoogleFinance alloc] init];
 		[service setShouldCacheDatedData:YES];
 		[service setServiceShouldFollowNextLinks:YES];
-		[service setShouldServiceFeedsIgnoreUnknowns:YES];
+		 // YES means I can't use entries directly for updates, even if it improves performance.
+		[service setShouldServiceFeedsIgnoreUnknowns:NO];
 	}
 	
 	[service setUserAgent:@"ashlux-igFinance-0.1"];
@@ -28,6 +29,7 @@
 -(void)loadPortfolios {
 	NSLog(@"Getting all of the user's portfolios for %@.", [googleClientLogin username]);
 	GDataServiceGoogleFinance *service = [self financeService];		
+	[GDataHTTPFetcher setIsLoggingEnabled:YES];
 	NSURL *feedURL = [NSURL URLWithString:kGDataGoogleFinanceDefaultPortfoliosFeed];
 	[service fetchFinanceFeedWithURL:feedURL
 							delegate:self
@@ -127,45 +129,11 @@
 	}
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+- (void)viewWillAppear:(BOOL)animated { 
+	[super viewWillAppear:animated];
+	
+	[self loadPortfolios];
 }
-*/
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
 
 - (void)dealloc {
 	[uitableView release];

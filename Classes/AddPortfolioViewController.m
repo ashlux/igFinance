@@ -12,7 +12,7 @@
 - (void)portfolioEntryTicket:(GDataServiceTicket *)ticket
            finishedWithFeed:(GDataEntryFinancePortfolio *)object {
 	[self.activityIndicator stopAnimating];
-	[self.navigationController popViewControllerAnimated:YES];
+	[[self.navigationController popViewControllerAnimated:YES] viewWillAppear:YES];	
 }
 
 - (void)portfolioEntryTicket:(GDataServiceTicket *)ticket
@@ -34,11 +34,11 @@
 	[self.activityIndicator startAnimating];
 	NSLog(@"Adding portfolio %@ for %@.", portfolioNameTextField.text, [googleClientLogin username]);
 	NSURL *feedURL = [NSURL URLWithString:kGDataGoogleFinanceDefaultPortfoliosFeed];
-	GDataEntryFinancePortfolio *newPortfolio = [[GDataEntryFinancePortfolio alloc] init];
-	[[newPortfolio portfolioData] init];
-	[newPortfolio setTitleWithString:@"ASDFDSF"];
-	[newPortfolio setPortfolioData:[[GDataPortfolioData alloc] init]];
-	NSLog(@"%@", newPortfolio);
+	GDataEntryFinancePortfolio *newPortfolio = [GDataEntryFinancePortfolio portfolioEntry];
+	[newPortfolio setTitleWithString:portfolioNameTextField.text];
+	[newPortfolio setPortfolioData:[GDataPortfolioData portfolioData]];
+	// TODO: Do not default to USD
+	[[newPortfolio portfolioData] setCurrencyCode:@"USD"];
     [financeService fetchEntryByInsertingEntry:newPortfolio
 									forFeedURL:feedURL
 									  delegate:self
