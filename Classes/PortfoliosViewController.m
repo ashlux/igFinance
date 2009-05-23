@@ -120,6 +120,8 @@
 	if (item.tag == 99) {
 		AddPortfolioViewController *aView = [[AddPortfolioViewController alloc] 
 											 initWithNibName:@"AddPortfolioViewController" bundle:[NSBundle mainBundle]];
+		aView.googleClientLogin = self.googleClientLogin;
+		aView.financeService = [self financeService];
 		[self.navigationController pushViewController:aView animated:YES];
 		[aView release];
 	}
