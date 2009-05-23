@@ -11,19 +11,21 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
-		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		B4258A180FC793D800E97E43 /* TransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258A160FC793D800E97E43 /* TransactionViewController.m */; };
-		B4258A190FC793D800E97E43 /* TransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4258A170FC793D800E97E43 /* TransactionViewController.xib */; };
 		B4258A1E0FC7977D00E97E43 /* TransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */; };
 		B4258B610FC7AD8600E97E43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258B600FC7AD8600E97E43 /* Icon.png */; };
 		B4258BA50FC7BA8600E97E43 /* WebQuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */; };
-		B4258BA60FC7BA8600E97E43 /* WebQuoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4258BA40FC7BA8600E97E43 /* WebQuoteViewController.xib */; };
+		B47A07020FC8430A005D028B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FB0FC8430A005D028B /* LoginViewController.xib */; };
+		B47A07030FC8430A005D028B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FC0FC8430A005D028B /* MainWindow.xib */; };
+		B47A07040FC8430A005D028B /* PortfoliosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */; };
+		B47A07050FC8430A005D028B /* PortfolioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FE0FC8430A005D028B /* PortfolioViewController.xib */; };
+		B47A07060FC8430A005D028B /* TableViewCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FF0FC8430A005D028B /* TableViewCells.xib */; };
+		B47A07070FC8430A005D028B /* TransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A07000FC8430A005D028B /* TransactionViewController.xib */; };
+		B47A07080FC8430A005D028B /* WebQuoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A07010FC8430A005D028B /* WebQuoteViewController.xib */; };
 		B492D3720FBFAA8B0052EA4E /* GoogleClientLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */; };
-		B492D48E0FBFCA740052EA4E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B492D48D0FBFCA740052EA4E /* LoginViewController.xib */; };
 		B4C021BE0FC0B3D8003D40B6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */; };
 		B4C021C70FC0CB83003D40B6 /* PortfoliosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */; };
-		B4C021C90FC0CF92003D40B6 /* PortfoliosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C021C80FC0CF92003D40B6 /* PortfoliosViewController.xib */; };
 		B4E354730FC1867700403B70 /* GDataACLRole.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350BB0FC1867600403B70 /* GDataACLRole.m */; };
 		B4E354740FC1867700403B70 /* GDataACLScope.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350BD0FC1867600403B70 /* GDataACLScope.m */; };
 		B4E354750FC1867700403B70 /* GDataEntryACL.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E350BF0FC1867600403B70 /* GDataEntryACL.m */; };
@@ -230,10 +232,8 @@
 		B4E357230FC1867800403B70 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E354720FC1867700403B70 /* GDataXMLNode.m */; };
 		B4E357720FC220D400403B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E357710FC220D400403B70 /* main.m */; };
 		B4E358CF0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E358CE0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.m */; };
-		B4E359D80FC39EB500403B70 /* PortfolioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E359D70FC39EB500403B70 /* PortfolioViewController.xib */; };
 		B4E359DC0FC39F4300403B70 /* PortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */; };
 		B4E35B1F0FC4C72B00403B70 /* StockSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */; };
-		B4E3607A0FC614BF00403B70 /* TableViewCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E360790FC614BF00403B70 /* TableViewCells.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -244,27 +244,29 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AAE50D9B0CCF005BE974 /* igFinance_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = igFinance_Prefix.pch; sourceTree = "<group>"; };
-		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4258A150FC793D800E97E43 /* TransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionViewController.h; sourceTree = "<group>"; };
 		B4258A160FC793D800E97E43 /* TransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionViewController.m; sourceTree = "<group>"; };
-		B4258A170FC793D800E97E43 /* TransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TransactionViewController.xib; path = Classes/TransactionViewController.xib; sourceTree = "<group>"; };
 		B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionTableViewCell.h; sourceTree = "<group>"; };
 		B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionTableViewCell.m; sourceTree = "<group>"; };
 		B4258B600FC7AD8600E97E43 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		B4258BA20FC7BA8600E97E43 /* WebQuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebQuoteViewController.h; sourceTree = "<group>"; };
 		B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebQuoteViewController.m; sourceTree = "<group>"; };
-		B4258BA40FC7BA8600E97E43 /* WebQuoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WebQuoteViewController.xib; path = Classes/WebQuoteViewController.xib; sourceTree = "<group>"; };
+		B47A06FB0FC8430A005D028B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Resources/LoginViewController.xib; sourceTree = "<group>"; };
+		B47A06FC0FC8430A005D028B /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PortfoliosViewController.xib; path = Resources/PortfoliosViewController.xib; sourceTree = "<group>"; };
+		B47A06FE0FC8430A005D028B /* PortfolioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PortfolioViewController.xib; path = Resources/PortfolioViewController.xib; sourceTree = "<group>"; };
+		B47A06FF0FC8430A005D028B /* TableViewCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewCells.xib; path = Resources/TableViewCells.xib; sourceTree = "<group>"; };
+		B47A07000FC8430A005D028B /* TransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TransactionViewController.xib; path = Resources/TransactionViewController.xib; sourceTree = "<group>"; };
+		B47A07010FC8430A005D028B /* WebQuoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WebQuoteViewController.xib; path = Resources/WebQuoteViewController.xib; sourceTree = "<group>"; };
 		B492D3700FBFAA8B0052EA4E /* GoogleClientLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleClientLogin.h; sourceTree = "<group>"; };
 		B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleClientLogin.m; sourceTree = "<group>"; };
-		B492D48D0FBFCA740052EA4E /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B4C021BC0FC0B3D8003D40B6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfoliosViewController.h; sourceTree = "<group>"; };
 		B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfoliosViewController.m; sourceTree = "<group>"; };
-		B4C021C80FC0CF92003D40B6 /* PortfoliosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortfoliosViewController.xib; sourceTree = "<group>"; };
 		B4E350B90FC1867600403B70 /* GDataACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataACL.h; sourceTree = "<group>"; };
 		B4E350BA0FC1867600403B70 /* GDataACLRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataACLRole.h; sourceTree = "<group>"; };
 		B4E350BB0FC1867600403B70 /* GDataACLRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataACLRole.m; sourceTree = "<group>"; };
@@ -694,12 +696,10 @@
 		B4E357710FC220D400403B70 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4E358CD0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractTextEditingUITableViewController.h; sourceTree = "<group>"; };
 		B4E358CE0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractTextEditingUITableViewController.m; sourceTree = "<group>"; };
-		B4E359D70FC39EB500403B70 /* PortfolioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortfolioViewController.xib; sourceTree = "<group>"; };
 		B4E359DA0FC39F4300403B70 /* PortfolioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfolioViewController.h; sourceTree = "<group>"; };
 		B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioViewController.m; sourceTree = "<group>"; };
 		B4E35B1D0FC4C72B00403B70 /* StockSummaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockSummaryTableViewCell.h; sourceTree = "<group>"; };
 		B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockSummaryTableViewCell.m; sourceTree = "<group>"; };
-		B4E360790FC614BF00403B70 /* TableViewCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCells.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -762,15 +762,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B47A06FB0FC8430A005D028B /* LoginViewController.xib */,
+				B47A06FC0FC8430A005D028B /* MainWindow.xib */,
+				B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */,
+				B47A06FE0FC8430A005D028B /* PortfolioViewController.xib */,
+				B47A06FF0FC8430A005D028B /* TableViewCells.xib */,
+				B47A07000FC8430A005D028B /* TransactionViewController.xib */,
+				B47A07010FC8430A005D028B /* WebQuoteViewController.xib */,
 				B4258B600FC7AD8600E97E43 /* Icon.png */,
-				B4258BA40FC7BA8600E97E43 /* WebQuoteViewController.xib */,
-				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
-				B4258A170FC793D800E97E43 /* TransactionViewController.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				B492D48D0FBFCA740052EA4E /* LoginViewController.xib */,
-				B4C021C80FC0CF92003D40B6 /* PortfoliosViewController.xib */,
-				B4E359D70FC39EB500403B70 /* PortfolioViewController.xib */,
-				B4E360790FC614BF00403B70 /* TableViewCells.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1483,15 +1483,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
-				B492D48E0FBFCA740052EA4E /* LoginViewController.xib in Resources */,
-				B4C021C90FC0CF92003D40B6 /* PortfoliosViewController.xib in Resources */,
 				B4E356E70FC1867800403B70 /* ReleaseNotes.txt in Resources */,
-				B4E359D80FC39EB500403B70 /* PortfolioViewController.xib in Resources */,
-				B4E3607A0FC614BF00403B70 /* TableViewCells.xib in Resources */,
-				B4258A190FC793D800E97E43 /* TransactionViewController.xib in Resources */,
 				B4258B610FC7AD8600E97E43 /* Icon.png in Resources */,
-				B4258BA60FC7BA8600E97E43 /* WebQuoteViewController.xib in Resources */,
+				B47A07020FC8430A005D028B /* LoginViewController.xib in Resources */,
+				B47A07030FC8430A005D028B /* MainWindow.xib in Resources */,
+				B47A07040FC8430A005D028B /* PortfoliosViewController.xib in Resources */,
+				B47A07050FC8430A005D028B /* PortfolioViewController.xib in Resources */,
+				B47A07060FC8430A005D028B /* TableViewCells.xib in Resources */,
+				B47A07070FC8430A005D028B /* TransactionViewController.xib in Resources */,
+				B47A07080FC8430A005D028B /* WebQuoteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
