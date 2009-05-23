@@ -9,6 +9,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	[self loadQuoteByPosition:position];
+	[self.navigationItem setTitle:[NSString stringWithFormat:@"%@ Quote", [[position symbol] symbol]]];
 }
 
 - (void)loadQuoteByPosition:(GDataEntryFinancePosition *) positionArg {

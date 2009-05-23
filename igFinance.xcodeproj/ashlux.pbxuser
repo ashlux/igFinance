@@ -45,7 +45,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = B492D3630FBFA8F30052EA4E /* igFinance */;
-		activeSDKPreference = iphonesimulator2.2.1;
+		activeSDKPreference = iphoneos2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* igFinance */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* igFinance */,
@@ -6347,7 +6347,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 48";
 		rLen = 0;
-		rLoc = 698;
+		rLoc = 799;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 0;
@@ -6387,7 +6387,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 48";
 		rLen = 0;
-		rLoc = 698;
+		rLoc = 799;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 0;
@@ -6487,7 +6487,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 48";
 		rLen = 0;
-		rLoc = 698;
+		rLoc = 799;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 0;
@@ -6577,7 +6577,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 15";
 		rLen = 0;
-		rLoc = 659;
+		rLoc = 760;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 0;
@@ -6637,7 +6637,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 17";
 		rLen = 0;
-		rLoc = 209;
+		rLoc = 310;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 0;
@@ -6647,7 +6647,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 209;
+		rLoc = 310;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 0;
@@ -6687,7 +6687,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 209;
+		rLoc = 310;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 0;
@@ -6857,7 +6857,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 209;
+		rLoc = 310;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 0;
@@ -6877,7 +6877,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 13";
 		rLen = 0;
-		rLoc = 209;
+		rLoc = 310;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 0;
@@ -7107,7 +7107,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 13";
 		rLen = 451;
-		rLoc = 209;
+		rLoc = 310;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 0;
@@ -7147,7 +7147,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 13";
 		rLen = 451;
-		rLoc = 209;
+		rLoc = 310;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 0;
@@ -7177,7 +7177,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 11";
 		rLen = 0;
-		rLoc = 206;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 0;
@@ -7467,7 +7467,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 16";
 		rLen = 0;
-		rLoc = 540;
+		rLoc = 641;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 0;
@@ -7477,7 +7477,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 657;
+		rLoc = 758;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 0;
@@ -7487,7 +7487,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 657;
+		rLoc = 758;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 0;
@@ -7497,7 +7497,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 19";
 		rLen = 0;
-		rLoc = 657;
+		rLoc = 758;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 0;
@@ -7507,7 +7507,7 @@
 		comments = "error: syntax error before ']' token";
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		rLen = 1;
-		rLoc = 19;
+		rLoc = 20;
 		rType = 1;
 	};
 	B4258C3F0FC7C12500E97E43 /* PBXTextBookmark */ = {
@@ -7515,7 +7515,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 19";
 		rLen = 0;
-		rLoc = 655;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 0;
@@ -7525,7 +7525,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 19";
 		rLen = 0;
-		rLoc = 655;
+		rLoc = 756;
 		rType = 0;
 		vrLen = 203;
 		vrLoc = 475;
@@ -7535,7 +7535,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 619;
+		rLoc = 720;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 0;
@@ -7645,7 +7645,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 619;
+		rLoc = 720;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 0;
@@ -7825,7 +7825,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 619;
+		rLoc = 720;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 0;
@@ -7845,7 +7845,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 10";
 		rLen = 0;
-		rLoc = 205;
+		rLoc = 306;
 		rType = 0;
 		vrLen = 765;
 		vrLoc = 0;
@@ -7995,7 +7995,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 540;
+		rLoc = 641;
 		rType = 0;
 		vrLen = 719;
 		vrLoc = 0;
@@ -8005,7 +8005,7 @@
 		comments = "warning: local declaration of 'position' hides instance variable";
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		rLen = 1;
-		rLoc = 16;
+		rLoc = 17;
 		rType = 1;
 	};
 	B4258C750FC7C25800E97E43 /* PBXTextBookmark */ = {
@@ -8013,7 +8013,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 17";
 		rLen = 78;
-		rLoc = 462;
+		rLoc = 563;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 168;
@@ -8023,7 +8023,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 18";
 		rLen = 0;
-		rLoc = 540;
+		rLoc = 641;
 		rType = 0;
 		vrLen = 719;
 		vrLoc = 0;
@@ -8033,7 +8033,7 @@
 		fRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */;
 		name = "WebQuoteViewController.m: 17";
 		rLen = 0;
-		rLoc = 487;
+		rLoc = 588;
 		rType = 0;
 		vrLen = 728;
 		vrLoc = 0;
