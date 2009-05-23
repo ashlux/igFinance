@@ -23,6 +23,9 @@
 		B47A07060FC8430A005D028B /* TableViewCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FF0FC8430A005D028B /* TableViewCells.xib */; };
 		B47A07070FC8430A005D028B /* TransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A07000FC8430A005D028B /* TransactionViewController.xib */; };
 		B47A07080FC8430A005D028B /* WebQuoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A07010FC8430A005D028B /* WebQuoteViewController.xib */; };
+		B47A07660FC85ADA005D028B /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = B47A07650FC85ADA005D028B /* 10-medical.png */; };
+		B47A07760FC85CDC005D028B /* AddPortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A07740FC85CDC005D028B /* AddPortfolioViewController.m */; };
+		B47A07830FC85D30005D028B /* AddPortfolioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A07820FC85D30005D028B /* AddPortfolioViewController.xib */; };
 		B492D3720FBFAA8B0052EA4E /* GoogleClientLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */; };
 		B4C021BE0FC0B3D8003D40B6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */; };
 		B4C021C70FC0CB83003D40B6 /* PortfoliosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */; };
@@ -261,6 +264,10 @@
 		B47A06FF0FC8430A005D028B /* TableViewCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewCells.xib; path = Resources/TableViewCells.xib; sourceTree = "<group>"; };
 		B47A07000FC8430A005D028B /* TransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TransactionViewController.xib; path = Resources/TransactionViewController.xib; sourceTree = "<group>"; };
 		B47A07010FC8430A005D028B /* WebQuoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WebQuoteViewController.xib; path = Resources/WebQuoteViewController.xib; sourceTree = "<group>"; };
+		B47A07650FC85ADA005D028B /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "10-medical.png"; path = "Resources/10-medical.png"; sourceTree = "<group>"; };
+		B47A07730FC85CDC005D028B /* AddPortfolioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPortfolioViewController.h; sourceTree = "<group>"; };
+		B47A07740FC85CDC005D028B /* AddPortfolioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPortfolioViewController.m; sourceTree = "<group>"; };
+		B47A07820FC85D30005D028B /* AddPortfolioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddPortfolioViewController.xib; path = Resources/AddPortfolioViewController.xib; sourceTree = "<group>"; };
 		B492D3700FBFAA8B0052EA4E /* GoogleClientLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleClientLogin.h; sourceTree = "<group>"; };
 		B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleClientLogin.m; sourceTree = "<group>"; };
 		B4C021BC0FC0B3D8003D40B6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -762,6 +769,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B47A07820FC85D30005D028B /* AddPortfolioViewController.xib */,
+				B47A07650FC85ADA005D028B /* 10-medical.png */,
 				B47A06FB0FC8430A005D028B /* LoginViewController.xib */,
 				B47A06FC0FC8430A005D028B /* MainWindow.xib */,
 				B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */,
@@ -1430,6 +1439,8 @@
 				B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */,
 				B4258BA20FC7BA8600E97E43 /* WebQuoteViewController.h */,
 				B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */,
+				B47A07730FC85CDC005D028B /* AddPortfolioViewController.h */,
+				B47A07740FC85CDC005D028B /* AddPortfolioViewController.m */,
 			);
 			name = portfolio;
 			sourceTree = "<group>";
@@ -1492,6 +1503,8 @@
 				B47A07060FC8430A005D028B /* TableViewCells.xib in Resources */,
 				B47A07070FC8430A005D028B /* TransactionViewController.xib in Resources */,
 				B47A07080FC8430A005D028B /* WebQuoteViewController.xib in Resources */,
+				B47A07660FC85ADA005D028B /* 10-medical.png in Resources */,
+				B47A07830FC85D30005D028B /* AddPortfolioViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1717,6 +1730,7 @@
 				B4258A180FC793D800E97E43 /* TransactionViewController.m in Sources */,
 				B4258A1E0FC7977D00E97E43 /* TransactionTableViewCell.m in Sources */,
 				B4258BA50FC7BA8600E97E43 /* WebQuoteViewController.m in Sources */,
+				B47A07760FC85CDC005D028B /* AddPortfolioViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

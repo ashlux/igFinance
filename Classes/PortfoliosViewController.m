@@ -1,6 +1,7 @@
 
 #import "PortfoliosViewController.h"
 #import "PortfolioViewController.h"
+#import "AddPortfolioViewController.h"
 
 @implementation PortfoliosViewController
 
@@ -115,6 +116,14 @@
 	[aView release];
 }
 
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
+	if (item.tag == 99) {
+		AddPortfolioViewController *aView = [[AddPortfolioViewController alloc] 
+											 initWithNibName:@"AddPortfolioViewController" bundle:[NSBundle mainBundle]];
+		[self.navigationController pushViewController:aView animated:YES];
+		[aView release];
+	}
+}
 
 /*
 // Override to support conditional editing of the table view.

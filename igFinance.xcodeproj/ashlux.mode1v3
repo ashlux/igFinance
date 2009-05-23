@@ -228,8 +228,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -278,14 +276,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
+									<integer>21</integer>
 									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {389, 660}}</string>
+							<string>{{0, 49}, {389, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -315,12 +313,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>LoginViewController.h</string>
+								<string>PortfoliosViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>LoginViewController.h</string>
+										<string>PortfoliosViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B47A075B0FC855A8005D028B</string>
+										<string>B47A07B00FC85E4C005D028B</string>
 										<key>history</key>
 										<array>
 											<string>B4E3408F0FC184E000403B70</string>
@@ -358,18 +358,25 @@
 											<string>B42589DE0FC75F1C00E97E43</string>
 											<string>B4258C450FC7C23400E97E43</string>
 											<string>B4258C470FC7C23400E97E43</string>
-											<string>B4258C4D0FC7C23400E97E43</string>
-											<string>B4258C690FC7C25200E97E43</string>
-											<string>B4258C6A0FC7C25200E97E43</string>
-											<string>B4258C6D0FC7C25200E97E43</string>
-											<string>B47A072C0FC853F9005D028B</string>
 											<string>B47A072D0FC853F9005D028B</string>
 											<string>B47A072E0FC853F9005D028B</string>
-											<string>B47A07420FC8554A005D028B</string>
 											<string>B47A07430FC8554A005D028B</string>
-											<string>B47A07440FC8554A005D028B</string>
-											<string>B47A07580FC855A8005D028B</string>
-											<string>B47A07590FC855A8005D028B</string>
+											<string>B47A07880FC85E4C005D028B</string>
+											<string>B47A07890FC85E4C005D028B</string>
+											<string>B47A078A0FC85E4C005D028B</string>
+											<string>B47A078B0FC85E4C005D028B</string>
+											<string>B47A078C0FC85E4C005D028B</string>
+											<string>B47A078D0FC85E4C005D028B</string>
+											<string>B47A078E0FC85E4C005D028B</string>
+											<string>B47A078F0FC85E4C005D028B</string>
+											<string>B47A07900FC85E4C005D028B</string>
+											<string>B47A07910FC85E4C005D028B</string>
+											<string>B47A07920FC85E4C005D028B</string>
+											<string>B47A07930FC85E4C005D028B</string>
+											<string>B47A07940FC85E4C005D028B</string>
+											<string>B47A07950FC85E4C005D028B</string>
+											<string>B47A07960FC85E4C005D028B</string>
+											<string>B47A07970FC85E4C005D028B</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -428,6 +435,41 @@
 											<string>B47A074E0FC8554A005D028B</string>
 											<string>B47A074F0FC8554A005D028B</string>
 											<string>B47A075A0FC855A8005D028B</string>
+											<string>B47A076C0FC85C97005D028B</string>
+											<string>B47A076D0FC85C97005D028B</string>
+											<string>B47A076E0FC85C97005D028B</string>
+											<string>B47A076F0FC85C97005D028B</string>
+											<string>B47A07700FC85C97005D028B</string>
+											<string>B47A07710FC85C97005D028B</string>
+											<string>B47A077C0FC85CFB005D028B</string>
+											<string>B47A077D0FC85CFB005D028B</string>
+											<string>B47A077E0FC85CFB005D028B</string>
+											<string>B47A077F0FC85CFB005D028B</string>
+											<string>B47A07800FC85CFB005D028B</string>
+											<string>B47A07980FC85E4C005D028B</string>
+											<string>B47A07990FC85E4C005D028B</string>
+											<string>B47A079A0FC85E4C005D028B</string>
+											<string>B47A079B0FC85E4C005D028B</string>
+											<string>B47A079C0FC85E4C005D028B</string>
+											<string>B47A079D0FC85E4C005D028B</string>
+											<string>B47A079E0FC85E4C005D028B</string>
+											<string>B47A079F0FC85E4C005D028B</string>
+											<string>B47A07A00FC85E4C005D028B</string>
+											<string>B47A07A10FC85E4C005D028B</string>
+											<string>B47A07A20FC85E4C005D028B</string>
+											<string>B47A07A30FC85E4C005D028B</string>
+											<string>B47A07A40FC85E4C005D028B</string>
+											<string>B47A07A50FC85E4C005D028B</string>
+											<string>B47A07A60FC85E4C005D028B</string>
+											<string>B47A07A70FC85E4C005D028B</string>
+											<string>B47A07A80FC85E4C005D028B</string>
+											<string>B47A07A90FC85E4C005D028B</string>
+											<string>B47A07AA0FC85E4C005D028B</string>
+											<string>B47A07AB0FC85E4C005D028B</string>
+											<string>B47A07AC0FC85E4C005D028B</string>
+											<string>B47A07AD0FC85E4C005D028B</string>
+											<string>B47A07AE0FC85E4C005D028B</string>
+											<string>B47A07AF0FC85E4C005D028B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -624,8 +666,8 @@
 		<string>B47A075C0FC855A8005D028B</string>
 		<string>B47A075D0FC855A8005D028B</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>B492D3800FBFACBC0052EA4E</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>B492D3800FBFACBC0052EA4E</string>
 		<string>/Users/ashlux/Documents/igFinance/igFinance.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -645,12 +687,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>LoginViewController.m</string>
+								<string>PortfoliosViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -667,8 +711,6 @@
 							<string>183pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -719,7 +761,7 @@
 			<key>WindowToolGUID</key>
 			<string>B492D3800FBFACBC0052EA4E</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
