@@ -8,7 +8,7 @@
 @synthesize uiTableView;
 @synthesize usernameTextField;
 @synthesize passwordTextField;
-@synthesize autoLoginSwitch;
+@synthesize rememberPasswordSwitch;
 
 - (void)getDefaults {
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -23,10 +23,10 @@
 		passwordTextField.text = password;
 	}
 	
-	if ([defaults boolForKey:@"autoLogin"]) {
-		autoLoginSwitch.on = TRUE;
+	if ([defaults boolForKey:@"rememberPasswordSwitch"]) {
+		rememberPasswordSwitch.on = TRUE;
 	} else {
-		autoLoginSwitch.on = FALSE;
+		rememberPasswordSwitch.on = FALSE;
 	}
 }
 
@@ -35,8 +35,8 @@
 	[defaults setObject:usernameTextField.text forKey:@"username"];
 	
 	// TODO: Do not store passwords this way
-	[defaults setBool:[autoLoginSwitch isOn] forKey:@"autoLogin"];
-	if ([autoLoginSwitch isOn]) {
+	[defaults setBool:[rememberPasswordSwitch isOn] forKey:@"rememberPasswordSwitch"];
+	if ([rememberPasswordSwitch isOn]) {
 		[defaults setObject:passwordTextField.text forKey:@"password"];
 	} else {
 		[defaults removeObjectForKey:@"password"];
@@ -85,7 +85,7 @@
 	[uiTableView release];
 	[usernameTextField release];
 	[passwordTextField release];
-	[autoLoginSwitch release];
+	[rememberPasswordSwitch release];
 	
     [super dealloc];
 }
