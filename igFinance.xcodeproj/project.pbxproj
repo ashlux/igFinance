@@ -18,6 +18,8 @@
 		B4258A190FC793D800E97E43 /* TransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4258A170FC793D800E97E43 /* TransactionViewController.xib */; };
 		B4258A1E0FC7977D00E97E43 /* TransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */; };
 		B4258B610FC7AD8600E97E43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258B600FC7AD8600E97E43 /* Icon.png */; };
+		B4258BA50FC7BA8600E97E43 /* WebQuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */; };
+		B4258BA60FC7BA8600E97E43 /* WebQuoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4258BA40FC7BA8600E97E43 /* WebQuoteViewController.xib */; };
 		B492D3720FBFAA8B0052EA4E /* GoogleClientLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */; };
 		B492D48E0FBFCA740052EA4E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B492D48D0FBFCA740052EA4E /* LoginViewController.xib */; };
 		B4C021BE0FC0B3D8003D40B6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */; };
@@ -254,6 +256,9 @@
 		B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionTableViewCell.h; sourceTree = "<group>"; };
 		B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionTableViewCell.m; sourceTree = "<group>"; };
 		B4258B600FC7AD8600E97E43 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		B4258BA20FC7BA8600E97E43 /* WebQuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebQuoteViewController.h; sourceTree = "<group>"; };
+		B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebQuoteViewController.m; sourceTree = "<group>"; };
+		B4258BA40FC7BA8600E97E43 /* WebQuoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WebQuoteViewController.xib; path = Classes/WebQuoteViewController.xib; sourceTree = "<group>"; };
 		B492D3700FBFAA8B0052EA4E /* GoogleClientLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleClientLogin.h; sourceTree = "<group>"; };
 		B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleClientLogin.m; sourceTree = "<group>"; };
 		B492D48D0FBFCA740052EA4E /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -760,6 +765,7 @@
 			isa = PBXGroup;
 			children = (
 				B4258B600FC7AD8600E97E43 /* Icon.png */,
+				B4258BA40FC7BA8600E97E43 /* WebQuoteViewController.xib */,
 				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				B4258A170FC793D800E97E43 /* TransactionViewController.xib */,
@@ -1425,6 +1431,8 @@
 				B4258A160FC793D800E97E43 /* TransactionViewController.m */,
 				B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */,
 				B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */,
+				B4258BA20FC7BA8600E97E43 /* WebQuoteViewController.h */,
+				B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */,
 			);
 			name = portfolio;
 			sourceTree = "<group>";
@@ -1487,6 +1495,7 @@
 				B4E3607A0FC614BF00403B70 /* TableViewCells.xib in Resources */,
 				B4258A190FC793D800E97E43 /* TransactionViewController.xib in Resources */,
 				B4258B610FC7AD8600E97E43 /* Icon.png in Resources */,
+				B4258BA60FC7BA8600E97E43 /* WebQuoteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1711,6 +1720,7 @@
 				B4E35B1F0FC4C72B00403B70 /* StockSummaryTableViewCell.m in Sources */,
 				B4258A180FC793D800E97E43 /* TransactionViewController.m in Sources */,
 				B4258A1E0FC7977D00E97E43 /* TransactionTableViewCell.m in Sources */,
+				B4258BA50FC7BA8600E97E43 /* WebQuoteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

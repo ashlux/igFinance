@@ -3,6 +3,7 @@
 #import "PortfolioViewController.h"
 #import "StockSummaryTableViewCell.h"
 #import "TransactionViewController.h"
+#import "WebQuoteViewController.h"
 
 @implementation PortfolioViewController
 
@@ -78,6 +79,15 @@
 	return cell.bounds.size.height;
 }	
 
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath {
+	WebQuoteViewController *aView = [[WebQuoteViewController alloc] 
+									 initWithNibName:@"WebQuoteViewController" bundle:[NSBundle mainBundle]];
+	//[aView loadQuoteByPosition:[[positionFeed entries] objectAtIndex:indexPath.row]];
+	aView.position = [[positionFeed entries] objectAtIndex:indexPath.row];
+	[self.navigationController pushViewController:aView animated:YES];
+	[aView release];
+}
+		
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	TransactionViewController *aView = [[TransactionViewController alloc] 
 									  initWithNibName:@"TransactionViewController" bundle:[NSBundle mainBundle]];

@@ -113,7 +113,7 @@
 								<int key="IBUITextAlignment">2</int>
 							</object>
 						</object>
-						<string key="NSFrameSize">{318, 43}</string>
+						<string key="NSFrameSize">{285, 43}</string>
 						<reference key="NSSuperview" ref="530124437"/>
 						<object class="NSColor" key="IBUIBackgroundColor" id="642309087">
 							<int key="NSColorSpace">3</int>
@@ -133,6 +133,7 @@
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				<int key="IBUISeparatorStyle">1</int>
+				<int key="IBUIAccessoryType">2</int>
 				<reference key="IBUIContentView" ref="135430234"/>
 				<string key="IBUIReuseIdentifier">StockSummaryTableViewCell</string>
 			</object>
@@ -436,12 +437,12 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>StockSummaryTableViewCell</string>
-					<string>{{568, 536}, {318, 44}}</string>
+					<string>{{586, 106}, {318, 44}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>TransactionTableViewCell</string>
-					<string>{{568, 444}, {318, 69}}</string>
+					<string>{{586, 9}, {318, 69}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
