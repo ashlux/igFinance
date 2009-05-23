@@ -2,6 +2,7 @@
 
 #import "PortfolioViewController.h"
 #import "StockSummaryTableViewCell.h"
+#import "TransactionViewController.h"
 
 @implementation PortfolioViewController
 
@@ -69,7 +70,6 @@
 	
 	[cell updateWithPosition:[[positionFeed entries] objectAtIndex:indexPath.row]];
 	[cell setEditing:YES];
-	//[tableView setEditing:YES];
 	return cell;
 }  
 
@@ -78,17 +78,16 @@
 	return cell.bounds.size.height;
 }	
 
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	TransactionViewController *aView = [[TransactionViewController alloc] 
+									  initWithNibName:@"TransactionViewController" bundle:[NSBundle mainBundle]];
+	aView.googleClientLogin = googleClientLogin;
+	aView.financeService = [self financeService];
+	aView.position = [[[self positionFeed] entries] objectAtIndex:indexPath.row];
+	[self.navigationController pushViewController:aView animated:YES];
+	[aView release];
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-}
 
 // fetched position list successfully
 - (void)positionFeedticket:(GDataServiceTicket *)ticket
