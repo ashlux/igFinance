@@ -45,7 +45,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = B492D3630FBFA8F30052EA4E /* igFinance */;
-		activeSDKPreference = iphonesimulator2.2.1;
+		activeSDKPreference = iphoneos2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* igFinance */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* igFinance */,
@@ -3204,9 +3204,9 @@
 	};
 	B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {808, 742}}";
+			sepNavIntBoundsRect = "{{0, 0}, {808, 756}}";
 			sepNavSelRange = "{1051, 0}";
-			sepNavVisRange = "{400, 1061}";
+			sepNavVisRange = "{400, 1083}";
 		};
 	};
 	B4258A220FC798A600E97E43 /* PBXTextBookmark */ = {
@@ -5954,6 +5954,11 @@
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 400;
+	};
+	B4258B600FC7AD8600E97E43 /* Icon.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 173}, {750, 558}}";
+		};
 	};
 	B492D3630FBFA8F30052EA4E /* igFinance */ = {
 		isa = PBXExecutable;
@@ -10986,7 +10991,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1082, 1694}}";
 			sepNavSelRange = "{2872, 72}";
-			sepNavVisRange = "{2554, 570}";
+			sepNavVisRange = "{2554, 649}";
 			sepNavWindowFrame = "{{176, 68}, {750, 558}}";
 		};
 	};
