@@ -9,7 +9,6 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="3"/>
-			<integer value="1"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -33,10 +32,9 @@
 				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
 			</object>
 			<object class="IBUIView" id="191373211">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<string key="NSFrameSize">{320, 460}</string>
-				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -59,12 +57,12 @@
 							<object class="IBUILabel" id="262300520">
 								<reference key="NSNextResponder" ref="135430234"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{9, 1}, {157, 29}}</string>
+								<string key="NSFrame">{{9, 1}, {200, 29}}</string>
 								<reference key="NSSuperview" ref="135430234"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
-								<string key="IBUIText">SYMBOL</string>
+								<string key="IBUIText">GOOG (NASDAQ)</string>
 								<object class="NSFont" key="IBUIFont">
 									<string key="NSName">Helvetica</string>
 									<double key="NSSize">2.400000e+01</double>
@@ -87,7 +85,7 @@
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="IBUIText">Full name</string>
-								<object class="NSFont" key="IBUIFont">
+								<object class="NSFont" key="IBUIFont" id="659660515">
 									<string key="NSName">Helvetica</string>
 									<double key="NSSize">1.000000e+01</double>
 									<int key="NSfFlags">16</int>
@@ -100,12 +98,13 @@
 							<object class="IBUILabel" id="1048968499">
 								<reference key="NSNextResponder" ref="135430234"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{174, 5}, {103, 21}}</string>
+								<string key="NSFrame">{{163, 23}, {115, 21}}</string>
 								<reference key="NSSuperview" ref="135430234"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="IBUIText">Shares</string>
+								<reference key="IBUIFont" ref="659660515"/>
 								<reference key="IBUITextColor" ref="310562622"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -113,7 +112,7 @@
 								<int key="IBUITextAlignment">2</int>
 							</object>
 						</object>
-						<string key="NSFrameSize">{285, 43}</string>
+						<string key="NSFrameSize">{318, 43}</string>
 						<reference key="NSSuperview" ref="530124437"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -133,7 +132,6 @@
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				<int key="IBUISeparatorStyle">1</int>
-				<int key="IBUIAccessoryType">2</int>
 				<reference key="IBUIContentView" ref="135430234"/>
 				<string key="IBUIReuseIdentifier">StockSummaryTableViewCell</string>
 			</object>
@@ -199,8 +197,8 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="262300520"/>
-							<reference ref="1048968499"/>
 							<reference ref="499559793"/>
+							<reference ref="1048968499"/>
 						</object>
 						<reference key="parent" ref="1007465102"/>
 					</object>
@@ -238,11 +236,11 @@
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>UIResponder</string>
-					<string>{{354, 276}, {320, 480}}</string>
+					<string>{{213, 16}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>StockSummaryTableViewCell</string>
-					<string>{{332, 503}, {318, 44}}</string>
+					<string>{{311, 233}, {318, 44}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

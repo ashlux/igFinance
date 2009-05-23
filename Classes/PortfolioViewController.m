@@ -49,7 +49,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {	
-	return [[positionFeed entries] count] - 1;
+	return [[positionFeed entries] count];
 }
 
 
@@ -68,6 +68,8 @@
 	}	
 	
 	[cell updateWithPosition:[[positionFeed entries] objectAtIndex:indexPath.row]];
+	[cell setEditing:YES];
+	//[tableView setEditing:YES];
 	return cell;
 }  
 

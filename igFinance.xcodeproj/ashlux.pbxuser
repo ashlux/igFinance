@@ -37,15 +37,15 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {808, 2002}}";
+			sepNavIntBoundsRect = "{{0, 0}, {808, 1988}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 598}";
+			sepNavVisRange = "{0, 676}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = B492D3630FBFA8F30052EA4E /* igFinance */;
-		activeSDKPreference = iphoneos2.2.1;
+		activeSDKPreference = iphonesimulator2.2.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* igFinance */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* igFinance */,
@@ -177,6 +177,38 @@
 			B42589D70FC6746500E97E43 /* PBXTextBookmark */ = B42589D70FC6746500E97E43 /* PBXTextBookmark */;
 			B42589D80FC6746500E97E43 /* PBXTextBookmark */ = B42589D80FC6746500E97E43 /* PBXTextBookmark */;
 			B42589D90FC6746500E97E43 /* PBXTextBookmark */ = B42589D90FC6746500E97E43 /* PBXTextBookmark */;
+			B42589DE0FC75F1C00E97E43 /* PBXTextBookmark */ = B42589DE0FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589DF0FC75F1C00E97E43 /* PBXTextBookmark */ = B42589DF0FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E00FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E00FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E10FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E10FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E20FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E20FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E30FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E30FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E40FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E40FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E50FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E50FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E60FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E60FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E70FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E70FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E80FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E80FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589E90FC75F1C00E97E43 /* PBXTextBookmark */ = B42589E90FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589EA0FC75F1C00E97E43 /* PBXTextBookmark */ = B42589EA0FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589EB0FC75F1C00E97E43 /* PBXTextBookmark */ = B42589EB0FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589EC0FC75F1C00E97E43 /* PBXTextBookmark */ = B42589EC0FC75F1C00E97E43 /* PBXTextBookmark */;
+			B42589F00FC762BB00E97E43 /* PBXTextBookmark */ = B42589F00FC762BB00E97E43 /* PBXTextBookmark */;
+			B42589F10FC762BB00E97E43 /* PBXTextBookmark */ = B42589F10FC762BB00E97E43 /* PBXTextBookmark */;
+			B42589F20FC762BB00E97E43 /* PBXTextBookmark */ = B42589F20FC762BB00E97E43 /* PBXTextBookmark */;
+			B42589F30FC762BB00E97E43 /* PBXTextBookmark */ = B42589F30FC762BB00E97E43 /* PBXTextBookmark */;
+			B42589F40FC762BB00E97E43 /* PBXTextBookmark */ = B42589F40FC762BB00E97E43 /* PBXTextBookmark */;
+			B42589F60FC762D300E97E43 /* PBXTextBookmark */ = B42589F60FC762D300E97E43 /* PBXTextBookmark */;
+			B42589FD0FC763FC00E97E43 /* PBXTextBookmark */ = B42589FD0FC763FC00E97E43 /* PBXTextBookmark */;
+			B42589FF0FC7643000E97E43 /* PBXTextBookmark */ = B42589FF0FC7643000E97E43 /* PBXTextBookmark */;
+			B4258A020FC7645000E97E43 /* PBXTextBookmark */ = B4258A020FC7645000E97E43 /* PBXTextBookmark */;
+			B4258A040FC7649800E97E43 /* PBXTextBookmark */ = B4258A040FC7649800E97E43 /* PBXTextBookmark */;
+			B4258A060FC764C100E97E43 /* PBXTextBookmark */ = B4258A060FC764C100E97E43 /* PBXTextBookmark */;
+			B4258A080FC764D000E97E43 /* PBXTextBookmark */ = B4258A080FC764D000E97E43 /* PBXTextBookmark */;
+			B4258A0A0FC764F400E97E43 /* PBXTextBookmark */ = B4258A0A0FC764F400E97E43 /* PBXTextBookmark */;
+			B4258A0E0FC7653E00E97E43 /* PBXTextBookmark */ = B4258A0E0FC7653E00E97E43 /* PBXTextBookmark */;
+			B4258A100FC7655300E97E43 /* PBXTextBookmark */ = B4258A100FC7655300E97E43 /* PBXTextBookmark */;
+			B4258A120FC7655B00E97E43 /* PBXTextBookmark */ = B4258A120FC7655B00E97E43 /* PBXTextBookmark */;
+			B4258A130FC7656800E97E43 /* PBXTextBookmark */ = B4258A130FC7656800E97E43 /* PBXTextBookmark */;
 			B492D38C0FBFACEE0052EA4E = B492D38C0FBFACEE0052EA4E /* PBXTextBookmark */;
 			B492D38D0FBFACEE0052EA4E = B492D38D0FBFACEE0052EA4E /* PBXTextBookmark */;
 			B492D38E0FBFACEE0052EA4E = B492D38E0FBFACEE0052EA4E /* PBXTextBookmark */;
@@ -2359,7 +2391,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 101";
 		rLen = 0;
-		rLoc = 3423;
+		rLoc = 3474;
 		rType = 0;
 		vrLen = 1042;
 		vrLoc = 2987;
@@ -2369,7 +2401,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 102";
 		rLen = 0;
-		rLoc = 3424;
+		rLoc = 3475;
 		rType = 0;
 		vrLen = 1042;
 		vrLoc = 2987;
@@ -2419,7 +2451,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 102";
 		rLen = 0;
-		rLoc = 3424;
+		rLoc = 3475;
 		rType = 0;
 		vrLen = 1042;
 		vrLoc = 2987;
@@ -2549,10 +2581,330 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 22";
 		rLen = 0;
-		rLoc = 717;
+		rLoc = 759;
 		rType = 0;
 		vrLen = 841;
 		vrLoc = 0;
+	};
+	B42589DE0FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 0;
+	};
+	B42589DF0FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DA0FC39F4300403B70 /* PortfolioViewController.h */;
+		name = "PortfolioViewController.h: 19";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	B42589E00FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 97";
+		rLen = 0;
+		rLoc = 3335;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 2935;
+	};
+	B42589E10FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E35B1D0FC4C72B00403B70 /* StockSummaryTableViewCell.h */;
+		name = "StockSummaryTableViewCell.h: 7";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 578;
+		vrLoc = 0;
+	};
+	B42589E20FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
+		name = "StockSummaryTableViewCell.m: 22";
+		rLen = 0;
+		rLoc = 759;
+		rType = 0;
+		vrLen = 847;
+		vrLoc = 0;
+	};
+	B42589E30FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
+		name = "StockSummaryTableViewCell.m: 22";
+		rLen = 0;
+		rLoc = 759;
+		rType = 0;
+		vrLen = 847;
+		vrLoc = 0;
+	};
+	B42589E40FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DA0FC39F4300403B70 /* PortfolioViewController.h */;
+		name = "PortfolioViewController.h: 19";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	B42589E50FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 102";
+		rLen = 0;
+		rLoc = 3475;
+		rType = 0;
+		vrLen = 1095;
+		vrLoc = 2935;
+	};
+	B42589E60FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DA0FC39F4300403B70 /* PortfolioViewController.h */;
+		name = "PortfolioViewController.h: 19";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	B42589E70FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 97";
+		rLen = 0;
+		rLoc = 3335;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 2935;
+	};
+	B42589E80FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 0;
+	};
+	B42589E90FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DA0FC39F4300403B70 /* PortfolioViewController.h */;
+		name = "PortfolioViewController.h: 19";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	B42589EA0FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 97";
+		rLen = 0;
+		rLoc = 3335;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 2935;
+	};
+	B42589EB0FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E35B1D0FC4C72B00403B70 /* StockSummaryTableViewCell.h */;
+		name = "StockSummaryTableViewCell.h: 7";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 578;
+		vrLoc = 0;
+	};
+	B42589EC0FC75F1C00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
+		name = "StockSummaryTableViewCell.m: 20";
+		rLen = 0;
+		rLoc = 696;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 0;
+	};
+	B42589F00FC762BB00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
+		name = "StockSummaryTableViewCell.m: 20";
+		rLen = 0;
+		rLoc = 696;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 0;
+	};
+	B42589F10FC762BB00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DA0FC39F4300403B70 /* PortfolioViewController.h */;
+		name = "PortfolioViewController.h: 19";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	B42589F20FC762BB00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
+		name = "StockSummaryTableViewCell.m: 20";
+		rLen = 0;
+		rLoc = 696;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 0;
+	};
+	B42589F30FC762BB00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DA0FC39F4300403B70 /* PortfolioViewController.h */;
+		name = "PortfolioViewController.h: 19";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	B42589F40FC762BB00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 75";
+		rLen = 0;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 1756;
+	};
+	B42589F60FC762D300E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 75";
+		rLen = 0;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 1223;
+		vrLoc = 1756;
+	};
+	B42589FD0FC763FC00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 52";
+		rLen = 0;
+		rLoc = 1747;
+		rType = 0;
+		vrLen = 1243;
+		vrLoc = 1380;
+	};
+	B42589FF0FC7643000E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 75";
+		rLen = 0;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 1191;
+		vrLoc = 1565;
+	};
+	B4258A020FC7645000E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 75";
+		rLen = 0;
+		rLoc = 2545;
+		rType = 0;
+		vrLen = 1171;
+		vrLoc = 1709;
+	};
+	B4258A040FC7649800E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 58";
+		rLen = 0;
+		rLoc = 1906;
+		rType = 0;
+		vrLen = 1210;
+		vrLoc = 1709;
+	};
+	B4258A060FC764C100E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 52";
+		rLen = 0;
+		rLoc = 1746;
+		rType = 0;
+		vrLen = 1201;
+		vrLoc = 1329;
+	};
+	B4258A080FC764D000E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 52";
+		rLen = 0;
+		rLoc = 1747;
+		rType = 0;
+		vrLen = 1092;
+		vrLoc = 1329;
+	};
+	B4258A0A0FC764F400E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 52";
+		rLen = 0;
+		rLoc = 1747;
+		rType = 0;
+		vrLen = 1206;
+		vrLoc = 1448;
+	};
+	B4258A0E0FC7653E00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 73";
+		rLen = 0;
+		rLoc = 2527;
+		rType = 0;
+		vrLen = 1158;
+		vrLoc = 2003;
+	};
+	B4258A100FC7655300E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 73";
+		rLen = 0;
+		rLoc = 2527;
+		rType = 0;
+		vrLen = 1158;
+		vrLoc = 2003;
+	};
+	B4258A120FC7655B00E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 73";
+		rLen = 0;
+		rLoc = 2500;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 2003;
+	};
+	B4258A130FC7656800E97E43 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
+		name = "PortfolioViewController.m: 57";
+		rLen = 0;
+		rLoc = 1906;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 1377;
 	};
 	B492D3630FBFA8F30052EA4E /* igFinance */ = {
 		isa = PBXExecutable;
@@ -7583,9 +7935,9 @@
 	};
 	B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {984, 1722}}";
-			sepNavSelRange = "{3424, 0}";
-			sepNavVisRange = "{2987, 1042}";
+			sepNavIntBoundsRect = "{{0, 0}, {808, 1750}}";
+			sepNavSelRange = "{1906, 0}";
+			sepNavVisRange = "{1377, 1165}";
 			sepNavWindowFrame = "{{176, 68}, {750, 558}}";
 		};
 	};
@@ -8184,7 +8536,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 33";
 		rLen = 0;
-		rLoc = 4004;
+		rLoc = 4055;
 		rType = 0;
 		vrLen = 560;
 		vrLoc = 79;
@@ -8214,7 +8566,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 43";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1173;
 		vrLoc = 221;
@@ -8262,7 +8614,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 24";
 		rLen = 0;
-		rLoc = 2910;
+		rLoc = 2961;
 		rType = 0;
 		vrLen = 559;
 		vrLoc = 80;
@@ -8282,7 +8634,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 24";
 		rLen = 0;
-		rLoc = 2910;
+		rLoc = 2961;
 		rType = 0;
 		vrLen = 560;
 		vrLoc = 79;
@@ -8352,7 +8704,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 43";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 219;
@@ -8442,7 +8794,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 43";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1173;
 		vrLoc = 221;
@@ -8532,7 +8884,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 43";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1173;
 		vrLoc = 221;
@@ -9972,7 +10324,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 65";
 		rLen = 0;
-		rLoc = 4004;
+		rLoc = 4055;
 		rType = 0;
 		vrLen = 717;
 		vrLoc = 969;
@@ -9992,7 +10344,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 47";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1019;
 		vrLoc = 635;
@@ -10012,7 +10364,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 47";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1019;
 		vrLoc = 635;
@@ -10160,7 +10512,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 47";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 635;
@@ -10200,7 +10552,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 47";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 635;
@@ -10247,7 +10599,7 @@
 	};
 	B4E35B1D0FC4C72B00403B70 /* StockSummaryTableViewCell.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {808, 445}}";
+			sepNavIntBoundsRect = "{{0, 0}, {808, 468}}";
 			sepNavSelRange = "{164, 0}";
 			sepNavVisRange = "{0, 578}";
 		};
@@ -10255,8 +10607,8 @@
 	B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {808, 490}}";
-			sepNavSelRange = "{717, 0}";
-			sepNavVisRange = "{0, 841}";
+			sepNavSelRange = "{696, 0}";
+			sepNavVisRange = "{0, 883}";
 			sepNavWindowFrame = "{{222, 26}, {750, 558}}";
 		};
 	};
@@ -10265,7 +10617,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 131;
-		rLoc = 3898;
+		rLoc = 3949;
 		rType = 0;
 		vrLen = 669;
 		vrLoc = 0;
@@ -10455,7 +10807,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 8";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 779;
 		rType = 0;
 		vrLen = 129;
 		vrLoc = 0;
@@ -10465,7 +10817,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 131;
-		rLoc = 3898;
+		rLoc = 3949;
 		rType = 0;
 		vrLen = 669;
 		vrLoc = 0;
@@ -10515,7 +10867,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 131;
-		rLoc = 3898;
+		rLoc = 3949;
 		rType = 0;
 		vrLen = 669;
 		vrLoc = 0;
@@ -10535,7 +10887,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 131;
-		rLoc = 3898;
+		rLoc = 3949;
 		rType = 0;
 		vrLen = 669;
 		vrLoc = 0;
@@ -10555,7 +10907,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 131;
-		rLoc = 3898;
+		rLoc = 3949;
 		rType = 0;
 		vrLen = 669;
 		vrLoc = 0;
@@ -10695,7 +11047,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 131;
-		rLoc = 3898;
+		rLoc = 3949;
 		rType = 0;
 		vrLen = 667;
 		vrLoc = 1;
@@ -10995,7 +11347,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 11";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 377;
 		vrLoc = 0;
@@ -11005,7 +11357,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 11";
 		rLen = 0;
-		rLoc = 726;
+		rLoc = 768;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 0;
@@ -11035,7 +11387,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 11";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 377;
 		vrLoc = 0;
@@ -11055,7 +11407,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 11";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -11085,7 +11437,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 13";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 474;
 		vrLoc = 0;
@@ -11125,7 +11477,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 14";
 		rLen = 0;
-		rLoc = 722;
+		rLoc = 764;
 		rType = 0;
 		vrLen = 460;
 		vrLoc = 0;
@@ -11463,7 +11815,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 14";
 		rLen = 0;
-		rLoc = 723;
+		rLoc = 765;
 		rType = 0;
 		vrLen = 457;
 		vrLoc = 0;
@@ -11603,7 +11955,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 14";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 500;
 		vrLoc = 0;
@@ -11913,7 +12265,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 68";
 		rLen = 0;
-		rLoc = 3897;
+		rLoc = 3948;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 1266;
@@ -12043,7 +12395,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 70";
 		rLen = 0;
-		rLoc = 3283;
+		rLoc = 3334;
 		rType = 0;
 		vrLen = 1247;
 		vrLoc = 1585;
@@ -12063,7 +12415,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 67";
 		rLen = 24;
-		rLoc = 3139;
+		rLoc = 3190;
 		rType = 0;
 		vrLen = 1173;
 		vrLoc = 1585;
@@ -12083,7 +12435,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 98";
 		rLen = 0;
-		rLoc = 4003;
+		rLoc = 4054;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 1846;
@@ -12103,7 +12455,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 97";
 		rLen = 0;
-		rLoc = 3941;
+		rLoc = 3992;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 1845;
@@ -12133,7 +12485,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 97";
 		rLen = 0;
-		rLoc = 3941;
+		rLoc = 3992;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 1845;
@@ -12153,7 +12505,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 97";
 		rLen = 0;
-		rLoc = 3941;
+		rLoc = 3992;
 		rType = 0;
 		vrLen = 667;
 		vrLoc = 0;
@@ -12193,7 +12545,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 88";
 		rLen = 0;
-		rLoc = 3897;
+		rLoc = 3948;
 		rType = 0;
 		vrLen = 1297;
 		vrLoc = 1628;
@@ -12213,7 +12565,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 88";
 		rLen = 0;
-		rLoc = 3897;
+		rLoc = 3948;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 1629;
@@ -12233,7 +12585,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 88";
 		rLen = 0;
-		rLoc = 3897;
+		rLoc = 3948;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 1629;
@@ -12273,7 +12625,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 88";
 		rLen = 0;
-		rLoc = 3897;
+		rLoc = 3948;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 1629;
@@ -12475,7 +12827,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 586;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C180FC4EF1500403B70 /* PBXTextBookmark */ = {
@@ -12483,7 +12835,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 14";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 0;
@@ -12693,7 +13045,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 48";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1147;
 		vrLoc = 855;
@@ -12733,7 +13085,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 869;
@@ -12773,7 +13125,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 999;
 		vrLoc = 786;
@@ -12793,7 +13145,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 787;
@@ -12833,7 +13185,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1035;
 		vrLoc = 787;
@@ -12853,7 +13205,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1035;
 		vrLoc = 787;
@@ -12865,7 +13217,7 @@
 		rLen = 0;
 		rLoc = 571;
 		rType = 0;
-		vrLen = 586;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C3F0FC4EF1500403B70 /* PBXTextBookmark */ = {
@@ -12873,7 +13225,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 73";
 		rLen = 0;
-		rLoc = 3224;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 0;
@@ -12885,7 +13237,7 @@
 		rLen = 0;
 		rLoc = 571;
 		rType = 0;
-		vrLen = 586;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C410FC4EF1500403B70 /* PBXTextBookmark */ = {
@@ -12893,7 +13245,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 73";
 		rLen = 0;
-		rLoc = 3224;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 0;
@@ -12983,7 +13335,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 44";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 117;
@@ -13035,7 +13387,7 @@
 		rLen = 0;
 		rLoc = 571;
 		rType = 0;
-		vrLen = 586;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C500FC4EF1500403B70 /* PBXTextBookmark */ = {
@@ -13115,7 +13467,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 586;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C580FC4EF1500403B70 /* PBXTextBookmark */ = {
@@ -13135,7 +13487,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 586;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C5A0FC4EF1500403B70 /* PBXTextBookmark */ = {
@@ -13143,7 +13495,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 14";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 0;
@@ -13193,7 +13545,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 797;
@@ -13225,7 +13577,7 @@
 		rLen = 0;
 		rLoc = 50;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C6B0FC4F2BB00403B70 /* PBXTextBookmark */ = {
@@ -13345,7 +13697,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 586;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C770FC4F2BB00403B70 /* PBXTextBookmark */ = {
@@ -13353,7 +13705,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 14";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 0;
@@ -13365,7 +13717,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 586;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C790FC4F2BB00403B70 /* PBXTextBookmark */ = {
@@ -13413,7 +13765,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 981;
 		vrLoc = 780;
@@ -13423,7 +13775,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 14";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 0;
@@ -13435,7 +13787,7 @@
 		rLen = 0;
 		rLoc = 105;
 		rType = 0;
-		vrLen = 593;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C800FC4F2BB00403B70 /* PBXTextBookmark */ = {
@@ -13465,7 +13817,7 @@
 		rLen = 0;
 		rLoc = 24;
 		rType = 0;
-		vrLen = 617;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C830FC4F2BB00403B70 /* PBXTextBookmark */ = {
@@ -13503,7 +13855,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 797;
@@ -13515,7 +13867,7 @@
 		rLen = 0;
 		rLoc = 1;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C880FC4F2BB00403B70 /* PBXTextBookmark */ = {
@@ -13535,7 +13887,7 @@
 		rLen = 0;
 		rLoc = 50;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C8A0FC4F2BB00403B70 /* PBXTextBookmark */ = {
@@ -13555,7 +13907,7 @@
 		rLen = 0;
 		rLoc = 50;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C8D0FC4F2CD00403B70 /* PBXTextBookmark */ = {
@@ -13603,7 +13955,7 @@
 		rLen = 0;
 		rLoc = 92;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C930FC4F30000403B70 /* PBXTextBookmark */ = {
@@ -13621,7 +13973,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 926;
 		vrLoc = 1933;
@@ -13673,7 +14025,7 @@
 		rLen = 0;
 		rLoc = 92;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35C9A0FC4F30000403B70 /* PBXTextBookmark */ = {
@@ -13691,7 +14043,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 926;
 		vrLoc = 1933;
@@ -13823,7 +14175,7 @@
 		rLen = 0;
 		rLoc = 92;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35CB00FC4F39F00403B70 /* PBXTextBookmark */ = {
@@ -13841,7 +14193,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 1933;
@@ -13913,7 +14265,7 @@
 		rLen = 0;
 		rLoc = 92;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35CB90FC4F39F00403B70 /* PBXTextBookmark */ = {
@@ -13933,7 +14285,7 @@
 		rLen = 0;
 		rLoc = 92;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35CBB0FC4F39F00403B70 /* PBXTextBookmark */ = {
@@ -13941,7 +14293,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 1933;
@@ -13961,7 +14313,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 904;
 		vrLoc = 1040;
@@ -13983,7 +14335,7 @@
 		rLen = 0;
 		rLoc = 92;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35CCD0FC4F3C600403B70 /* PBXTextBookmark */ = {
@@ -13991,7 +14343,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 76;
@@ -14001,7 +14353,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 76;
@@ -14013,7 +14365,7 @@
 		rLen = 0;
 		rLoc = 92;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35CD00FC4F3C600403B70 /* PBXTextBookmark */ = {
@@ -14033,7 +14385,7 @@
 		rLen = 0;
 		rLoc = 92;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35CD20FC4F3C600403B70 /* PBXTextBookmark */ = {
@@ -14041,7 +14393,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 963;
 		vrLoc = 77;
@@ -14051,7 +14403,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 1632;
@@ -14081,7 +14433,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 69";
 		rLen = 0;
-		rLoc = 3023;
+		rLoc = 3074;
 		rType = 0;
 		vrLen = 1055;
 		vrLoc = 1657;
@@ -14091,7 +14443,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 76";
 		rLen = 0;
-		rLoc = 3312;
+		rLoc = 3363;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 1657;
@@ -14101,7 +14453,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 76";
 		rLen = 0;
-		rLoc = 3312;
+		rLoc = 3363;
 		rType = 0;
 		vrLen = 1049;
 		vrLoc = 606;
@@ -14143,7 +14495,7 @@
 		rLen = 25;
 		rLoc = 465;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D020FC4F69600403B70 /* PBXTextBookmark */ = {
@@ -14183,7 +14535,7 @@
 		rLen = 0;
 		rLoc = 92;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D060FC4F69600403B70 /* PBXTextBookmark */ = {
@@ -14203,7 +14555,7 @@
 		rLen = 25;
 		rLoc = 465;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D080FC4F69600403B70 /* PBXTextBookmark */ = {
@@ -14233,7 +14585,7 @@
 		rLen = 25;
 		rLoc = 465;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D0B0FC4F69600403B70 /* PBXTextBookmark */ = {
@@ -14303,7 +14655,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D130FC4F6B100403B70 /* PBXTextBookmark */ = {
@@ -14343,7 +14695,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D170FC4F6B100403B70 /* PBXTextBookmark */ = {
@@ -14473,7 +14825,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D280FC4F95B00403B70 /* PBXTextBookmark */ = {
@@ -14593,7 +14945,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D340FC4F95B00403B70 /* PBXTextBookmark */ = {
@@ -14661,7 +15013,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 54";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 1206;
@@ -14671,7 +15023,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 54";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1005;
 		vrLoc = 611;
@@ -14753,7 +15105,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D4D0FC4FAFE00403B70 /* PBXTextBookmark */ = {
@@ -14863,7 +15215,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D580FC4FAFE00403B70 /* PBXTextBookmark */ = {
@@ -14881,7 +15233,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 74";
 		rLen = 0;
-		rLoc = 3224;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 1074;
 		vrLoc = 1699;
@@ -14891,7 +15243,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 74";
 		rLen = 0;
-		rLoc = 3211;
+		rLoc = 3262;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 1465;
@@ -14901,7 +15253,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 74";
 		rLen = 0;
-		rLoc = 3211;
+		rLoc = 3262;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 609;
@@ -15023,7 +15375,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D710FC4FC6600403B70 /* PBXTextBookmark */ = {
@@ -15113,7 +15465,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D7A0FC4FC6600403B70 /* PBXTextBookmark */ = {
@@ -15153,7 +15505,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35D7E0FC4FC6600403B70 /* PBXTextBookmark */ = {
@@ -15358,7 +15710,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 75";
 		rLen = 0;
-		rLoc = 3211;
+		rLoc = 3262;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 2058;
@@ -15368,7 +15720,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 75";
 		rLen = 0;
-		rLoc = 3211;
+		rLoc = 3262;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 2058;
@@ -15388,7 +15740,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 55";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 1202;
@@ -15398,7 +15750,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 1841;
@@ -15450,7 +15802,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DA20FC4FDD800403B70 /* PBXTextBookmark */ = {
@@ -15458,7 +15810,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 1841;
@@ -15468,7 +15820,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 1841;
@@ -15490,7 +15842,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DA60FC4FDD800403B70 /* PBXTextBookmark */ = {
@@ -15508,7 +15860,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 1841;
@@ -15520,7 +15872,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DA90FC4FDD800403B70 /* PBXTextBookmark */ = {
@@ -15600,7 +15952,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DB10FC4FDD800403B70 /* PBXTextBookmark */ = {
@@ -15608,7 +15960,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 980;
 		vrLoc = 1199;
@@ -15618,7 +15970,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 57";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 1199;
@@ -15628,7 +15980,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 980;
 		vrLoc = 1199;
@@ -15648,7 +16000,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 980;
 		vrLoc = 1199;
@@ -15668,7 +16020,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 1201;
@@ -15680,7 +16032,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DB90FC4FEFF00403B70 /* PBXTextBookmark */ = {
@@ -15708,7 +16060,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 1201;
@@ -15720,7 +16072,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DBD0FC4FEFF00403B70 /* PBXTextBookmark */ = {
@@ -15728,7 +16080,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 1201;
@@ -15750,7 +16102,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DC00FC4FEFF00403B70 /* PBXTextBookmark */ = {
@@ -15758,7 +16110,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 1201;
@@ -15770,7 +16122,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DC20FC4FEFF00403B70 /* PBXTextBookmark */ = {
@@ -15826,7 +16178,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 57";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1119;
 		vrLoc = 1201;
@@ -15838,7 +16190,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DCC0FC4FF5500403B70 /* PBXTextBookmark */ = {
@@ -15866,7 +16218,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 57";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1119;
 		vrLoc = 1201;
@@ -15886,7 +16238,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 57";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1119;
 		vrLoc = 1201;
@@ -15898,7 +16250,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DD20FC4FF5500403B70 /* PBXTextBookmark */ = {
@@ -15974,7 +16326,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DDC0FC5016000403B70 /* PBXTextBookmark */ = {
@@ -16044,7 +16396,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DE30FC5016000403B70 /* PBXTextBookmark */ = {
@@ -16052,7 +16404,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 1109;
@@ -16074,7 +16426,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DE70FC5022600403B70 /* PBXTextBookmark */ = {
@@ -16122,7 +16474,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 1018;
@@ -16132,7 +16484,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 1109;
@@ -16154,7 +16506,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DEF0FC5022600403B70 /* PBXTextBookmark */ = {
@@ -16162,7 +16514,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1111;
 		vrLoc = 1109;
@@ -16212,7 +16564,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1018;
@@ -16222,7 +16574,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1018;
@@ -16264,7 +16616,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DFC0FC5C7C200403B70 /* PBXTextBookmark */ = {
@@ -16272,7 +16624,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1018;
@@ -16282,7 +16634,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1018;
@@ -16294,7 +16646,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35DFF0FC5C7C200403B70 /* PBXTextBookmark */ = {
@@ -16322,7 +16674,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1018;
@@ -16342,7 +16694,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1018;
@@ -16354,7 +16706,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E050FC5C7C200403B70 /* PBXTextBookmark */ = {
@@ -16374,7 +16726,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E070FC5C7C200403B70 /* PBXTextBookmark */ = {
@@ -16392,7 +16744,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1018;
@@ -16404,7 +16756,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E0A0FC5C7C200403B70 /* PBXTextBookmark */ = {
@@ -16412,7 +16764,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1018;
@@ -16422,7 +16774,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 1018;
@@ -16432,7 +16784,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 57";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 1018;
@@ -16444,7 +16796,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E120FC5C82B00403B70 /* PBXTextBookmark */ = {
@@ -16452,7 +16804,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 57";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 1018;
@@ -16464,7 +16816,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E140FC5C82B00403B70 /* PBXTextBookmark */ = {
@@ -16554,7 +16906,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E200FC5C94800403B70 /* PBXTextBookmark */ = {
@@ -16562,7 +16914,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 1109;
@@ -16584,7 +16936,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E230FC5C94800403B70 /* PBXTextBookmark */ = {
@@ -16592,7 +16944,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 57";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 1018;
@@ -16612,7 +16964,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 1109;
@@ -16624,7 +16976,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E270FC5C94800403B70 /* PBXTextBookmark */ = {
@@ -16724,7 +17076,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E310FC5C94800403B70 /* PBXTextBookmark */ = {
@@ -16732,7 +17084,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 1199;
@@ -16742,7 +17094,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 57";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 1199;
@@ -16752,7 +17104,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1283;
 		vrLoc = 1199;
@@ -16762,7 +17114,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 1199;
@@ -16772,7 +17124,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 1199;
@@ -16789,7 +17141,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 1199;
@@ -16819,7 +17171,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 1199;
@@ -16831,7 +17183,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E420FC5C9CF00403B70 /* PBXTextBookmark */ = {
@@ -16861,7 +17213,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E450FC5C9CF00403B70 /* PBXTextBookmark */ = {
@@ -16881,7 +17233,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E470FC5C9CF00403B70 /* PBXTextBookmark */ = {
@@ -16889,7 +17241,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1373;
 		vrLoc = 1199;
@@ -16909,7 +17261,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 1199;
@@ -16921,7 +17273,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E4B0FC5C9CF00403B70 /* PBXTextBookmark */ = {
@@ -16961,7 +17313,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E540FC5CA5300403B70 /* PBXTextBookmark */ = {
@@ -16969,7 +17321,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 55";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1401;
 		vrLoc = 1199;
@@ -16991,7 +17343,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E570FC5CA5300403B70 /* PBXTextBookmark */ = {
@@ -16999,7 +17351,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 1199;
@@ -17011,7 +17363,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E590FC5CA5300403B70 /* PBXTextBookmark */ = {
@@ -17031,7 +17383,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E5B0FC5CA5300403B70 /* PBXTextBookmark */ = {
@@ -17039,7 +17391,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 55";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1401;
 		vrLoc = 1199;
@@ -17059,7 +17411,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 55";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1401;
 		vrLoc = 1199;
@@ -17071,7 +17423,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E5F0FC5CA5300403B70 /* PBXTextBookmark */ = {
@@ -17091,7 +17443,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E610FC5CA5300403B70 /* PBXTextBookmark */ = {
@@ -17099,7 +17451,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 67";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 1199;
@@ -17131,7 +17483,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E670FC5CA7A00403B70 /* PBXTextBookmark */ = {
@@ -17139,7 +17491,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1267;
 		vrLoc = 1199;
@@ -17161,7 +17513,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E6A0FC5CA7A00403B70 /* PBXTextBookmark */ = {
@@ -17191,7 +17543,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E6F0FC5CA8600403B70 /* PBXTextBookmark */ = {
@@ -17201,7 +17553,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E700FC5CA8600403B70 /* PBXTextBookmark */ = {
@@ -17219,7 +17571,7 @@
 		comments = "warning: property 'position' requires method '-position' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		rLen = 1;
-		rLoc = 121;
+		rLoc = 123;
 		rType = 1;
 	};
 	B4E35E720FC5CA8600403B70 /* PBXTextBookmark */ = {
@@ -17229,7 +17581,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E730FC5CA8600403B70 /* PBXTextBookmark */ = {
@@ -17249,7 +17601,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E750FC5CA8600403B70 /* PBXTextBookmark */ = {
@@ -17277,7 +17629,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 113";
 		rLen = 5;
-		rLoc = 4030;
+		rLoc = 4081;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 2804;
@@ -17307,7 +17659,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 113";
 		rLen = 5;
-		rLoc = 4030;
+		rLoc = 4081;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3286;
@@ -17319,7 +17671,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E7E0FC5CA9700403B70 /* PBXTextBookmark */ = {
@@ -17327,7 +17679,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 113";
 		rLen = 5;
-		rLoc = 4030;
+		rLoc = 4081;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 2804;
@@ -17337,7 +17689,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 113";
 		rLen = 5;
-		rLoc = 4030;
+		rLoc = 4081;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 2804;
@@ -17349,7 +17701,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35E810FC5CA9700403B70 /* PBXTextBookmark */ = {
@@ -17367,7 +17719,7 @@
 		comments = "warning: property 'portfolio' requires method '-portfolio' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		rLen = 1;
-		rLoc = 121;
+		rLoc = 123;
 		rType = 1;
 	};
 	B4E35E850FC5CAB000403B70 /* PBXTextBookmark */ = {
@@ -17385,7 +17737,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 59";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1194;
 		vrLoc = 1516;
@@ -17405,7 +17757,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 59";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1194;
 		vrLoc = 1516;
@@ -17434,7 +17786,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		rLen = 0;
-		rLoc = 71;
+		rLoc = 73;
 		rType = 1;
 	};
 	B4E35E8E0FC5CAF100403B70 /* PBXTextBookmark */ = {
@@ -17452,7 +17804,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 49";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 843;
@@ -17462,7 +17814,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 49";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 843;
@@ -17472,7 +17824,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 112";
 		rLen = 5;
-		rLoc = 4030;
+		rLoc = 4081;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 3286;
@@ -17482,7 +17834,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 49";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 843;
@@ -17492,7 +17844,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 41";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1747;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 587;
@@ -17502,7 +17854,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 41";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1747;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 587;
@@ -17558,7 +17910,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 41";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1747;
 		rType = 0;
 		vrLen = 1441;
 		vrLoc = 756;
@@ -17568,7 +17920,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 41";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1747;
 		rType = 0;
 		vrLen = 1441;
 		vrLoc = 756;
@@ -17698,7 +18050,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 111";
 		rLen = 0;
-		rLoc = 4004;
+		rLoc = 4055;
 		rType = 0;
 		vrLen = 519;
 		vrLoc = 2767;
@@ -17720,7 +18072,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35EBF0FC5D06500403B70 /* PBXTextBookmark */ = {
@@ -17738,7 +18090,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 111";
 		rLen = 0;
-		rLoc = 4004;
+		rLoc = 4055;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 2737;
@@ -17748,7 +18100,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 111";
 		rLen = 0;
-		rLoc = 4004;
+		rLoc = 4055;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 2737;
@@ -17760,7 +18112,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35EC30FC5D06500403B70 /* PBXTextBookmark */ = {
@@ -17780,7 +18132,7 @@
 		rLen = 25;
 		rLoc = 209;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35EC50FC5D06500403B70 /* PBXTextBookmark */ = {
@@ -17788,7 +18140,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 111";
 		rLen = 0;
-		rLoc = 4004;
+		rLoc = 4055;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 2737;
@@ -17808,7 +18160,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 1168;
@@ -17838,7 +18190,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 1168;
@@ -17848,7 +18200,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1194;
 		vrLoc = 1168;
@@ -17868,7 +18220,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 1168;
@@ -17888,7 +18240,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 1168;
@@ -17908,7 +18260,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 1168;
@@ -17928,7 +18280,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 93";
 		rLen = 0;
-		rLoc = 4004;
+		rLoc = 4055;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 1932;
@@ -18008,7 +18360,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35EE00FC6015100403B70 /* PBXTextBookmark */ = {
@@ -18056,7 +18408,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 93";
 		rLen = 0;
-		rLoc = 4004;
+		rLoc = 4055;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 1932;
@@ -18188,7 +18540,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35EF20FC6015100403B70 /* PBXTextBookmark */ = {
@@ -18506,7 +18858,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1088;
 		vrLoc = 927;
@@ -18526,7 +18878,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 927;
@@ -18536,7 +18888,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 927;
@@ -18588,7 +18940,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F210FC6030700403B70 /* PBXTextBookmark */ = {
@@ -18638,7 +18990,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F260FC6030700403B70 /* PBXTextBookmark */ = {
@@ -18744,7 +19096,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 99";
 		rLen = 5;
-		rLoc = 4030;
+		rLoc = 4081;
 		rType = 0;
 		vrLen = 131;
 		vrLoc = 2822;
@@ -18764,7 +19116,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 93";
 		rLen = 0;
-		rLoc = 4004;
+		rLoc = 4055;
 		rType = 0;
 		vrLen = 133;
 		vrLoc = 2768;
@@ -18816,7 +19168,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F420FC6039F00403B70 /* PBXTextBookmark */ = {
@@ -18856,7 +19208,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F460FC6039F00403B70 /* PBXTextBookmark */ = {
@@ -18876,7 +19228,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F480FC6039F00403B70 /* PBXTextBookmark */ = {
@@ -18914,7 +19266,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 49";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1123;
 		vrLoc = 785;
@@ -18944,7 +19296,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 49";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1123;
 		vrLoc = 785;
@@ -19026,7 +19378,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F5E0FC604E800403B70 /* PBXTextBookmark */ = {
@@ -19126,7 +19478,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F680FC604E800403B70 /* PBXTextBookmark */ = {
@@ -19134,7 +19486,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 49";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1091;
 		vrLoc = 785;
@@ -19144,7 +19496,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1130;
 		vrLoc = 785;
@@ -19246,7 +19598,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F7C0FC6057B00403B70 /* PBXTextBookmark */ = {
@@ -19254,7 +19606,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1130;
 		vrLoc = 785;
@@ -19264,7 +19616,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1130;
 		vrLoc = 785;
@@ -19386,7 +19738,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F8A0FC6057B00403B70 /* PBXTextBookmark */ = {
@@ -19394,7 +19746,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1097;
 		vrLoc = 785;
@@ -19496,7 +19848,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35F960FC606E400403B70 /* PBXTextBookmark */ = {
@@ -19504,7 +19856,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1097;
 		vrLoc = 785;
@@ -19514,7 +19866,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1097;
 		vrLoc = 785;
@@ -19646,7 +19998,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35FA50FC606E400403B70 /* PBXTextBookmark */ = {
@@ -19654,7 +20006,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 785;
@@ -19664,7 +20016,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 785;
@@ -19766,7 +20118,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35FB50FC6080700403B70 /* PBXTextBookmark */ = {
@@ -19774,7 +20126,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 785;
@@ -19784,7 +20136,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 785;
@@ -19916,7 +20268,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E35FC40FC6080700403B70 /* PBXTextBookmark */ = {
@@ -19924,7 +20276,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 44";
 		rLen = 0;
-		rLoc = 1754;
+		rLoc = 1750;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 785;
@@ -19963,7 +20315,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		rLen = 0;
-		rLoc = 71;
+		rLoc = 73;
 		rType = 1;
 	};
 	B4E35FCF0FC608F900403B70 /* PBXTextBookmark */ = {
@@ -19971,7 +20323,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 44";
 		rLen = 0;
-		rLoc = 1754;
+		rLoc = 1750;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 785;
@@ -20031,7 +20383,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 870;
@@ -20041,7 +20393,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 46";
 		rLen = 0;
-		rLoc = 1756;
+		rLoc = 1752;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 870;
@@ -20061,7 +20413,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 46";
 		rLen = 0;
-		rLoc = 1756;
+		rLoc = 1752;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 870;
@@ -20091,7 +20443,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 870;
@@ -20118,7 +20470,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 870;
@@ -20157,7 +20509,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		rLen = 0;
-		rLoc = 71;
+		rLoc = 73;
 		rType = 1;
 	};
 	B4E35FF00FC60A5300403B70 /* PBXTextBookmark */ = {
@@ -20175,7 +20527,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 870;
@@ -20185,7 +20537,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 881;
 		vrLoc = 141;
@@ -20215,7 +20567,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 881;
 		vrLoc = 141;
@@ -20327,7 +20679,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E3600B0FC60E9A00403B70 /* PBXTextBookmark */ = {
@@ -20357,7 +20709,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E3600E0FC60E9A00403B70 /* PBXTextBookmark */ = {
@@ -20365,7 +20717,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 179;
@@ -20427,7 +20779,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E3601B0FC610F100403B70 /* PBXTextBookmark */ = {
@@ -20465,7 +20817,7 @@
 		comments = "error: syntax error before '}' token";
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		rLen = 0;
-		rLoc = 71;
+		rLoc = 73;
 		rType = 1;
 	};
 	B4E3601F0FC610F100403B70 /* PBXTextBookmark */ = {
@@ -20473,7 +20825,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 1089;
 		vrLoc = 780;
@@ -20485,7 +20837,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360210FC610F100403B70 /* PBXTextBookmark */ = {
@@ -20493,7 +20845,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2393;
+		rLoc = 2389;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 970;
@@ -20505,7 +20857,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360230FC610F100403B70 /* PBXTextBookmark */ = {
@@ -20523,7 +20875,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 50";
 		rLen = 0;
-		rLoc = 1973;
+		rLoc = 1969;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 971;
@@ -20623,7 +20975,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 51";
 		rLen = 33;
-		rLoc = 2049;
+		rLoc = 2045;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 971;
@@ -20695,7 +21047,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360360FC610F100403B70 /* PBXTextBookmark */ = {
@@ -20703,7 +21055,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 49";
 		rLen = 0;
-		rLoc = 1918;
+		rLoc = 1914;
 		rType = 0;
 		vrLen = 1143;
 		vrLoc = 971;
@@ -20733,7 +21085,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2329;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 1318;
 		vrLoc = 971;
@@ -20753,7 +21105,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 0;
-		rLoc = 2719;
+		rLoc = 2770;
 		rType = 0;
 		vrLen = 900;
 		vrLoc = 1831;
@@ -20763,7 +21115,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 63";
 		rLen = 0;
-		rLoc = 2718;
+		rLoc = 2769;
 		rType = 0;
 		vrLen = 319;
 		vrLoc = 2246;
@@ -20773,7 +21125,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2104;
 		rType = 0;
 		vrLen = 1140;
 		vrLoc = 1022;
@@ -20783,7 +21135,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 61";
 		rLen = 0;
-		rLoc = 2476;
+		rLoc = 2527;
 		rType = 0;
 		vrLen = 1140;
 		vrLoc = 1022;
@@ -20793,7 +21145,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 68";
 		rLen = 0;
-		rLoc = 2717;
+		rLoc = 2768;
 		rType = 0;
 		vrLen = 1274;
 		vrLoc = 1022;
@@ -20803,7 +21155,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2340;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 1274;
 		vrLoc = 1022;
@@ -20813,7 +21165,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 56";
 		rLen = 0;
-		rLoc = 2340;
+		rLoc = 2336;
 		rType = 0;
 		vrLen = 1276;
 		vrLoc = 1022;
@@ -20841,7 +21193,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2193;
+		rLoc = 2189;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 1022;
@@ -20891,7 +21243,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 53";
 		rLen = 0;
-		rLoc = 2193;
+		rLoc = 2189;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 1022;
@@ -21003,7 +21355,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E3606E0FC6146500403B70 /* PBXTextBookmark */ = {
@@ -21053,7 +21405,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360730FC6146500403B70 /* PBXTextBookmark */ = {
@@ -21061,7 +21413,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2193;
+		rLoc = 2189;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 998;
@@ -21071,7 +21423,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2193;
+		rLoc = 2189;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 998;
@@ -21143,7 +21495,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360860FC614F900403B70 /* PBXTextBookmark */ = {
@@ -21151,7 +21503,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2193;
+		rLoc = 2189;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 998;
@@ -21161,7 +21513,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2193;
+		rLoc = 2189;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 998;
@@ -21253,7 +21605,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360910FC614F900403B70 /* PBXTextBookmark */ = {
@@ -21261,7 +21613,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2193;
+		rLoc = 2189;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 998;
@@ -21271,7 +21623,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 52";
 		rLen = 0;
-		rLoc = 2193;
+		rLoc = 2189;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 998;
@@ -21301,7 +21653,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 0;
-		rLoc = 2715;
+		rLoc = 2766;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 1091;
@@ -21311,7 +21663,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 0;
-		rLoc = 2715;
+		rLoc = 2766;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 1089;
@@ -21331,7 +21683,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 64";
 		rLen = 0;
-		rLoc = 2715;
+		rLoc = 2766;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 1091;
@@ -21351,7 +21703,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 63";
 		rLen = 0;
-		rLoc = 2683;
+		rLoc = 2734;
 		rType = 0;
 		vrLen = 926;
 		vrLoc = 1716;
@@ -21371,7 +21723,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3284;
+		rLoc = 3335;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 2247;
@@ -21383,7 +21735,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360BA0FC61F9100403B70 /* PBXTextBookmark */ = {
@@ -21391,7 +21743,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3284;
+		rLoc = 3335;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 2271;
@@ -21411,7 +21763,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3284;
+		rLoc = 3335;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 2271;
@@ -21431,7 +21783,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3284;
+		rLoc = 3335;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 2247;
@@ -21443,7 +21795,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360C00FC61F9100403B70 /* PBXTextBookmark */ = {
@@ -21451,7 +21803,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 15";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 596;
 		vrLoc = 0;
@@ -21461,7 +21813,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 14";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 596;
 		vrLoc = 0;
@@ -21481,7 +21833,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 14";
 		rLen = 0;
-		rLoc = 721;
+		rLoc = 763;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 0;
@@ -21523,7 +21875,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360D10FC63E5300403B70 /* PBXTextBookmark */ = {
@@ -21543,7 +21895,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360D30FC63E5300403B70 /* PBXTextBookmark */ = {
@@ -21551,7 +21903,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 2183;
@@ -21561,7 +21913,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 2183;
@@ -21571,7 +21923,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1060;
 		vrLoc = 2183;
@@ -21581,7 +21933,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 2183;
@@ -21593,7 +21945,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360DB0FC63EAB00403B70 /* PBXTextBookmark */ = {
@@ -21601,7 +21953,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 2183;
@@ -21613,7 +21965,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360DD0FC63EB300403B70 /* PBXTextBookmark */ = {
@@ -21623,7 +21975,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360DE0FC63EB300403B70 /* PBXTextBookmark */ = {
@@ -21633,7 +21985,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360DF0FC63EB300403B70 /* PBXTextBookmark */ = {
@@ -21691,7 +22043,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 2183;
@@ -21701,7 +22053,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 2183;
@@ -21711,7 +22063,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 2183;
@@ -21721,7 +22073,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 2183;
@@ -21731,7 +22083,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 2183;
@@ -21743,7 +22095,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360F10FC6418F00403B70 /* PBXTextBookmark */ = {
@@ -21751,7 +22103,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 2183;
@@ -21763,7 +22115,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360F30FC6418F00403B70 /* PBXTextBookmark */ = {
@@ -21813,7 +22165,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360F90FC641B400403B70 /* PBXTextBookmark */ = {
@@ -21833,7 +22185,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360FB0FC641B400403B70 /* PBXTextBookmark */ = {
@@ -21841,7 +22193,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 2183;
@@ -21861,7 +22213,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 2055;
@@ -21873,7 +22225,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E360FF0FC641CA00403B70 /* PBXTextBookmark */ = {
@@ -21881,7 +22233,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 2055;
@@ -21901,7 +22253,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 2055;
@@ -21913,7 +22265,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E361030FC641CA00403B70 /* PBXTextBookmark */ = {
@@ -21941,7 +22293,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 2055;
@@ -21953,7 +22305,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E361080FC6457600403B70 /* PBXTextBookmark */ = {
@@ -21993,7 +22345,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E3610C0FC6457600403B70 /* PBXTextBookmark */ = {
@@ -22001,7 +22353,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 2055;
@@ -22013,7 +22365,7 @@
 		rLen = 0;
 		rLoc = 247;
 		rType = 0;
-		vrLen = 583;
+		vrLen = 578;
 		vrLoc = 0;
 	};
 	B4E3610E0FC6457600403B70 /* PBXTextBookmark */ = {
@@ -22051,7 +22403,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 83";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 2055;
@@ -22071,7 +22423,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1139;
 		vrLoc = 2055;
@@ -22081,7 +22433,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1133;
 		vrLoc = 2055;
@@ -22091,7 +22443,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 2055;
@@ -22101,7 +22453,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1213;
 		vrLoc = 2055;
@@ -22111,7 +22463,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 2055;
@@ -22121,7 +22473,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 79";
 		rLen = 18;
-		rLoc = 3086;
+		rLoc = 3137;
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 2055;
@@ -22141,7 +22493,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 79";
 		rLen = 18;
-		rLoc = 3086;
+		rLoc = 3137;
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 2055;
@@ -22161,7 +22513,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 26";
 		rLen = 0;
-		rLoc = 816;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 0;
@@ -22181,7 +22533,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 74";
 		rLen = 0;
-		rLoc = 2967;
+		rLoc = 3018;
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 2055;
@@ -22201,7 +22553,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 26";
 		rLen = 0;
-		rLoc = 816;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 0;
@@ -22211,7 +22563,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 26";
 		rLen = 0;
-		rLoc = 816;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 0;
@@ -22221,7 +22573,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 79";
 		rLen = 18;
-		rLoc = 3086;
+		rLoc = 3137;
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 2055;
@@ -22241,7 +22593,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 74";
 		rLen = 0;
-		rLoc = 2967;
+		rLoc = 3018;
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 2055;
@@ -22261,7 +22613,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 26";
 		rLen = 0;
-		rLoc = 816;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 0;
@@ -22281,7 +22633,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 24";
 		rLen = 0;
-		rLoc = 816;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 805;
 		vrLoc = 0;
@@ -22291,7 +22643,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 2055;
@@ -22311,7 +22663,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 24";
 		rLen = 0;
-		rLoc = 816;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 805;
 		vrLoc = 0;
@@ -22321,7 +22673,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 24";
 		rLen = 0;
-		rLoc = 816;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 805;
 		vrLoc = 0;
@@ -22341,7 +22693,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 2055;
@@ -22371,7 +22723,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 22";
 		rLen = 0;
-		rLoc = 781;
+		rLoc = 823;
 		rType = 0;
 		vrLen = 565;
 		vrLoc = 0;
@@ -22391,7 +22743,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 1722;
@@ -22421,7 +22773,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 2055;
@@ -22441,7 +22793,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 22";
 		rLen = 0;
-		rLoc = 781;
+		rLoc = 823;
 		rType = 0;
 		vrLen = 565;
 		vrLoc = 0;
@@ -22451,7 +22803,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 2055;
@@ -22471,7 +22823,7 @@
 		fRef = B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */;
 		name = "PortfolioViewController.m: 82";
 		rLen = 0;
-		rLoc = 3244;
+		rLoc = 3295;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 1722;
@@ -22501,7 +22853,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 22";
 		rLen = 0;
-		rLoc = 781;
+		rLoc = 823;
 		rType = 0;
 		vrLen = 560;
 		vrLoc = 0;
@@ -22521,7 +22873,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 22";
 		rLen = 0;
-		rLoc = 781;
+		rLoc = 823;
 		rType = 0;
 		vrLen = 560;
 		vrLoc = 0;
@@ -22561,7 +22913,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 18";
 		rLen = 0;
-		rLoc = 720;
+		rLoc = 762;
 		rType = 0;
 		vrLen = 631;
 		vrLoc = 0;
@@ -22571,7 +22923,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 18";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 675;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 0;
@@ -22581,7 +22933,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 19";
 		rLen = 0;
-		rLoc = 654;
+		rLoc = 696;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 0;
@@ -22591,7 +22943,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 18";
 		rLen = 0;
-		rLoc = 654;
+		rLoc = 696;
 		rType = 0;
 		vrLen = 677;
 		vrLoc = 0;
@@ -22601,7 +22953,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 20";
 		rLen = 0;
-		rLoc = 654;
+		rLoc = 696;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -22651,7 +23003,7 @@
 		fRef = B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */;
 		name = "StockSummaryTableViewCell.m: 22";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;

@@ -278,7 +278,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
+									<integer>10</integer>
 									<integer>8</integer>
 									<integer>7</integer>
 									<integer>1</integer>
@@ -323,7 +323,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>StockSummaryTableViewCell.m</string>
+								<string>PortfolioViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -331,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>StockSummaryTableViewCell.m</string>
+										<string>PortfolioViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B42589D90FC6746500E97E43</string>
+										<string>B4258A130FC7656800E97E43</string>
 										<key>history</key>
 										<array>
 											<string>B4E3408F0FC184E000403B70</string>
@@ -357,19 +357,19 @@
 											<string>B4E3606C0FC6146500403B70</string>
 											<string>B4E3607F0FC614F900403B70</string>
 											<string>B4E360800FC614F900403B70</string>
-											<string>B4E360810FC614F900403B70</string>
 											<string>B4E361050FC6457600403B70</string>
-											<string>B4E361660FC6502C00403B70</string>
 											<string>B4E3616E0FC6523D00403B70</string>
 											<string>B4E3617F0FC656DA00403B70</string>
 											<string>B4E361800FC656DA00403B70</string>
-											<string>B42589BC0FC672A700E97E43</string>
-											<string>B42589C50FC673C100E97E43</string>
 											<string>B42589C60FC673C100E97E43</string>
 											<string>B42589C70FC673C100E97E43</string>
 											<string>B42589C80FC673C100E97E43</string>
 											<string>B42589D60FC6746500E97E43</string>
-											<string>B42589D70FC6746500E97E43</string>
+											<string>B42589DE0FC75F1C00E97E43</string>
+											<string>B42589E10FC75F1C00E97E43</string>
+											<string>B42589F00FC762BB00E97E43</string>
+											<string>B42589F10FC762BB00E97E43</string>
+											<string>B42589E00FC75F1C00E97E43</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -420,6 +420,17 @@
 											<string>B42589CF0FC673C100E97E43</string>
 											<string>B42589D00FC673C100E97E43</string>
 											<string>B42589D80FC6746500E97E43</string>
+											<string>B42589E30FC75F1C00E97E43</string>
+											<string>B42589E40FC75F1C00E97E43</string>
+											<string>B42589E50FC75F1C00E97E43</string>
+											<string>B42589E60FC75F1C00E97E43</string>
+											<string>B42589E70FC75F1C00E97E43</string>
+											<string>B42589E80FC75F1C00E97E43</string>
+											<string>B42589E90FC75F1C00E97E43</string>
+											<string>B42589EA0FC75F1C00E97E43</string>
+											<string>B42589EB0FC75F1C00E97E43</string>
+											<string>B42589F20FC762BB00E97E43</string>
+											<string>B42589F30FC762BB00E97E43</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -613,12 +624,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>B42589DA0FC6746500E97E43</string>
 		<string>B42589B00FC66E9E00E97E43</string>
 		<string>B42589B10FC66E9E00E97E43</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B492D3800FBFACBC0052EA4E</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/ashlux/Documents/igFinance/igFinance.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -952,6 +962,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -997,7 +1009,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
