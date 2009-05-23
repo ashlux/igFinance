@@ -228,8 +228,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -268,6 +266,7 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>B492D47C0FBFC9340052EA4E</string>
+								<string>B4E35B1C0FC4C62600403B70</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -277,7 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>12</integer>
+									<integer>5</integer>
 									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -314,12 +314,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PortfoliosViewController.m</string>
+								<string>TransactionTableViewCell.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,7 +329,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PortfoliosViewController.m</string>
+										<string>TransactionTableViewCell.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>B47A07380FC853F9005D028B</string>
 										<key>history</key>
 										<array>
 											<string>B4E3408F0FC184E000403B70</string>
@@ -357,8 +363,12 @@
 											<string>B4258C4D0FC7C23400E97E43</string>
 											<string>B4258C690FC7C25200E97E43</string>
 											<string>B4258C6A0FC7C25200E97E43</string>
-											<string>B4258C6B0FC7C25200E97E43</string>
 											<string>B4258C6D0FC7C25200E97E43</string>
+											<string>B47A072C0FC853F9005D028B</string>
+											<string>B47A072D0FC853F9005D028B</string>
+											<string>B47A072E0FC853F9005D028B</string>
+											<string>B47A072F0FC853F9005D028B</string>
+											<string>B47A07220FC853F6005D028B</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -399,6 +409,14 @@
 											<string>B4258AA40FC798CA00E97E43</string>
 											<string>B4258BAC0FC7BAA800E97E43</string>
 											<string>B4258BAE0FC7BAA800E97E43</string>
+											<string>B47A07300FC853F9005D028B</string>
+											<string>B47A07310FC853F9005D028B</string>
+											<string>B47A07320FC853F9005D028B</string>
+											<string>B47A07330FC853F9005D028B</string>
+											<string>B47A07340FC853F9005D028B</string>
+											<string>B47A07350FC853F9005D028B</string>
+											<string>B47A07360FC853F9005D028B</string>
+											<string>B47A07370FC853F9005D028B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -592,6 +610,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>B492D3800FBFACBC0052EA4E</string>
 		<string>/Users/ashlux/Documents/igFinance/igFinance.xcodeproj</string>
 	</array>
@@ -612,12 +632,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>TransactionTableViewCell.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -793,13 +815,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>B419521F0FC8418E00B6953F</string>
+				<string>B47A07240FC853F6005D028B</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>B41952200FC8418E00B6953F</string>
-				<string>B41952210FC8418E00B6953F</string>
-				<string>B41952220FC8418E00B6953F</string>
-				<string>B41952230FC8418E00B6953F</string>
-				<string>B41952240FC8418E00B6953F</string>
+				<string>B47A07250FC853F6005D028B</string>
+				<string>B47A07260FC853F6005D028B</string>
+				<string>B47A07270FC853F6005D028B</string>
+				<string>B47A07280FC853F6005D028B</string>
+				<string>B47A07290FC853F6005D028B</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -961,7 +983,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>B41952250FC8418E00B6953F</string>
+				<string>B47A072A0FC853F6005D028B</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

@@ -6,8 +6,9 @@
 @synthesize transactionTypeLabel;
 @synthesize sharesLabel;
 @synthesize priceLabel;
+@synthesize commissionLabel;
 @synthesize dateLabel;
-@synthesize noteLabel;
+@synthesize noteTextView;
 
 - (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithFrame:frame reuseIdentifier:reuseIdentifier]) {
@@ -24,16 +25,17 @@
 	[sharesLabel setText:[NSString stringWithFormat:@"%@ shares", [transactionData shares]]];
 	
 	GDataPrice *price = [transactionData price];
-	[priceLabel setText:[NSString stringWithFormat:@"%@ %@", 
-						[[price moneyWithPrimaryCurrency] amount], 
-						[[price moneyWithPrimaryCurrency] currencyCode]]];
+	[priceLabel setText:[NSString stringWithFormat:@"Price: %@ %@", 
+						 [[price moneyWithPrimaryCurrency] amount], 
+						 [[price moneyWithPrimaryCurrency] currencyCode]]];
+
+	GDataCommission *commission = [transactionData commission];
+	[commissionLabel setText:[NSString stringWithFormat:@"Commission: %@ %@", 
+						 [[commission moneyWithPrimaryCurrency] amount], 
+						 [[commission moneyWithPrimaryCurrency] currencyCode]]];
 	
-	[noteLabel setText:[transactionData notes]];
-	[noteLabel setNumberOfLines:2];
-	[noteLabel sizeToFit];
-	
-	NSLog(@"%@", [transactionData notes]);
-	NSLog(@"%@", [noteLabel text]);
+	[noteTextView setText:[transactionData notes]];
+	[noteTextView setFont:[UIFont systemFontOfSize:10]];
 	
 	NSDate *date = [[transactionData date] date];
 	[dateLabel setText:[date descriptionWithCalendarFormat:@"%B %e, %Y" 
@@ -45,8 +47,9 @@
 	[transactionTypeLabel release];
 	[sharesLabel release];
 	[priceLabel release];
+	[commissionLabel release];
 	[dateLabel release];
-	[noteLabel release];
+	[noteTextView release];
 
     [super dealloc];
 }

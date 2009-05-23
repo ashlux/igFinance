@@ -158,6 +158,21 @@
 			B4258C6A0FC7C25200E97E43 = B4258C6A0FC7C25200E97E43 /* PBXTextBookmark */;
 			B4258C6B0FC7C25200E97E43 = B4258C6B0FC7C25200E97E43 /* PBXTextBookmark */;
 			B4258C6D0FC7C25200E97E43 = B4258C6D0FC7C25200E97E43 /* PBXTextBookmark */;
+			B47A07220FC853F6005D028B /* PBXTextBookmark */ = B47A07220FC853F6005D028B /* PBXTextBookmark */;
+			B47A07230FC853F6005D028B /* PBXTextBookmark */ = B47A07230FC853F6005D028B /* PBXTextBookmark */;
+			B47A072C0FC853F9005D028B /* PBXTextBookmark */ = B47A072C0FC853F9005D028B /* PBXTextBookmark */;
+			B47A072D0FC853F9005D028B /* PlistBookmark */ = B47A072D0FC853F9005D028B /* PlistBookmark */;
+			B47A072E0FC853F9005D028B /* PBXBookmark */ = B47A072E0FC853F9005D028B /* PBXBookmark */;
+			B47A072F0FC853F9005D028B /* PBXTextBookmark */ = B47A072F0FC853F9005D028B /* PBXTextBookmark */;
+			B47A07300FC853F9005D028B /* PBXTextBookmark */ = B47A07300FC853F9005D028B /* PBXTextBookmark */;
+			B47A07310FC853F9005D028B /* PlistBookmark */ = B47A07310FC853F9005D028B /* PlistBookmark */;
+			B47A07320FC853F9005D028B /* PBXBookmark */ = B47A07320FC853F9005D028B /* PBXBookmark */;
+			B47A07330FC853F9005D028B /* PBXTextBookmark */ = B47A07330FC853F9005D028B /* PBXTextBookmark */;
+			B47A07340FC853F9005D028B /* PBXTextBookmark */ = B47A07340FC853F9005D028B /* PBXTextBookmark */;
+			B47A07350FC853F9005D028B /* PBXTextBookmark */ = B47A07350FC853F9005D028B /* PBXTextBookmark */;
+			B47A07360FC853F9005D028B /* PBXTextBookmark */ = B47A07360FC853F9005D028B /* PBXTextBookmark */;
+			B47A07370FC853F9005D028B /* PBXTextBookmark */ = B47A07370FC853F9005D028B /* PBXTextBookmark */;
+			B47A07380FC853F9005D028B /* PBXTextBookmark */ = B47A07380FC853F9005D028B /* PBXTextBookmark */;
 			B492D38D0FBFACEE0052EA4E = B492D38D0FBFACEE0052EA4E /* PBXTextBookmark */;
 			B492D38E0FBFACEE0052EA4E = B492D38E0FBFACEE0052EA4E /* PBXTextBookmark */;
 			B492D38F0FBFACEE0052EA4E = B492D38F0FBFACEE0052EA4E /* PBXTextBookmark */;
@@ -245,16 +260,17 @@
 	};
 	B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {808, 445}}";
-			sepNavSelRange = "{659, 0}";
-			sepNavVisRange = "{0, 665}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 407}}";
+			sepNavSelRange = "{276, 0}";
+			sepNavVisRange = "{0, 778}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
 	B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {808, 784}}";
-			sepNavSelRange = "{1051, 0}";
-			sepNavVisRange = "{423, 1060}";
+			sepNavIntBoundsRect = "{{0, 0}, {808, 854}}";
+			sepNavSelRange = "{216, 0}";
+			sepNavVisRange = "{0, 986}";
 		};
 	};
 	B4258A350FC798CA00E97E43 /* PBXTextBookmark */ = {
@@ -401,7 +417,7 @@
 		fRef = B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */;
 		name = "TransactionTableViewCell.h: 20";
 		rLen = 0;
-		rLoc = 659;
+		rLoc = 772;
 		rType = 0;
 		vrLen = 665;
 		vrLoc = 0;
@@ -414,6 +430,144 @@
 		rLoc = 313;
 		rType = 0;
 		vrLen = 388;
+		vrLoc = 0;
+	};
+	B47A07220FC853F6005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: no declaration of property 'noteLabel' found in the interface";
+		fRef = B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */;
+		rLen = 1;
+		rLoc = 10;
+		rType = 1;
+	};
+	B47A07230FC853F6005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */;
+		name = "TransactionTableViewCell.m: 11";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 320;
+		vrLoc = 81;
+	};
+	B47A072C0FC853F9005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 108";
+		rLen = 521;
+		rLoc = 3829;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 3211;
+	};
+	B47A072D0FC853F9005D028B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/ashlux/Documents/igFinance/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	B47A072E0FC853F9005D028B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B4258B600FC7AD8600E97E43 /* Icon.png */;
+	};
+	B47A072F0FC853F9005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */;
+		name = "TransactionTableViewCell.h: 21";
+		rLen = 0;
+		rLoc = 695;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	B47A07300FC853F9005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 108";
+		rLen = 521;
+		rLoc = 3829;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 3211;
+	};
+	B47A07310FC853F9005D028B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/ashlux/Documents/igFinance/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	B47A07320FC853F9005D028B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B4258B600FC7AD8600E97E43 /* Icon.png */;
+	};
+	B47A07330FC853F9005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */;
+		name = "TransactionTableViewCell.h: 20";
+		rLen = 0;
+		rLoc = 772;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	B47A07340FC853F9005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */;
+		name = "TransactionTableViewCell.m: 29";
+		rLen = 0;
+		rLoc = 985;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 38;
+	};
+	B47A07350FC853F9005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */;
+		name = "TransactionTableViewCell.h: 17";
+		rLen = 0;
+		rLoc = 571;
+		rType = 0;
+		vrLen = 766;
+		vrLoc = 0;
+	};
+	B47A07360FC853F9005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */;
+		name = "TransactionTableViewCell.m: 38";
+		rLen = 0;
+		rLoc = 1347;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 762;
+	};
+	B47A07370FC853F9005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */;
+		name = "TransactionTableViewCell.h: 21";
+		rLen = 0;
+		rLoc = 695;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	B47A07380FC853F9005D028B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */;
+		name = "TransactionTableViewCell.m: 11";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 986;
 		vrLoc = 0;
 	};
 	B492D3630FBFA8F30052EA4E /* igFinance */ = {
