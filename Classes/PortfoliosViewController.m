@@ -50,7 +50,7 @@
 	// disable main tableview from scrolling, want sub-tableview to scroll instead
 	((UITableView*) self.view).scrollEnabled = NO;
 	
-	// add ad view
+		// add ad view
 //	ARRollerView* adView = [ARRollerView requestRollerViewWithDelegate:self];
 //	[self.view addSubview:adView];	
 }
