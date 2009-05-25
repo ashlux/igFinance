@@ -66,14 +66,6 @@
 	
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {	
-    if (theTextField == portfolioNameTextField) {
-        [portfolioNameTextField resignFirstResponder];
-    }
-	
-    return YES;
-}
-
 - (void)dealloc {
 	[activityIndicator release];
 	[portfolioNameTextField release];

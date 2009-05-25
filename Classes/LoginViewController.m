@@ -5,7 +5,6 @@
 @implementation LoginViewController
 
 @synthesize portfoliosViewController;
-@synthesize uiTableView;
 @synthesize usernameTextField;
 @synthesize passwordTextField;
 @synthesize rememberPasswordSwitch;
@@ -46,8 +45,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	self.title = @"Account Details";
-	uiTableView.scrollEnabled = NO;
+	self.title = @"Account Details";	
 	
 	[self getDefaults];
 }
@@ -67,22 +65,9 @@
 	[self.navigationController pushViewController:portfoliosViewController animated:YES];
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {	
-    if (theTextField == usernameTextField) {
-        [usernameTextField resignFirstResponder];
-    }
-	
-	if (theTextField == passwordTextField) {
-		[passwordTextField resignFirstResponder];
-	}
-	
-    return YES;
-}
-
 - (void)dealloc {
 	[portfoliosViewController release];
 	
-	[uiTableView release];
 	[usernameTextField release];
 	[passwordTextField release];
 	[rememberPasswordSwitch release];

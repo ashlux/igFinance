@@ -1,8 +1,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AbstractTextEditingUITableViewController : UIViewController {
-
+@interface AbstractTextEditingUITableViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate> {
 }
 
 @end
