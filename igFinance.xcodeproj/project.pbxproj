@@ -15,6 +15,7 @@
 		B4258A1E0FC7977D00E97E43 /* TransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */; };
 		B4258B610FC7AD8600E97E43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258B600FC7AD8600E97E43 /* Icon.png */; };
 		B4258BA50FC7BA8600E97E43 /* WebQuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */; };
+		B4633EC00FCA512400670943 /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = B4633EBF0FCA512400670943 /* 01-refresh.png */; };
 		B47A07020FC8430A005D028B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FB0FC8430A005D028B /* LoginViewController.xib */; };
 		B47A07030FC8430A005D028B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FC0FC8430A005D028B /* MainWindow.xib */; };
 		B47A07040FC8430A005D028B /* PortfoliosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */; };
@@ -254,6 +255,7 @@
 		B4258B600FC7AD8600E97E43 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		B4258BA20FC7BA8600E97E43 /* WebQuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebQuoteViewController.h; sourceTree = "<group>"; };
 		B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebQuoteViewController.m; sourceTree = "<group>"; };
+		B4633EBF0FCA512400670943 /* 01-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-refresh.png"; path = "Resources/01-refresh.png"; sourceTree = "<group>"; };
 		B47A06FB0FC8430A005D028B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Resources/LoginViewController.xib; sourceTree = "<group>"; };
 		B47A06FC0FC8430A005D028B /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
 		B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PortfoliosViewController.xib; path = Resources/PortfoliosViewController.xib; sourceTree = "<group>"; };
@@ -820,6 +822,7 @@
 		B4633DFF0FCA387200670943 /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				B4633EBF0FCA512400670943 /* 01-refresh.png */,
 				B47A07650FC85ADA005D028B /* 10-medical.png */,
 				B4258B600FC7AD8600E97E43 /* Icon.png */,
 			);
@@ -1540,6 +1543,7 @@
 				B47A07080FC8430A005D028B /* WebQuoteViewController.xib in Resources */,
 				B47A07660FC85ADA005D028B /* 10-medical.png in Resources */,
 				B47A07830FC85D30005D028B /* AddPortfolioViewController.xib in Resources */,
+				B4633EC00FCA512400670943 /* 01-refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

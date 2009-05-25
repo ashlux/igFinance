@@ -9,6 +9,7 @@
 @synthesize uitableView;
 @synthesize gDataFeedFinancePortfolio;
 @synthesize activityIndicator;
+@synthesize myTabBar;
 
 - (GDataServiceGoogleFinance*) financeService {
 	static  GDataServiceGoogleFinance *service = nil;
@@ -27,6 +28,7 @@
 }
 
 -(void)loadPortfolios {
+	[self.activityIndicator startAnimating];
 	NSLog(@"Getting all of the user's portfolios for %@.", [googleClientLogin username]);
 	GDataServiceGoogleFinance *service = [self financeService];		
 	[GDataHTTPFetcher setIsLoggingEnabled:YES];
@@ -56,6 +58,9 @@
 	self.navigationItem.rightBarButtonItem = loadingView;
 	[self.activityIndicator startAnimating];
 
+	// disable main tableview from scrolling, want sub-tableview to scroll instead
+	((UITableView*) self.view).scrollEnabled = NO;
+	
 	[self loadPortfolios];
 }
 
@@ -119,14 +124,19 @@
 }
 
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
-	if (item.tag == 99) {
+	if (item.tag == 99) { // add
 		AddPortfolioViewController *aView = [[AddPortfolioViewController alloc] 
 											 initWithNibName:@"AddPortfolioViewController" bundle:[NSBundle mainBundle]];
 		aView.googleClientLogin = self.googleClientLogin;
 		aView.financeService = [self financeService];
 		[self.navigationController pushViewController:aView animated:YES];
 		[aView release];
+	} else if (item.tag == 98) { // refresh
+		[self loadPortfolios];
 	}
+	
+
+	[myTabBar setSelectedItem:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated { 
@@ -138,6 +148,7 @@
 - (void)dealloc {
 	[uitableView release];
 	[activityIndicator release];
+	[myTabBar release];
 
     [super dealloc];
 }

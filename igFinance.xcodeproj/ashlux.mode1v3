@@ -228,8 +228,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -267,19 +265,25 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>B492D47C0FBFC9340052EA4E</string>
+								<string>B4633DB70FCA377600670943</string>
+								<string>B4E35B1C0FC4C62600403B70</string>
+								<string>B4633DB90FCA37C500670943</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FAAC04509CD000000102</string>
-								<string>1C08E77C0454961000C914BD</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>19</integer>
-									<integer>18</integer>
+									<integer>20</integer>
+									<integer>8</integer>
+									<integer>4</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -318,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Icon.png</string>
+								<string>PortfoliosViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Icon.png</string>
+										<string>PortfoliosViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B4633E080FCA38A000670943</string>
+										<string>B4633EB80FCA510900670943</string>
 										<key>history</key>
 										<array>
 											<string>B4E3408F0FC184E000403B70</string>
@@ -344,19 +348,20 @@
 											<string>B4633DDA0FCA386A00670943</string>
 											<string>B4633DDB0FCA386A00670943</string>
 											<string>B4633DDC0FCA386A00670943</string>
-											<string>B4633DDD0FCA386A00670943</string>
-											<string>B4633DDE0FCA386A00670943</string>
-											<string>B4633DDF0FCA386A00670943</string>
 											<string>B4633DE00FCA386A00670943</string>
 											<string>B4633DE10FCA386A00670943</string>
-											<string>B4633DE20FCA386A00670943</string>
 											<string>B4633DE30FCA386A00670943</string>
-											<string>B4633DE40FCA386A00670943</string>
-											<string>B4633DE50FCA386A00670943</string>
 											<string>B4633DE60FCA386A00670943</string>
 											<string>B4633E020FCA38A000670943</string>
 											<string>B4633E030FCA38A000670943</string>
-											<string>B4633E040FCA38A000670943</string>
+											<string>B4633E0E0FCA41DA00670943</string>
+											<string>B4633E0F0FCA41DA00670943</string>
+											<string>B4633E100FCA41DA00670943</string>
+											<string>B4633E110FCA41DA00670943</string>
+											<string>B4633E120FCA41DA00670943</string>
+											<string>B4633E130FCA41DA00670943</string>
+											<string>B4633E1D0FCA423000670943</string>
+											<string>B4633E1E0FCA423000670943</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -427,6 +432,15 @@
 											<string>B4633E050FCA38A000670943</string>
 											<string>B4633E060FCA38A000670943</string>
 											<string>B4633E070FCA38A000670943</string>
+											<string>B4633E150FCA41DA00670943</string>
+											<string>B4633E160FCA41DA00670943</string>
+											<string>B4633E170FCA41DA00670943</string>
+											<string>B4633E180FCA41DA00670943</string>
+											<string>B4633E190FCA41DA00670943</string>
+											<string>B4633E1A0FCA41DA00670943</string>
+											<string>B4633E1B0FCA41DA00670943</string>
+											<string>B4633E1F0FCA423000670943</string>
+											<string>B4633E200FCA423000670943</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -448,6 +462,8 @@
 							<string>500pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
