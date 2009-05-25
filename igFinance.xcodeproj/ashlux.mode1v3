@@ -269,8 +269,10 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>B4633EC90FCA558000670943</string>
 								<string>B492D47C0FBFC9340052EA4E</string>
+								<string>B4633DB70FCA377600670943</string>
 								<string>B4E35B1C0FC4C62600403B70</string>
 								<string>B4633DB90FCA37C500670943</string>
+								<string>B4633DB80FCA37A000670943</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>B4633E000FCA388A00670943</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
@@ -282,13 +284,15 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>29</integer>
+									<integer>13</integer>
+									<integer>9</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {234, 660}}</string>
+							<string>{{0, 135}, {234, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -339,10 +343,7 @@
 											<string>B4E357E10FC2314900403B70</string>
 											<string>B4E3616E0FC6523D00403B70</string>
 											<string>B47A072D0FC853F9005D028B</string>
-											<string>B4633DBB0FCA37DA00670943</string>
-											<string>B4633DC00FCA37DA00670943</string>
 											<string>B4633DE10FCA386A00670943</string>
-											<string>B4633DE30FCA386A00670943</string>
 											<string>B4633DE60FCA386A00670943</string>
 											<string>B4633E030FCA38A000670943</string>
 											<string>B4633EDE0FCA560700670943</string>
@@ -440,9 +441,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B4633FFE0FCAEEDB00670943</string>
+				<string>B463404C0FCB051000670943</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>B4633FFF0FCAEEDB00670943</string>
+				<string>B463404D0FCB051000670943</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -656,7 +657,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>B492D3800FBFACBC0052EA4E</string>
-				<string>B4633FD50FCAE77300670943</string>
+				<string>B463403D0FCB050E00670943</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -776,13 +777,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>B4633FD60FCAE77300670943</string>
+				<string>B463403E0FCB050E00670943</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>B4633FD70FCAE77300670943</string>
-				<string>B4633FD80FCAE77300670943</string>
-				<string>B4633FD90FCAE77300670943</string>
-				<string>B4633FDA0FCAE77300670943</string>
-				<string>B4633FDB0FCAE77300670943</string>
+				<string>B463403F0FCB050E00670943</string>
+				<string>B46340400FCB050E00670943</string>
+				<string>B46340410FCB050E00670943</string>
+				<string>B46340420FCB050E00670943</string>
+				<string>B46340430FCB050E00670943</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -946,7 +947,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>B4633FDC0FCAE77300670943</string>
+				<string>B46340440FCB050E00670943</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

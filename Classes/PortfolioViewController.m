@@ -9,12 +9,14 @@
 
 @synthesize portfolioEntryTableView;
 @synthesize activityIndicator;
+@synthesize myTabBar;
 @synthesize googleClientLogin;
 @synthesize portfolio;
 @synthesize positionFeed;
 @synthesize financeService;
 
 -(void)loadPortfolio:(NSURL *) positionUrl {
+	[self.activityIndicator startAnimating];	
 	GDataServiceGoogleFinance *service = [self financeService];		
 	[service fetchFinanceFeedWithURL:positionUrl
 							 delegate:self
@@ -22,10 +24,13 @@
 					 didFailSelector:@selector(positionFeedticket:failedWithError:)];
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void) loadView {
+	[super loadView];
 	
+	// set navigation bar title
 	self.navigationItem.title = [[portfolio title] stringValue];
+	
+	// add activity indicator to navigation bar
 	self.activityIndicator = [[UIActivityIndicatorView alloc] 
 							  initWithFrame:CGRectMake(0.0, 0.0, 25.0, 25.0)];
 	[self.activityIndicator sizeToFit];
@@ -38,7 +43,13 @@
 									initWithCustomView:self.activityIndicator];
 	loadingView.target = self;
 	self.navigationItem.rightBarButtonItem = loadingView;
-	[self.activityIndicator startAnimating];
+	
+	// disable main tableview from scrolling, want sub-tableview to scroll instead
+	((UITableView*) self.view).scrollEnabled = NO;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
 	[self loadPortfolio :[portfolio positionURL]];
 }
 
@@ -122,10 +133,27 @@
 	NSLog(@"%@", error);
 }
 
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
+	if (item.tag == 97) { // add transaction
+//		AddTransactionViewController *aView = [[AddTransactionViewController alloc] 
+//											 initWithNibName:@"AddTransactionViewController" bundle:[NSBundle mainBundle]];
+//		aView.googleClientLogin = self.googleClientLogin;
+//		aView.financeService = [self financeService];
+//		[self.navigationController pushViewController:aView animated:YES];
+//		[aView release];
+	} else if (item.tag == 98) { // refresh
+		[self loadPortfolio:[portfolio positionURL]];
+	}
+	
+	
+	[myTabBar setSelectedItem:nil];
+}
+
 - (void)dealloc {
 	[portfolioEntryTableView release];
 	[activityIndicator release];
 	[portfolio release];
+	[myTabBar release];
 	
     [super dealloc];
 }

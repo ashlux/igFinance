@@ -7,6 +7,7 @@
 @interface PortfolioViewController : UITableViewController {
 	IBOutlet UITableView *portfolioEntryTableView;
 	IBOutlet UIActivityIndicatorView *activityIndicator;
+	IBOutlet UITabBar *myTabBar;
 	
 	GoogleClientLogin *googleClientLogin;
 	
@@ -17,6 +18,7 @@
 
 @property (nonatomic, retain) IBOutlet UITableView *portfolioEntryTableView;
 @property (nonatomic, retain) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (nonatomic, retain) IBOutlet UITabBar *myTabBar;
 
 @property (nonatomic, retain) GoogleClientLogin *googleClientLogin;
 
