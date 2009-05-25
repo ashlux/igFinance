@@ -11,7 +11,6 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
-		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		B4258A180FC793D800E97E43 /* TransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258A160FC793D800E97E43 /* TransactionViewController.m */; };
 		B4258A1E0FC7977D00E97E43 /* TransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */; };
 		B4258B610FC7AD8600E97E43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258B600FC7AD8600E97E43 /* Icon.png */; };
@@ -247,8 +246,6 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AAE50D9B0CCF005BE974 /* igFinance_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = igFinance_Prefix.pch; sourceTree = "<group>"; };
-		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4258A150FC793D800E97E43 /* TransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionViewController.h; sourceTree = "<group>"; };
 		B4258A160FC793D800E97E43 /* TransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionViewController.m; sourceTree = "<group>"; };
@@ -729,8 +726,6 @@
 				B4E350B70FC1867600403B70 /* GData */,
 				B492D6E10FC09AE20052EA4E /* domain */,
 				B492D47C0FBFC9340052EA4E /* ui */,
-				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
-				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* igFinanceAppDelegate.h */,
 				1D3623250D0F684500981E51 /* igFinanceAppDelegate.m */,
 			);
@@ -769,16 +764,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B47A07820FC85D30005D028B /* AddPortfolioViewController.xib */,
-				B47A07650FC85ADA005D028B /* 10-medical.png */,
-				B47A06FB0FC8430A005D028B /* LoginViewController.xib */,
-				B47A06FC0FC8430A005D028B /* MainWindow.xib */,
-				B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */,
-				B47A06FE0FC8430A005D028B /* PortfolioViewController.xib */,
-				B47A06FF0FC8430A005D028B /* TableViewCells.xib */,
-				B47A07000FC8430A005D028B /* TransactionViewController.xib */,
-				B47A07010FC8430A005D028B /* WebQuoteViewController.xib */,
-				B4258B600FC7AD8600E97E43 /* Icon.png */,
+				B4633E000FCA388A00670943 /* xib */,
+				B4633DFF0FCA387200670943 /* icons */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 			);
 			name = Resources;
@@ -794,23 +781,80 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B492D36F0FBFAA650052EA4E /* bom */ = {
+		B4633DB70FCA377600670943 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				B4C021BC0FC0B3D8003D40B6 /* LoginViewController.h */,
+				B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		B4633DB80FCA37A000670943 /* transaction */ = {
+			isa = PBXGroup;
+			children = (
+				B4258A150FC793D800E97E43 /* TransactionViewController.h */,
+				B4258A160FC793D800E97E43 /* TransactionViewController.m */,
+				B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */,
+				B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */,
+			);
+			name = transaction;
+			sourceTree = "<group>";
+		};
+		B4633DB90FCA37C500670943 /* portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				B4633DB80FCA37A000670943 /* transaction */,
+				B4E359DA0FC39F4300403B70 /* PortfolioViewController.h */,
+				B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */,
+				B4E35B1D0FC4C72B00403B70 /* StockSummaryTableViewCell.h */,
+				B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */,
+				B4258BA20FC7BA8600E97E43 /* WebQuoteViewController.h */,
+				B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */,
+				B47A07730FC85CDC005D028B /* AddPortfolioViewController.h */,
+				B47A07740FC85CDC005D028B /* AddPortfolioViewController.m */,
+			);
+			name = portfolio;
+			sourceTree = "<group>";
+		};
+		B4633DFF0FCA387200670943 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				B47A07650FC85ADA005D028B /* 10-medical.png */,
+				B4258B600FC7AD8600E97E43 /* Icon.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		B4633E000FCA388A00670943 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				B47A07820FC85D30005D028B /* AddPortfolioViewController.xib */,
+				B47A06FB0FC8430A005D028B /* LoginViewController.xib */,
+				B47A06FC0FC8430A005D028B /* MainWindow.xib */,
+				B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */,
+				B47A06FE0FC8430A005D028B /* PortfolioViewController.xib */,
+				B47A06FF0FC8430A005D028B /* TableViewCells.xib */,
+				B47A07000FC8430A005D028B /* TransactionViewController.xib */,
+				B47A07010FC8430A005D028B /* WebQuoteViewController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		B492D36F0FBFAA650052EA4E /* login */ = {
 			isa = PBXGroup;
 			children = (
 				B492D3700FBFAA8B0052EA4E /* GoogleClientLogin.h */,
 				B492D3710FBFAA8B0052EA4E /* GoogleClientLogin.m */,
 			);
-			name = bom;
+			name = login;
 			sourceTree = "<group>";
 		};
 		B492D47C0FBFC9340052EA4E /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				B4E35B1C0FC4C62600403B70 /* portfolio */,
-				B4C021BC0FC0B3D8003D40B6 /* LoginViewController.h */,
-				B4C021BD0FC0B3D8003D40B6 /* LoginViewController.m */,
-				B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */,
-				B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */,
+				B4633DB70FCA377600670943 /* login */,
+				B4E35B1C0FC4C62600403B70 /* portfolios */,
 				B4E358CD0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.h */,
 				B4E358CE0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.m */,
 			);
@@ -820,7 +864,7 @@
 		B492D6E10FC09AE20052EA4E /* domain */ = {
 			isa = PBXGroup;
 			children = (
-				B492D36F0FBFAA650052EA4E /* bom */,
+				B492D36F0FBFAA650052EA4E /* login */,
 			);
 			name = domain;
 			sourceTree = "<group>";
@@ -1426,23 +1470,14 @@
 			path = XMLSupport;
 			sourceTree = "<group>";
 		};
-		B4E35B1C0FC4C62600403B70 /* portfolio */ = {
+		B4E35B1C0FC4C62600403B70 /* portfolios */ = {
 			isa = PBXGroup;
 			children = (
-				B4E359DA0FC39F4300403B70 /* PortfolioViewController.h */,
-				B4E359DB0FC39F4300403B70 /* PortfolioViewController.m */,
-				B4E35B1D0FC4C72B00403B70 /* StockSummaryTableViewCell.h */,
-				B4E35B1E0FC4C72B00403B70 /* StockSummaryTableViewCell.m */,
-				B4258A150FC793D800E97E43 /* TransactionViewController.h */,
-				B4258A160FC793D800E97E43 /* TransactionViewController.m */,
-				B4258A1C0FC7977D00E97E43 /* TransactionTableViewCell.h */,
-				B4258A1D0FC7977D00E97E43 /* TransactionTableViewCell.m */,
-				B4258BA20FC7BA8600E97E43 /* WebQuoteViewController.h */,
-				B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */,
-				B47A07730FC85CDC005D028B /* AddPortfolioViewController.h */,
-				B47A07740FC85CDC005D028B /* AddPortfolioViewController.m */,
+				B4633DB90FCA37C500670943 /* portfolio */,
+				B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */,
+				B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */,
 			);
-			name = portfolio;
+			name = portfolios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1516,7 +1551,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3623260D0F684500981E51 /* igFinanceAppDelegate.m in Sources */,
-				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				B492D3720FBFAA8B0052EA4E /* GoogleClientLogin.m in Sources */,
 				B4C021BE0FC0B3D8003D40B6 /* LoginViewController.m in Sources */,
 				B4C021C70FC0CB83003D40B6 /* PortfoliosViewController.m in Sources */,
