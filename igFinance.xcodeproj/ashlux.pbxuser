@@ -2,14 +2,14 @@
 {
 	1D3623240D0F684500981E51 /* igFinanceAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {808, 445}}";
+			sepNavIntBoundsRect = "{{0, 0}, {963, 445}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 468}";
 		};
 	};
 	1D3623250D0F684500981E51 /* igFinanceAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {808, 518}}";
+			sepNavIntBoundsRect = "{{0, 0}, {963, 518}}";
 			sepNavSelRange = "{143, 0}";
 			sepNavVisRange = "{3, 656}";
 		};
@@ -78,7 +78,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					630,
+					785,
 					20,
 					48,
 					43,
@@ -124,7 +124,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					590,
+					288,
 					60,
 					20,
 					48,
@@ -227,6 +227,77 @@
 			B4633E060FCA38A000670943 = B4633E060FCA38A000670943 /* PBXBookmark */;
 			B4633E070FCA38A000670943 = B4633E070FCA38A000670943 /* PBXBookmark */;
 			B4633E080FCA38A000670943 = B4633E080FCA38A000670943 /* PBXBookmark */;
+			B4633EDE0FCA560700670943 /* PBXBookmark */ = B4633EDE0FCA560700670943 /* PBXBookmark */;
+			B4633EDF0FCA560700670943 /* PBXTextBookmark */ = B4633EDF0FCA560700670943 /* PBXTextBookmark */;
+			B4633EE00FCA560700670943 /* PBXTextBookmark */ = B4633EE00FCA560700670943 /* PBXTextBookmark */;
+			B4633EE10FCA560700670943 /* PBXTextBookmark */ = B4633EE10FCA560700670943 /* PBXTextBookmark */;
+			B4633EE20FCA560700670943 /* PBXBookmark */ = B4633EE20FCA560700670943 /* PBXBookmark */;
+			B4633EE30FCA560700670943 /* PBXTextBookmark */ = B4633EE30FCA560700670943 /* PBXTextBookmark */;
+			B4633EE40FCA560700670943 /* PBXTextBookmark */ = B4633EE40FCA560700670943 /* PBXTextBookmark */;
+			B4633EE50FCA560700670943 /* PBXTextBookmark */ = B4633EE50FCA560700670943 /* PBXTextBookmark */;
+			B4633EE60FCA560700670943 /* PBXTextBookmark */ = B4633EE60FCA560700670943 /* PBXTextBookmark */;
+			B4633EE70FCA560700670943 /* PBXTextBookmark */ = B4633EE70FCA560700670943 /* PBXTextBookmark */;
+			B4633EE80FCA560700670943 /* PBXTextBookmark */ = B4633EE80FCA560700670943 /* PBXTextBookmark */;
+			B4633EE90FCA560700670943 /* PBXTextBookmark */ = B4633EE90FCA560700670943 /* PBXTextBookmark */;
+			B4633EF50FCA566B00670943 /* PBXTextBookmark */ = B4633EF50FCA566B00670943 /* PBXTextBookmark */;
+			B4633EF60FCA566B00670943 /* PBXTextBookmark */ = B4633EF60FCA566B00670943 /* PBXTextBookmark */;
+			B4633EF70FCA566B00670943 /* PBXTextBookmark */ = B4633EF70FCA566B00670943 /* PBXTextBookmark */;
+			B4633EF90FCA567800670943 /* PBXTextBookmark */ = B4633EF90FCA567800670943 /* PBXTextBookmark */;
+			B4633EFA0FCA567800670943 /* PBXTextBookmark */ = B4633EFA0FCA567800670943 /* PBXTextBookmark */;
+			B4633EFB0FCA567A00670943 /* PBXTextBookmark */ = B4633EFB0FCA567A00670943 /* PBXTextBookmark */;
+			B4633EFC0FCA567A00670943 /* PBXTextBookmark */ = B4633EFC0FCA567A00670943 /* PBXTextBookmark */;
+			B4633EFD0FCA567A00670943 /* PBXTextBookmark */ = B4633EFD0FCA567A00670943 /* PBXTextBookmark */;
+			B4633EFF0FCA570A00670943 /* PBXTextBookmark */ = B4633EFF0FCA570A00670943 /* PBXTextBookmark */;
+			B4633F000FCA570A00670943 /* PBXTextBookmark */ = B4633F000FCA570A00670943 /* PBXTextBookmark */;
+			B4633F020FCA570F00670943 /* PBXTextBookmark */ = B4633F020FCA570F00670943 /* PBXTextBookmark */;
+			B4633F030FCA57AD00670943 /* PBXTextBookmark */ = B4633F030FCA57AD00670943 /* PBXTextBookmark */;
+			B4633F060FCA580800670943 /* PBXTextBookmark */ = B4633F060FCA580800670943 /* PBXTextBookmark */;
+			B4633F080FCA584300670943 /* PBXTextBookmark */ = B4633F080FCA584300670943 /* PBXTextBookmark */;
+			B4633F090FCA585A00670943 /* PBXTextBookmark */ = B4633F090FCA585A00670943 /* PBXTextBookmark */;
+			B4633F0C0FCA601C00670943 /* PBXTextBookmark */ = B4633F0C0FCA601C00670943 /* PBXTextBookmark */;
+			B4633F120FCA60BA00670943 /* PBXTextBookmark */ = B4633F120FCA60BA00670943 /* PBXTextBookmark */;
+			B4633F130FCA60BA00670943 /* PBXTextBookmark */ = B4633F130FCA60BA00670943 /* PBXTextBookmark */;
+			B4633F140FCA60BA00670943 /* PBXTextBookmark */ = B4633F140FCA60BA00670943 /* PBXTextBookmark */;
+			B4633F150FCA60BA00670943 /* PBXTextBookmark */ = B4633F150FCA60BA00670943 /* PBXTextBookmark */;
+			B4633F160FCA60BA00670943 /* PBXTextBookmark */ = B4633F160FCA60BA00670943 /* PBXTextBookmark */;
+			B4633F1B0FCA61D300670943 /* PBXTextBookmark */ = B4633F1B0FCA61D300670943 /* PBXTextBookmark */;
+			B4633F1C0FCA61E400670943 /* PBXTextBookmark */ = B4633F1C0FCA61E400670943 /* PBXTextBookmark */;
+			B4633F1F0FCA639100670943 /* PBXTextBookmark */ = B4633F1F0FCA639100670943 /* PBXTextBookmark */;
+			B4633F210FCA63A700670943 /* PBXTextBookmark */ = B4633F210FCA63A700670943 /* PBXTextBookmark */;
+			B4633F230FCA63CD00670943 /* PBXTextBookmark */ = B4633F230FCA63CD00670943 /* PBXTextBookmark */;
+			B4633F240FCA63CD00670943 /* PBXTextBookmark */ = B4633F240FCA63CD00670943 /* PBXTextBookmark */;
+			B4633F250FCA63CD00670943 /* PBXTextBookmark */ = B4633F250FCA63CD00670943 /* PBXTextBookmark */;
+			B4633F260FCA63CD00670943 /* PBXTextBookmark */ = B4633F260FCA63CD00670943 /* PBXTextBookmark */;
+			B4633F270FCA63CD00670943 /* PBXTextBookmark */ = B4633F270FCA63CD00670943 /* PBXTextBookmark */;
+			B4633F280FCA63CD00670943 /* PBXTextBookmark */ = B4633F280FCA63CD00670943 /* PBXTextBookmark */;
+			B4633F290FCA63CD00670943 /* PBXTextBookmark */ = B4633F290FCA63CD00670943 /* PBXTextBookmark */;
+			B4633F2D0FCA648000670943 /* PBXTextBookmark */ = B4633F2D0FCA648000670943 /* PBXTextBookmark */;
+			B4633F2E0FCA648000670943 /* PBXTextBookmark */ = B4633F2E0FCA648000670943 /* PBXTextBookmark */;
+			B4633F2F0FCA648000670943 /* PBXTextBookmark */ = B4633F2F0FCA648000670943 /* PBXTextBookmark */;
+			B4633F300FCA648000670943 /* PBXTextBookmark */ = B4633F300FCA648000670943 /* PBXTextBookmark */;
+			B4633F310FCA648000670943 /* PBXTextBookmark */ = B4633F310FCA648000670943 /* PBXTextBookmark */;
+			B4633F320FCA648000670943 /* PBXTextBookmark */ = B4633F320FCA648000670943 /* PBXTextBookmark */;
+			B4633F330FCA648000670943 /* PBXTextBookmark */ = B4633F330FCA648000670943 /* PBXTextBookmark */;
+			B4633F340FCA648000670943 /* PBXTextBookmark */ = B4633F340FCA648000670943 /* PBXTextBookmark */;
+			B4633F350FCA648000670943 /* PBXTextBookmark */ = B4633F350FCA648000670943 /* PBXTextBookmark */;
+			B4633F370FCA64B200670943 /* PBXTextBookmark */ = B4633F370FCA64B200670943 /* PBXTextBookmark */;
+			B4633F390FCA64DC00670943 /* PBXTextBookmark */ = B4633F390FCA64DC00670943 /* PBXTextBookmark */;
+			B4633F3C0FCA64F700670943 /* PBXTextBookmark */ = B4633F3C0FCA64F700670943 /* PBXTextBookmark */;
+			B4633F400FCA663200670943 /* PBXTextBookmark */ = B4633F400FCA663200670943 /* PBXTextBookmark */;
+			B4633F4A0FCA67F000670943 /* PBXTextBookmark */ = B4633F4A0FCA67F000670943 /* PBXTextBookmark */;
+			B4633F4B0FCA67F000670943 /* PBXTextBookmark */ = B4633F4B0FCA67F000670943 /* PBXTextBookmark */;
+			B4633F4C0FCA67F000670943 /* PBXTextBookmark */ = B4633F4C0FCA67F000670943 /* PBXTextBookmark */;
+			B4633F4D0FCA67F000670943 /* PBXTextBookmark */ = B4633F4D0FCA67F000670943 /* PBXTextBookmark */;
+			B4633F4E0FCA67F000670943 /* PBXTextBookmark */ = B4633F4E0FCA67F000670943 /* PBXTextBookmark */;
+			B4633F4F0FCA67F000670943 /* PBXTextBookmark */ = B4633F4F0FCA67F000670943 /* PBXTextBookmark */;
+			B4633F500FCA67F000670943 /* PBXTextBookmark */ = B4633F500FCA67F000670943 /* PBXTextBookmark */;
+			B4633F520FCA68DC00670943 /* PBXTextBookmark */ = B4633F520FCA68DC00670943 /* PBXTextBookmark */;
+			B4633F530FCA68DC00670943 /* PBXTextBookmark */ = B4633F530FCA68DC00670943 /* PBXTextBookmark */;
+			B4633F540FCA68DC00670943 /* PBXTextBookmark */ = B4633F540FCA68DC00670943 /* PBXTextBookmark */;
+			B4633F550FCA68DC00670943 /* PBXTextBookmark */ = B4633F550FCA68DC00670943 /* PBXTextBookmark */;
+			B4633F560FCA68DC00670943 /* PBXTextBookmark */ = B4633F560FCA68DC00670943 /* PBXTextBookmark */;
+			B4633F570FCA68DC00670943 /* PBXTextBookmark */ = B4633F570FCA68DC00670943 /* PBXTextBookmark */;
+			B4633F580FCA68DC00670943 /* PBXTextBookmark */ = B4633F580FCA68DC00670943 /* PBXTextBookmark */;
 			B47A07220FC853F6005D028B = B47A07220FC853F6005D028B /* PBXTextBookmark */;
 			B47A07230FC853F6005D028B = B47A07230FC853F6005D028B /* PBXTextBookmark */;
 			B47A072C0FC853F9005D028B = B47A072C0FC853F9005D028B /* PBXTextBookmark */;
@@ -784,7 +855,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 118";
 		rLen = 0;
-		rLoc = 4512;
+		rLoc = 4952;
 		rType = 0;
 		vrLen = 1324;
 		vrLoc = 3829;
@@ -898,7 +969,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 118";
 		rLen = 0;
-		rLoc = 4512;
+		rLoc = 4952;
 		rType = 0;
 		vrLen = 1324;
 		vrLoc = 3829;
@@ -1007,7 +1078,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -1018,7 +1089,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 118";
 		rLen = 0;
-		rLoc = 4512;
+		rLoc = 4952;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 3937;
@@ -1118,7 +1189,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 118";
 		rLen = 0;
-		rLoc = 4512;
+		rLoc = 4952;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 3937;
@@ -1138,7 +1209,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 118";
 		rLen = 0;
-		rLoc = 4512;
+		rLoc = 4952;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 3937;
@@ -1187,7 +1258,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -1198,7 +1269,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 118";
 		rLen = 0;
-		rLoc = 4512;
+		rLoc = 4952;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 3937;
@@ -1217,7 +1288,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -1228,7 +1299,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 118";
 		rLen = 0;
-		rLoc = 4512;
+		rLoc = 4952;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 3937;
@@ -1373,6 +1444,717 @@
 		isa = PBXBookmark;
 		fRef = B4258B600FC7AD8600E97E43 /* Icon.png */;
 	};
+	B4633ECA0FCA558000670943 /* ARRollerProtocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1560, 1638}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1690}";
+		};
+	};
+	B4633ECB0FCA558000670943 /* ARRollerView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {963, 616}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{191, 1166}";
+			sepNavWindowFrame = "{{61, 173}, {750, 558}}";
+		};
+	};
+	B4633EDE0FCA560700670943 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B4633EBF0FCA512400670943 /* 01-refresh.png */;
+	};
+	B4633EDF0FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* igFinanceAppDelegate.h */;
+		name = "igFinanceAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 468;
+		vrLoc = 0;
+	};
+	B4633EE00FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
+		name = "PortfoliosViewController.h: 12";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 726;
+		vrLoc = 0;
+	};
+	B4633EE10FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 129";
+		rLen = 0;
+		rLoc = 5398;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 4566;
+	};
+	B4633EE20FCA560700670943 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B4633EBF0FCA512400670943 /* 01-refresh.png */;
+	};
+	B4633EE30FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* igFinanceAppDelegate.h */;
+		name = "igFinanceAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 468;
+		vrLoc = 0;
+	};
+	B4633EE40FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
+		name = "PortfoliosViewController.h: 3";
+		rLen = 109;
+		rLoc = 25;
+		rType = 0;
+		vrLen = 637;
+		vrLoc = 0;
+	};
+	B4633EE50FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 129";
+		rLen = 0;
+		rLoc = 5398;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 4478;
+	};
+	B4633EE60FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
+		name = "PortfoliosViewController.h: 19";
+		rLen = 0;
+		rLoc = 791;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	B4633EE70FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 129";
+		rLen = 0;
+		rLoc = 5398;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 4566;
+	};
+	B4633EE80FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
+		name = "PortfoliosViewController.h: 12";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 726;
+		vrLoc = 0;
+	};
+	B4633EE90FCA560700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 62";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1354;
+		vrLoc = 1559;
+	};
+	B4633EF50FCA566B00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 62";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1354;
+		vrLoc = 1559;
+	};
+	B4633EF60FCA566B00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 62";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1354;
+		vrLoc = 1559;
+	};
+	B4633EF70FCA566B00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
+		name = "PortfoliosViewController.h: 8";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	B4633EF90FCA567800670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "warning: incomplete implementation of class 'PortfoliosViewController'";
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		rLen = 1;
+		rLoc = 170;
+		rType = 1;
+	};
+	B4633EFA0FCA567800670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 157";
+		rLen = 5;
+		rLoc = 5749;
+		rType = 0;
+		vrLen = 7;
+		vrLoc = 5501;
+	};
+	B4633EFB0FCA567A00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
+		name = "PortfoliosViewController.h: 8";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	B4633EFC0FCA567A00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
+		name = "PortfoliosViewController.h: 8";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	B4633EFD0FCA567A00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 157";
+		rLen = 5;
+		rLoc = 5749;
+		rType = 0;
+		vrLen = 425;
+		vrLoc = 5084;
+	};
+	B4633EFF0FCA570A00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 146";
+		rLen = 0;
+		rLoc = 5628;
+		rType = 0;
+		vrLen = 613;
+		vrLoc = 4895;
+	};
+	B4633F000FCA570A00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 64";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1103;
+		vrLoc = 1459;
+	};
+	B4633F020FCA570F00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 64";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 1459;
+	};
+	B4633F030FCA57AD00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 63";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1242;
+		vrLoc = 1481;
+	};
+	B4633F060FCA580800670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 63";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1178;
+		vrLoc = 1481;
+	};
+	B4633F080FCA584300670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 65";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1223;
+		vrLoc = 1481;
+	};
+	B4633F090FCA585A00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 64";
+		rLen = 0;
+		rLoc = 2456;
+		rType = 0;
+		vrLen = 1223;
+		vrLoc = 1481;
+	};
+	B4633F0C0FCA601C00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 53";
+		rLen = 0;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 904;
+	};
+	B4633F120FCA60BA00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECB0FCA558000670943 /* ARRollerView.h */;
+		name = "ARRollerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 192;
+	};
+	B4633F130FCA60BA00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 58";
+		rLen = 12;
+		rLoc = 1772;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 904;
+	};
+	B4633F140FCA60BA00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 58";
+		rLen = 12;
+		rLoc = 1772;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 904;
+	};
+	B4633F150FCA60BA00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECB0FCA558000670943 /* ARRollerView.h */;
+		name = "ARRollerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 192;
+	};
+	B4633F160FCA60BA00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 58";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 904;
+	};
+	B4633F1B0FCA61D300670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 55";
+		rLen = 0;
+		rLoc = 1729;
+		rType = 0;
+		vrLen = 1535;
+		vrLoc = 943;
+	};
+	B4633F1C0FCA61E400670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 56";
+		rLen = 0;
+		rLoc = 1730;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 943;
+	};
+	B4633F1F0FCA639100670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 57";
+		rLen = 0;
+		rLoc = 1730;
+		rType = 0;
+		vrLen = 1316;
+		vrLoc = 903;
+	};
+	B4633F210FCA63A700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 59";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 922;
+	};
+	B4633F230FCA63CD00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECB0FCA558000670943 /* ARRollerView.h */;
+		name = "ARRollerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 191;
+	};
+	B4633F240FCA63CD00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
+		name = "PortfoliosViewController.h: 8";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	B4633F250FCA63CD00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 60";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1308;
+		vrLoc = 922;
+	};
+	B4633F260FCA63CD00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 60";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1308;
+		vrLoc = 922;
+	};
+	B4633F270FCA63CD00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECB0FCA558000670943 /* ARRollerView.h */;
+		name = "ARRollerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 191;
+	};
+	B4633F280FCA63CD00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
+		name = "PortfoliosViewController.h: 8";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	B4633F290FCA63CD00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 60";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 922;
+	};
+	B4633F2D0FCA648000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECA0FCA558000670943 /* ARRollerProtocol.h */;
+		name = "ARRollerProtocol.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 0;
+	};
+	B4633F2E0FCA648000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECB0FCA558000670943 /* ARRollerView.h */;
+		name = "ARRollerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 192;
+	};
+	B4633F2F0FCA648000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 60";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1337;
+		vrLoc = 922;
+	};
+	B4633F300FCA648000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 60";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1337;
+		vrLoc = 922;
+	};
+	B4633F310FCA648000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECA0FCA558000670943 /* ARRollerProtocol.h */;
+		name = "ARRollerProtocol.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 0;
+	};
+	B4633F320FCA648000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECB0FCA558000670943 /* ARRollerView.h */;
+		name = "ARRollerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 191;
+	};
+	B4633F330FCA648000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECA0FCA558000670943 /* ARRollerProtocol.h */;
+		name = "ARRollerProtocol.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1690;
+		vrLoc = 0;
+	};
+	B4633F340FCA648000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECB0FCA558000670943 /* ARRollerView.h */;
+		name = "ARRollerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1165;
+		vrLoc = 192;
+	};
+	B4633F350FCA648000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 60";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1339;
+		vrLoc = 922;
+	};
+	B4633F370FCA64B200670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 60";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1341;
+		vrLoc = 922;
+	};
+	B4633F390FCA64DC00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 60";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1339;
+		vrLoc = 922;
+	};
+	B4633F3C0FCA64F700670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 60";
+		rLen = 0;
+		rLoc = 1822;
+		rType = 0;
+		vrLen = 1364;
+		vrLoc = 922;
+	};
+	B4633F400FCA663200670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 59";
+		rLen = 0;
+		rLoc = 1821;
+		rType = 0;
+		vrLen = 1429;
+		vrLoc = 943;
+	};
+	B4633F4A0FCA67F000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECB0FCA558000670943 /* ARRollerView.h */;
+		name = "ARRollerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 191;
+	};
+	B4633F4B0FCA67F000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E358CD0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.h */;
+		name = "AbstractTextEditingUITableViewController.h: 5";
+		rLen = 0;
+		rLoc = 99;
+		rType = 0;
+		vrLen = 108;
+		vrLoc = 0;
+	};
+	B4633F4C0FCA67F000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 59";
+		rLen = 0;
+		rLoc = 1821;
+		rType = 0;
+		vrLen = 1494;
+		vrLoc = 941;
+	};
+	B4633F4D0FCA67F000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 59";
+		rLen = 0;
+		rLoc = 1821;
+		rType = 0;
+		vrLen = 1429;
+		vrLoc = 943;
+	};
+	B4633F4E0FCA67F000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4633ECB0FCA558000670943 /* ARRollerView.h */;
+		name = "ARRollerView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 191;
+	};
+	B4633F4F0FCA67F000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4E358CD0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.h */;
+		name = "AbstractTextEditingUITableViewController.h: 5";
+		rLen = 0;
+		rLoc = 99;
+		rType = 0;
+		vrLen = 108;
+		vrLoc = 0;
+	};
+	B4633F500FCA67F000670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 59";
+		rLen = 0;
+		rLoc = 1821;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 941;
+	};
+	B4633F520FCA68DC00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* igFinanceAppDelegate.h */;
+		name = "igFinanceAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 468;
+		vrLoc = 0;
+	};
+	B4633F530FCA68DC00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* igFinanceAppDelegate.m */;
+		name = "igFinanceAppDelegate.m: 7";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 656;
+		vrLoc = 3;
+	};
+	B4633F540FCA68DC00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 59";
+		rLen = 0;
+		rLoc = 1821;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 941;
+	};
+	B4633F550FCA68DC00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 59";
+		rLen = 0;
+		rLoc = 1821;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 941;
+	};
+	B4633F560FCA68DC00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* igFinanceAppDelegate.h */;
+		name = "igFinanceAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 468;
+		vrLoc = 0;
+	};
+	B4633F570FCA68DC00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* igFinanceAppDelegate.m */;
+		name = "igFinanceAppDelegate.m: 7";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 656;
+		vrLoc = 3;
+	};
+	B4633F580FCA68DC00670943 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
+		name = "PortfoliosViewController.m: 49";
+		rLen = 0;
+		rLoc = 1599;
+		rType = 0;
+		vrLen = 1276;
+		vrLoc = 1159;
+	};
 	B47A07220FC853F6005D028B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "error: no declaration of property 'noteLabel' found in the interface";
@@ -1396,7 +2178,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 108";
 		rLen = 521;
-		rLoc = 3868;
+		rLoc = 4308;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 3211;
@@ -1431,7 +2213,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 108";
 		rLen = 521;
-		rLoc = 3868;
+		rLoc = 4308;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 3211;
@@ -1774,7 +2556,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -1784,7 +2566,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 108";
 		rLen = 521;
-		rLoc = 3868;
+		rLoc = 4308;
 		rType = 0;
 		vrLen = 1389;
 		vrLoc = 3212;
@@ -1804,7 +2586,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 17";
 		rLen = 0;
-		rLoc = 630;
+		rLoc = 791;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -1814,7 +2596,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 108";
 		rLen = 521;
-		rLoc = 3868;
+		rLoc = 4308;
 		rType = 0;
 		vrLen = 1389;
 		vrLoc = 3212;
@@ -1824,7 +2606,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -1834,7 +2616,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 108";
 		rLen = 521;
-		rLoc = 3868;
+		rLoc = 4308;
 		rType = 0;
 		vrLen = 1389;
 		vrLoc = 3212;
@@ -1844,7 +2626,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -1854,7 +2636,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 121";
 		rLen = 0;
-		rLoc = 4460;
+		rLoc = 4900;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 3809;
@@ -1908,7 +2690,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 121";
 		rLen = 0;
-		rLoc = 4835;
+		rLoc = 5282;
 		rType = 0;
 		vrLen = 1088;
 		vrLoc = 3923;
@@ -1918,7 +2700,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 121";
 		rLen = 0;
-		rLoc = 4835;
+		rLoc = 5282;
 		rType = 0;
 		vrLen = 1088;
 		vrLoc = 3923;
@@ -1968,7 +2750,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 126";
 		rLen = 0;
-		rLoc = 4839;
+		rLoc = 5286;
 		rType = 0;
 		vrLen = 1088;
 		vrLoc = 3923;
@@ -2112,7 +2894,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -2122,7 +2904,7 @@
 		comments = "error: syntax error before '*' token";
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		rLen = 1;
-		rLoc = 120;
+		rLoc = 139;
 		rType = 1;
 	};
 	B47A07980FC85E4C005D028B /* PBXTextBookmark */ = {
@@ -2130,7 +2912,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 126";
 		rLen = 0;
-		rLoc = 4839;
+		rLoc = 5286;
 		rType = 0;
 		vrLen = 1088;
 		vrLoc = 3923;
@@ -2164,7 +2946,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 126";
 		rLen = 0;
-		rLoc = 4839;
+		rLoc = 5286;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 3991;
@@ -2174,7 +2956,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -2294,7 +3076,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -2304,7 +3086,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 123";
 		rLen = 0;
-		rLoc = 4835;
+		rLoc = 5282;
 		rType = 0;
 		vrLen = 1130;
 		vrLoc = 3867;
@@ -2354,7 +3136,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -2364,7 +3146,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 124";
 		rLen = 0;
-		rLoc = 4819;
+		rLoc = 5266;
 		rType = 0;
 		vrLen = 1318;
 		vrLoc = 3867;
@@ -2374,7 +3156,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 124";
 		rLen = 0;
-		rLoc = 4819;
+		rLoc = 5266;
 		rType = 0;
 		vrLen = 1318;
 		vrLoc = 3867;
@@ -2384,7 +3166,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -2424,7 +3206,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 124";
 		rLen = 0;
-		rLoc = 4819;
+		rLoc = 5266;
 		rType = 0;
 		vrLen = 1318;
 		vrLoc = 3867;
@@ -2434,7 +3216,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -2783,7 +3565,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -2794,7 +3576,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 26";
 		rLen = 0;
-		rLoc = 790;
+		rLoc = 812;
 		rType = 0;
 		vrLen = 1454;
 		vrLoc = 3194;
@@ -3084,7 +3866,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -3103,8 +3885,8 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 29";
-		rLen = 441;
-		rLoc = 816;
+		rLen = 1437;
+		rLoc = 838;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 331;
@@ -3114,7 +3896,7 @@
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 18";
 		rLen = 0;
-		rLoc = 631;
+		rLoc = 792;
 		rType = 0;
 		vrLen = 637;
 		vrLoc = 0;
@@ -3183,7 +3965,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -3243,7 +4025,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -3254,7 +4036,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 26";
 		rLen = 0;
-		rLoc = 790;
+		rLoc = 812;
 		rType = 0;
 		vrLen = 1454;
 		vrLoc = 3194;
@@ -3293,7 +4075,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -3303,8 +4085,8 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 60";
-		rLen = 828;
-		rLoc = 2036;
+		rLen = 847;
+		rLoc = 2457;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 2008;
@@ -3393,7 +4175,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -3403,8 +4185,8 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 60";
-		rLen = 828;
-		rLoc = 2036;
+		rLen = 847;
+		rLoc = 2457;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 2008;
@@ -3524,7 +4306,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 121";
 		rLen = 0;
-		rLoc = 4512;
+		rLoc = 4952;
 		rType = 0;
 		vrLen = 415;
 		vrLoc = 4484;
@@ -3544,7 +4326,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 121";
 		rLen = 0;
-		rLoc = 4512;
+		rLoc = 4952;
 		rType = 0;
 		vrLen = 415;
 		vrLoc = 4484;
@@ -3573,7 +4355,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -3603,7 +4385,7 @@
 		isa = PBXTextBookmark;
 		fRef = B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */;
 		name = "PortfoliosViewController.h: 3";
-		rLen = 55;
+		rLen = 109;
 		rLoc = 25;
 		rType = 0;
 		vrLen = 637;
@@ -3614,7 +4396,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 124";
 		rLen = 0;
-		rLoc = 4747;
+		rLoc = 5194;
 		rType = 0;
 		vrLen = 1429;
 		vrLoc = 3570;
@@ -3624,7 +4406,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 124";
 		rLen = 0;
-		rLoc = 4747;
+		rLoc = 5194;
 		rType = 0;
 		vrLen = 1429;
 		vrLoc = 3570;
@@ -3644,7 +4426,7 @@
 		fRef = B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */;
 		name = "PortfoliosViewController.m: 124";
 		rLen = 0;
-		rLoc = 4747;
+		rLoc = 5194;
 		rType = 0;
 		vrLen = 1429;
 		vrLoc = 3570;
@@ -4025,16 +4807,16 @@
 	};
 	B4C021C50FC0CB83003D40B6 /* PortfoliosViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {808, 445}}";
-			sepNavSelRange = "{25, 55}";
-			sepNavVisRange = "{0, 637}";
+			sepNavIntBoundsRect = "{{0, 0}, {963, 445}}";
+			sepNavSelRange = "{211, 0}";
+			sepNavVisRange = "{0, 798}";
 		};
 	};
 	B4C021C60FC0CB83003D40B6 /* PortfoliosViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {816, 2128}}";
-			sepNavSelRange = "{4512, 0}";
-			sepNavVisRange = "{3937, 1186}";
+			sepNavIntBoundsRect = "{{0, 0}, {963, 2422}}";
+			sepNavSelRange = "{1599, 0}";
+			sepNavVisRange = "{1159, 1276}";
 		};
 	};
 	B4C021E00FC0D08F003D40B6 /* PBXTextBookmark */ = {
@@ -4391,7 +5173,7 @@
 	};
 	B4E358CD0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {808, 445}}";
+			sepNavIntBoundsRect = "{{0, 0}, {963, 468}}";
 			sepNavSelRange = "{99, 0}";
 			sepNavVisRange = "{0, 108}";
 		};

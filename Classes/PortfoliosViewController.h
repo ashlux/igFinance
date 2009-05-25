@@ -2,8 +2,10 @@
 #import <UIKit/UIKit.h>
 #import "GoogleClientLogin.h"
 #import "GDataFinance.h"
+#import "ARRollerView.h"
+#import "ARRollerProtocol.h"
 
-@interface PortfoliosViewController : UITableViewController {
+@interface PortfoliosViewController : UITableViewController<ARRollerDelegate> {
 	GoogleClientLogin *googleClientLogin;
 	GDataFeedFinancePortfolio *gDataFeedFinancePortfolio;
 

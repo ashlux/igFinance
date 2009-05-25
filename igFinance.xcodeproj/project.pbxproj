@@ -16,6 +16,15 @@
 		B4258B610FC7AD8600E97E43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258B600FC7AD8600E97E43 /* Icon.png */; };
 		B4258BA50FC7BA8600E97E43 /* WebQuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */; };
 		B4633EC00FCA512400670943 /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = B4633EBF0FCA512400670943 /* 01-refresh.png */; };
+		B4633ECE0FCA558000670943 /* libAdWhirlDevice_1.0.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633ECC0FCA558000670943 /* libAdWhirlDevice_1.0.4.a */; };
+		B4633ECF0FCA558000670943 /* libAdWhirlSimulator_1.0.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633ECD0FCA558000670943 /* libAdWhirlSimulator_1.0.4.a */; };
+		B4633ED10FCA55BC00670943 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633ED00FCA55BC00670943 /* AddressBook.framework */; };
+		B4633ED30FCA55C300670943 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633ED20FCA55C300670943 /* CoreLocation.framework */; };
+		B4633ED50FCA55C700670943 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633ED40FCA55C700670943 /* QuartzCore.framework */; };
+		B4633ED70FCA55CB00670943 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633ED60FCA55CB00670943 /* SystemConfiguration.framework */; };
+		B4633ED90FCA55D400670943 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633ED80FCA55D400670943 /* libsqlite3.0.dylib */; };
+		B4633EDB0FCA55DD00670943 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633EDA0FCA55DD00670943 /* libxml2.dylib */; };
+		B4633EDD0FCA55E400670943 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633EDC0FCA55E400670943 /* libz.dylib */; };
 		B47A07020FC8430A005D028B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FB0FC8430A005D028B /* LoginViewController.xib */; };
 		B47A07030FC8430A005D028B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FC0FC8430A005D028B /* MainWindow.xib */; };
 		B47A07040FC8430A005D028B /* PortfoliosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */; };
@@ -256,6 +265,17 @@
 		B4258BA20FC7BA8600E97E43 /* WebQuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebQuoteViewController.h; sourceTree = "<group>"; };
 		B4258BA30FC7BA8600E97E43 /* WebQuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebQuoteViewController.m; sourceTree = "<group>"; };
 		B4633EBF0FCA512400670943 /* 01-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-refresh.png"; path = "Resources/01-refresh.png"; sourceTree = "<group>"; };
+		B4633ECA0FCA558000670943 /* ARRollerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARRollerProtocol.h; sourceTree = "<group>"; };
+		B4633ECB0FCA558000670943 /* ARRollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARRollerView.h; sourceTree = "<group>"; };
+		B4633ECC0FCA558000670943 /* libAdWhirlDevice_1.0.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdWhirlDevice_1.0.4.a; sourceTree = "<group>"; };
+		B4633ECD0FCA558000670943 /* libAdWhirlSimulator_1.0.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdWhirlSimulator_1.0.4.a; sourceTree = "<group>"; };
+		B4633ED00FCA55BC00670943 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B4633ED20FCA55C300670943 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B4633ED40FCA55C700670943 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B4633ED60FCA55CB00670943 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B4633ED80FCA55D400670943 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B4633EDA0FCA55DD00670943 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B4633EDC0FCA55E400670943 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B47A06FB0FC8430A005D028B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Resources/LoginViewController.xib; sourceTree = "<group>"; };
 		B47A06FC0FC8430A005D028B /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
 		B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PortfoliosViewController.xib; path = Resources/PortfoliosViewController.xib; sourceTree = "<group>"; };
@@ -716,6 +736,15 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				B4633ECE0FCA558000670943 /* libAdWhirlDevice_1.0.4.a in Frameworks */,
+				B4633ECF0FCA558000670943 /* libAdWhirlSimulator_1.0.4.a in Frameworks */,
+				B4633ED10FCA55BC00670943 /* AddressBook.framework in Frameworks */,
+				B4633ED30FCA55C300670943 /* CoreLocation.framework in Frameworks */,
+				B4633ED50FCA55C700670943 /* QuartzCore.framework in Frameworks */,
+				B4633ED70FCA55CB00670943 /* SystemConfiguration.framework in Frameworks */,
+				B4633ED90FCA55D400670943 /* libsqlite3.0.dylib in Frameworks */,
+				B4633EDB0FCA55DD00670943 /* libxml2.dylib in Frameworks */,
+				B4633EDD0FCA55E400670943 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,6 +754,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B4633EC90FCA558000670943 /* AdWhirl */,
 				B4E350B70FC1867600403B70 /* GData */,
 				B492D6E10FC09AE20052EA4E /* domain */,
 				B492D47C0FBFC9340052EA4E /* ui */,
@@ -750,6 +780,13 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				B4633ED00FCA55BC00670943 /* AddressBook.framework */,
+				B4633ED20FCA55C300670943 /* CoreLocation.framework */,
+				B4633ED40FCA55C700670943 /* QuartzCore.framework */,
+				B4633ED60FCA55CB00670943 /* SystemConfiguration.framework */,
+				B4633ED80FCA55D400670943 /* libsqlite3.0.dylib */,
+				B4633EDA0FCA55DD00670943 /* libxml2.dylib */,
+				B4633EDC0FCA55E400670943 /* libz.dylib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -843,6 +880,17 @@
 			);
 			name = xib;
 			sourceTree = "<group>";
+		};
+		B4633EC90FCA558000670943 /* AdWhirl */ = {
+			isa = PBXGroup;
+			children = (
+				B4633ECA0FCA558000670943 /* ARRollerProtocol.h */,
+				B4633ECB0FCA558000670943 /* ARRollerView.h */,
+				B4633ECC0FCA558000670943 /* libAdWhirlDevice_1.0.4.a */,
+				B4633ECD0FCA558000670943 /* libAdWhirlSimulator_1.0.4.a */,
+			);
+			path = AdWhirl;
+			sourceTree = SOURCE_ROOT;
 		};
 		B492D36F0FBFAA650052EA4E /* login */ = {
 			isa = PBXGroup;
@@ -1796,9 +1844,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/i386\"",
 					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/ppc\"",
+					"\"$(SRCROOT)/AdWhirl\"",
 				);
 				OTHER_CFLAGS = "-DDEBUG=1";
-				OTHER_LDFLAGS = "-lxml2";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = igFinance;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FE25E4CC-446E-4F51-9FA9-E4167D650570";
 			};
@@ -1822,7 +1871,9 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/i386\"",
 					"\"$(SRCROOT)/GData/build/GData.build/Release/GDataFramework.build/Objects-normal/ppc\"",
+					"\"$(SRCROOT)/AdWhirl\"",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = igFinance;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FE25E4CC-446E-4F51-9FA9-E4167D650570";
 			};

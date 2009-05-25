@@ -74,7 +74,7 @@
 								</object>
 								<reference key="IBUITabBar" ref="992589312"/>
 							</object>
-							<object class="IBUITabBarItem" id="363831747">
+							<object class="IBUITabBarItem" id="806161782">
 								<int key="IBUITag">98</int>
 								<string key="IBUITitle">Refresh</string>
 								<object class="NSCustomResource" key="IBUIImage">
@@ -95,6 +95,8 @@
 						<int key="NSID">2</int>
 					</object>
 				</object>
+				<bool key="IBUIClipsSubviews">YES</bool>
+				<int key="IBUIContentMode">1</int>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedNavigationBarMetrics" key="IBUISimulatedTopBarMetrics">
 					<bool key="IBUIPrompted">NO</bool>
@@ -196,7 +198,7 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="1068541688"/>
-							<reference ref="363831747"/>
+							<reference ref="806161782"/>
 						</object>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -207,7 +209,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">27</int>
-						<reference key="object" ref="363831747"/>
+						<reference key="object" ref="806161782"/>
 						<reference key="parent" ref="992589312"/>
 					</object>
 				</object>

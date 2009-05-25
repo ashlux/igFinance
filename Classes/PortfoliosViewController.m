@@ -27,6 +27,34 @@
 	return service;
 }
 
+-(void)loadView {
+	[super loadView];
+	
+	// Set navigation title
+	self.navigationItem.title = @"Portfolios";
+	
+	// Add activity indicator
+	self.activityIndicator = [[UIActivityIndicatorView alloc] 
+							  initWithFrame:CGRectMake(0.0, 0.0, 25.0, 25.0)];
+	[self.activityIndicator sizeToFit];
+	self.activityIndicator.autoresizingMask =
+	(UIViewAutoresizingFlexibleLeftMargin |
+	 UIViewAutoresizingFlexibleRightMargin |
+	 UIViewAutoresizingFlexibleTopMargin |
+	 UIViewAutoresizingFlexibleBottomMargin);
+	UIBarButtonItem *loadingView = [[UIBarButtonItem alloc] 
+									initWithCustomView:self.activityIndicator];
+	loadingView.target = self;
+	self.navigationItem.rightBarButtonItem = loadingView;
+	
+	// disable main tableview from scrolling, want sub-tableview to scroll instead
+	((UITableView*) self.view).scrollEnabled = NO;
+	
+	// add ad view
+	ARRollerView* adView = [ARRollerView requestRollerViewWithDelegate:self];
+	[self.view addSubview:adView];	
+}
+
 -(void)loadPortfolios {
 	[self.activityIndicator startAnimating];
 	NSLog(@"Getting all of the user's portfolios for %@.", [googleClientLogin username]);
@@ -42,28 +70,14 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
-	// Set navigation title and start activity indicator
-	self.navigationItem.title = @"Portfolios";
-	self.activityIndicator = [[UIActivityIndicatorView alloc] 
-							  initWithFrame:CGRectMake(0.0, 0.0, 25.0, 25.0)];
-	[self.activityIndicator sizeToFit];
-	self.activityIndicator.autoresizingMask =
-		(UIViewAutoresizingFlexibleLeftMargin |
-		 UIViewAutoresizingFlexibleRightMargin |
-		 UIViewAutoresizingFlexibleTopMargin |
-		 UIViewAutoresizingFlexibleBottomMargin);
-	UIBarButtonItem *loadingView = [[UIBarButtonItem alloc] 
-									initWithCustomView:self.activityIndicator];
-	loadingView.target = self;
-	self.navigationItem.rightBarButtonItem = loadingView;
-	[self.activityIndicator startAnimating];
-
-	// disable main tableview from scrolling, want sub-tableview to scroll instead
-	((UITableView*) self.view).scrollEnabled = NO;
-	
+	// start downloading portfolios feed
 	[self loadPortfolios];
 }
 
+- (NSString*)adWhirlApplicationKey {
+		return @"b1f896ee9944102c8cf9378c1ce5281a";
+}
+	
 - (void)portfolioFeedTicket:(GDataServiceTicket *)ticket
            finishedWithFeed:(GDataFeedFinancePortfolio *)object {
 	[self.activityIndicator stopAnimating];
