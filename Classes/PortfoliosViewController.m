@@ -51,8 +51,8 @@
 	((UITableView*) self.view).scrollEnabled = NO;
 	
 	// add ad view
-	ARRollerView* adView = [ARRollerView requestRollerViewWithDelegate:self];
-	[self.view addSubview:adView];	
+//	ARRollerView* adView = [ARRollerView requestRollerViewWithDelegate:self];
+//	[self.view addSubview:adView];	
 }
 
 -(void)loadPortfolios {
