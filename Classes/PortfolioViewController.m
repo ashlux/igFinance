@@ -4,6 +4,7 @@
 #import "StockSummaryTableViewCell.h"
 #import "TransactionViewController.h"
 #import "WebQuoteViewController.h"
+#import "AddTransactionViewController.h"
 
 @implementation PortfolioViewController
 
@@ -135,12 +136,12 @@
 
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
 	if (item.tag == 97) { // add transaction
-//		AddTransactionViewController *aView = [[AddTransactionViewController alloc] 
-//											 initWithNibName:@"AddTransactionViewController" bundle:[NSBundle mainBundle]];
+		AddTransactionViewController *aView = [[AddTransactionViewController alloc] 
+											 initWithNibName:@"AddTransactionViewController" bundle:[NSBundle mainBundle]];
 //		aView.googleClientLogin = self.googleClientLogin;
 //		aView.financeService = [self financeService];
-//		[self.navigationController pushViewController:aView animated:YES];
-//		[aView release];
+		[self.navigationController pushViewController:aView animated:YES];
+		[aView release];
 	} else if (item.tag == 98) { // refresh
 		[self loadPortfolio:[portfolio positionURL]];
 	}
