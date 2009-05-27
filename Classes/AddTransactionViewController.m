@@ -7,6 +7,7 @@
 @synthesize googleClientLogin;
 @synthesize financeService;
 @synthesize portfolio;
+@synthesize activityIndicator;
 
 @synthesize symbolTextField;
 @synthesize transactionTypeTextField;
@@ -17,6 +18,25 @@
 @synthesize commissionTextField;
 @synthesize commissionCurrencyTextField;
 @synthesize notesTextView;
+
+-(void) loadView {
+	[super loadView];
+	
+	self.navigationItem.title = @"New transaction";
+	self.activityIndicator = [[UIActivityIndicatorView alloc] 
+							  initWithFrame:CGRectMake(0.0, 0.0, 25.0, 25.0)];
+	[self.activityIndicator sizeToFit];
+	self.activityIndicator.autoresizingMask =
+	(UIViewAutoresizingFlexibleLeftMargin |
+	 UIViewAutoresizingFlexibleRightMargin |
+	 UIViewAutoresizingFlexibleTopMargin |
+	 UIViewAutoresizingFlexibleBottomMargin);
+	UIBarButtonItem *loadingView = [[UIBarButtonItem alloc] 
+									initWithCustomView:self.activityIndicator];
+	loadingView.target = self;
+	self.navigationItem.rightBarButtonItem = loadingView;
+	[self.activityIndicator stopAnimating];	
+}
 
 - (IBAction)cancel {
 	// remove self
@@ -46,11 +66,11 @@
 
 - (IBAction)addTransaction {
 	[self.activityIndicator startAnimating];
-	NSLog(@"Adding transaction to .", portfolioNameTextField.text, [googleClientLogin username]);
+	NSLog(@"Adding transaction to %@.", [portfolio title]);
 	NSURL *feedURL = [NSURL URLWithString:kGDataGoogleFinanceDefaultPortfoliosFeed];
 	GDataEntryFinanceTransaction *newTransaction = [GDataEntryFinanceTransaction transactionEntry];
 	[newTransaction setTransactionData:[GDataFinanceTransactionData transactionDataWithType:transactionTypeTextField.text]];
-    [financeService fetchEntryByInserting:newTransaction
+    [financeService fetchEntryByInsertingEntry:newTransaction
 									forFeedURL:feedURL
 									  delegate:self
 							 didFinishSelector:@selector(transactionEntryTicket:finishedWithFeed:)

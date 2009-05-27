@@ -7,7 +7,10 @@
 @synthesize financeService;
 
 @synthesize portfolioNameTextField;
+@synthesize defaultCurrencyTextField;
 @synthesize activityIndicator;
+
+@synthesize currencyPicker;
 
 - (void)portfolioEntryTicket:(GDataServiceTicket *)ticket
            finishedWithFeed:(GDataEntryFinancePortfolio *)object {
@@ -30,6 +33,20 @@
 	NSLog(@"%@", error);
 }
 
+- (IBAction)changeDefaultCurrency {
+	if (currencyPicker == nil) {
+		currencyPicker = [[CurrencyPickerViewController alloc] 
+														initWithNibName:@"CurrencyPickerViewController" bundle:[NSBundle mainBundle]];
+	}
+	currencyPicker.selectedCurrency = defaultCurrencyTextField.text;
+	[self.navigationController pushViewController:currencyPicker animated:YES];
+	[defaultCurrencyTextField setText:[currencyPicker selectedCurrency]];
+}
+
+- (IBAction)cancel {
+	[self.navigationController popViewControllerAnimated:YES];
+}
+
 - (IBAction)addPortfolio {
 	[self.activityIndicator startAnimating];
 	NSLog(@"Adding portfolio %@ for %@.", portfolioNameTextField.text, [googleClientLogin username]);
@@ -37,8 +54,7 @@
 	GDataEntryFinancePortfolio *newPortfolio = [GDataEntryFinancePortfolio portfolioEntry];
 	[newPortfolio setTitleWithString:portfolioNameTextField.text];
 	[newPortfolio setPortfolioData:[GDataPortfolioData portfolioData]];
-	// TODO: Do not default to USD
-	[[newPortfolio portfolioData] setCurrencyCode:@"USD"];
+	[[newPortfolio portfolioData] setCurrencyCode:defaultCurrencyTextField.text];
     [financeService fetchEntryByInsertingEntry:newPortfolio
 									forFeedURL:feedURL
 									  delegate:self
@@ -62,13 +78,24 @@
 									initWithCustomView:self.activityIndicator];
 	loadingView.target = self;
 	self.navigationItem.rightBarButtonItem = loadingView;
-	[self.activityIndicator stopAnimating];
+	[self.activityIndicator stopAnimating];	
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
 	
+	// returned from sub-viewcontroller
+	if (currencyPicker != nil) {
+		[self.defaultCurrencyTextField setText:[currencyPicker selectedCurrency]];
+	}
 }
 
 - (void)dealloc {
 	[activityIndicator release];
+	[defaultCurrencyTextField release];
 	[portfolioNameTextField release];
+	
+	[currencyPicker release];
 	
     [super dealloc];
 }

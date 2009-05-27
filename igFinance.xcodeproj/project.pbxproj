@@ -27,6 +27,9 @@
 		B4633EDD0FCA55E400670943 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4633EDC0FCA55E400670943 /* libz.dylib */; };
 		B463405A0FCB09C000670943 /* AddTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B46340590FCB09C000670943 /* AddTransactionViewController.xib */; };
 		B463405D0FCB09D000670943 /* AddTransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B463405C0FCB09D000670943 /* AddTransactionViewController.m */; };
+		B46343DC0FCB986D00670943 /* CurrencyPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46343DB0FCB986D00670943 /* CurrencyPickerViewController.m */; };
+		B46343DE0FCB98C600670943 /* CurrencyPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B46343DD0FCB98C600670943 /* CurrencyPickerViewController.xib */; };
+		B46345160FCCE02F00670943 /* 06-magnifying-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = B46345150FCCE02F00670943 /* 06-magnifying-glass.png */; };
 		B47A07020FC8430A005D028B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FB0FC8430A005D028B /* LoginViewController.xib */; };
 		B47A07030FC8430A005D028B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FC0FC8430A005D028B /* MainWindow.xib */; };
 		B47A07040FC8430A005D028B /* PortfoliosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */; };
@@ -281,6 +284,10 @@
 		B46340590FCB09C000670943 /* AddTransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTransactionViewController.xib; sourceTree = "<group>"; };
 		B463405B0FCB09D000670943 /* AddTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTransactionViewController.h; sourceTree = "<group>"; };
 		B463405C0FCB09D000670943 /* AddTransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTransactionViewController.m; sourceTree = "<group>"; };
+		B46343DA0FCB986D00670943 /* CurrencyPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyPickerViewController.h; sourceTree = "<group>"; };
+		B46343DB0FCB986D00670943 /* CurrencyPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyPickerViewController.m; sourceTree = "<group>"; };
+		B46343DD0FCB98C600670943 /* CurrencyPickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyPickerViewController.xib; sourceTree = "<group>"; };
+		B46345150FCCE02F00670943 /* 06-magnifying-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "06-magnifying-glass.png"; path = "Resources/06-magnifying-glass.png"; sourceTree = "<group>"; };
 		B47A06FB0FC8430A005D028B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Resources/LoginViewController.xib; sourceTree = "<group>"; };
 		B47A06FC0FC8430A005D028B /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
 		B47A06FD0FC8430A005D028B /* PortfoliosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PortfoliosViewController.xib; path = Resources/PortfoliosViewController.xib; sourceTree = "<group>"; };
@@ -867,6 +874,7 @@
 			isa = PBXGroup;
 			children = (
 				B4633EBF0FCA512400670943 /* 01-refresh.png */,
+				B46345150FCCE02F00670943 /* 06-magnifying-glass.png */,
 				B47A07650FC85ADA005D028B /* 10-medical.png */,
 				B4258B600FC7AD8600E97E43 /* Icon.png */,
 			);
@@ -885,6 +893,7 @@
 				B47A06FF0FC8430A005D028B /* TableViewCells.xib */,
 				B47A07000FC8430A005D028B /* TransactionViewController.xib */,
 				B47A07010FC8430A005D028B /* WebQuoteViewController.xib */,
+				B46343DD0FCB98C600670943 /* CurrencyPickerViewController.xib */,
 			);
 			name = xib;
 			sourceTree = "<group>";
@@ -900,6 +909,15 @@
 			path = AdWhirl;
 			sourceTree = SOURCE_ROOT;
 		};
+		B46343D90FCB981600670943 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				B46343DA0FCB986D00670943 /* CurrencyPickerViewController.h */,
+				B46343DB0FCB986D00670943 /* CurrencyPickerViewController.m */,
+			);
+			name = input;
+			sourceTree = "<group>";
+		};
 		B492D36F0FBFAA650052EA4E /* login */ = {
 			isa = PBXGroup;
 			children = (
@@ -912,6 +930,7 @@
 		B492D47C0FBFC9340052EA4E /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				B46343D90FCB981600670943 /* input */,
 				B4633DB70FCA377600670943 /* login */,
 				B4E35B1C0FC4C62600403B70 /* portfolios */,
 				B4E358CD0FC26E6B00403B70 /* AbstractTextEditingUITableViewController.h */,
@@ -1601,6 +1620,8 @@
 				B47A07830FC85D30005D028B /* AddPortfolioViewController.xib in Resources */,
 				B4633EC00FCA512400670943 /* 01-refresh.png in Resources */,
 				B463405A0FCB09C000670943 /* AddTransactionViewController.xib in Resources */,
+				B46343DE0FCB98C600670943 /* CurrencyPickerViewController.xib in Resources */,
+				B46345160FCCE02F00670943 /* 06-magnifying-glass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1827,6 +1848,7 @@
 				B4258BA50FC7BA8600E97E43 /* WebQuoteViewController.m in Sources */,
 				B47A07760FC85CDC005D028B /* AddPortfolioViewController.m in Sources */,
 				B463405D0FCB09D000670943 /* AddTransactionViewController.m in Sources */,
+				B46343DC0FCB986D00670943 /* CurrencyPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

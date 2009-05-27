@@ -1,6 +1,8 @@
 
 #import <UIKit/UIKit.h>
 #import "AbstractTextEditingUITableViewController.h"
+#import "GoogleClientLogin.h"
+#import "GDataFinance.h"
 
 @interface AddTransactionViewController : AbstractTextEditingUITableViewController {
 	GoogleClientLogin *googleClientLogin;
@@ -16,11 +18,13 @@
 	IBOutlet UITextField *commissionTextField;
 	IBOutlet UITextField *commissionCurrencyTextField;
 	IBOutlet UITextView *notesTextView;
+	IBOutlet UIActivityIndicatorView *activityIndicator;
 }
 
 @property (nonatomic, retain) GoogleClientLogin *googleClientLogin;
 @property (nonatomic, retain) GDataServiceGoogleFinance *financeService;
-@property (nonatomic, retain) GDataEntryFinancePosition *portfolio;
+@property (nonatomic, retain) GDataEntryFinancePortfolio *portfolio;
+@property (nonatomic, retain) UIActivityIndicatorView *activityIndicator;
 
 @property (nonatomic, retain) IBOutlet UITextField *symbolTextField;
 @property (nonatomic, retain) IBOutlet UITextField *transactionTypeTextField;
